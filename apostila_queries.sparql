@@ -1,0 +1,53 @@
+# SPARQL Queries para o Knowledge Graph da Apostila
+
+PREFIX ex: <http://example.com/apostila/>
+
+# Query 1: Listar todos os módulos
+SELECT ?modulo ?titulo
+WHERE {
+  ?modulo ex:teaches ?conceito .
+}
+ORDER BY ?modulo
+
+# Query 2: Pré-requisitos para um módulo
+SELECT ?modulo ?prereq
+WHERE {
+  ?modulo ex:requires ?prereq .
+}
+
+# Query 3: Caminho de aprendizado (multi-hop)
+SELECT ?mod1 ?mod2 ?mod3
+WHERE {
+  ?mod1 ex:requires ?mod2 .
+  ?mod2 ex:requires ?mod3 .
+}
+
+# Query 4: Conceitos ensinados por bloco
+SELECT ?bloco ?conceito
+WHERE {
+  ?modulo ex:is_part_of ?bloco .
+  ?modulo ex:teaches ?conceito .
+}
+GROUP BY ?bloco
+
+# Query 5: Casos de estudo e seus módulos
+SELECT ?caso ?modulo
+WHERE {
+  ?caso ex:documented_in ?modulo .
+}
+
+# Query 6: Tecnologias usadas (ORDER BY mais frequentes)
+SELECT ?tech (COUNT(?modulo) as ?count)
+WHERE {
+  ?modulo ex:uses ?tech .
+}
+GROUP BY ?tech
+ORDER BY DESC(?count)
+
+# Query 7: Conceitos com maior número de referências
+SELECT ?conceito (COUNT(?mod) as ?referencias)
+WHERE {
+  ?mod ex:teaches ?conceito .
+}
+GROUP BY ?conceito
+ORDER BY DESC(?referencias)
