@@ -1,0 +1,5690 @@
+[
+  {
+    "subject": "modulo_1",
+    "predicate": "teaches",
+    "obj": "RAG",
+    "confidence": 0.95,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "teaches",
+    "obj": "Retrieval",
+    "confidence": 0.95,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "teaches",
+    "obj": "Embeddings",
+    "confidence": 0.95,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "teaches",
+    "obj": "LLM",
+    "confidence": 0.95,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "teaches",
+    "obj": "Chunks",
+    "confidence": 0.95,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "teaches",
+    "obj": "Vector Search",
+    "confidence": 0.95,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "teaches",
+    "obj": "Pipeline",
+    "confidence": 0.95,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "teaches",
+    "obj": "Grounding",
+    "confidence": 0.95,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "has_topic",
+    "obj": "RAG_=_Retrieval_+_Augmentation_+_Generation",
+    "confidence": 0.9,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "has_topic",
+    "obj": "3-etapas",
+    "confidence": 0.9,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "has_topic",
+    "obj": "5_componentes",
+    "confidence": 0.9,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "references",
+    "obj": "modulo_2",
+    "confidence": 0.85,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "references",
+    "obj": "modulo_9",
+    "confidence": 0.85,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "references",
+    "obj": "modulo_10",
+    "confidence": 0.85,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "uses",
+    "obj": "Python",
+    "confidence": 0.9,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "uses",
+    "obj": "Embeddings",
+    "confidence": 0.9,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "is_part_of",
+    "obj": "Fundamentos",
+    "confidence": 0.95,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "teaches",
+    "obj": "Alucinação",
+    "confidence": 0.95,
+    "source_module": 2,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "teaches",
+    "obj": "Context Window",
+    "confidence": 0.95,
+    "source_module": 2,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "teaches",
+    "obj": "Trade-offs",
+    "confidence": 0.95,
+    "source_module": 2,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "teaches",
+    "obj": "Naive RAG",
+    "confidence": 0.95,
+    "source_module": 2,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "teaches",
+    "obj": "Retrieval Failure",
+    "confidence": 0.95,
+    "source_module": 2,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "teaches",
+    "obj": "Context Confusion",
+    "confidence": 0.95,
+    "source_module": 2,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "teaches",
+    "obj": "Scaling",
+    "confidence": 0.95,
+    "source_module": 2,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "has_topic",
+    "obj": "3_problemas_estruturais",
+    "confidence": 0.9,
+    "source_module": 2,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "has_topic",
+    "obj": "4_tipos_de_alucinação_com_exemplos",
+    "confidence": 0.9,
+    "source_module": 2,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "has_topic",
+    "obj": "Comparação_Naive_RAG_vs_Graph_RAG_(8-40x_diferença)",
+    "confidence": 0.9,
+    "source_module": 2,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "requires",
+    "obj": "modulo_1",
+    "confidence": 0.95,
+    "source_module": 2,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "references",
+    "obj": "modulo_1",
+    "confidence": 0.85,
+    "source_module": 2,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "references",
+    "obj": "modulo_3",
+    "confidence": 0.85,
+    "source_module": 2,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "references",
+    "obj": "modulo_9",
+    "confidence": 0.85,
+    "source_module": 2,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "uses",
+    "obj": "Benchmarking",
+    "confidence": 0.9,
+    "source_module": 2,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "uses",
+    "obj": "Evaluation",
+    "confidence": 0.9,
+    "source_module": 2,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "is_part_of",
+    "obj": "Fundamentos",
+    "confidence": 0.95,
+    "source_module": 2,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "teaches",
+    "obj": "Grafos",
+    "confidence": 0.95,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "teaches",
+    "obj": "Nós",
+    "confidence": 0.95,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "teaches",
+    "obj": "Arestas",
+    "confidence": 0.95,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "teaches",
+    "obj": "RDF",
+    "confidence": 0.95,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "teaches",
+    "obj": "Ontologias",
+    "confidence": 0.95,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "teaches",
+    "obj": "Triplas",
+    "confidence": 0.95,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "teaches",
+    "obj": "Semântica",
+    "confidence": 0.95,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "teaches",
+    "obj": "Entidades",
+    "confidence": 0.95,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "teaches",
+    "obj": "Relacionamentos",
+    "confidence": 0.95,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "has_topic",
+    "obj": "Grafo_=_Nós_(entidades)_+_Arestas_(relacionamentos)_+_Semântica",
+    "confidence": 0.9,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "has_topic",
+    "obj": "Triplas_RDF",
+    "confidence": 0.9,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "has_topic",
+    "obj": "Diferença",
+    "confidence": 0.9,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "requires",
+    "obj": "modulo_1",
+    "confidence": 0.95,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "requires",
+    "obj": "modulo_2",
+    "confidence": 0.95,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "references",
+    "obj": "modulo_4",
+    "confidence": 0.85,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "references",
+    "obj": "modulo_7",
+    "confidence": 0.85,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "references",
+    "obj": "modulo_8",
+    "confidence": 0.85,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "uses",
+    "obj": "RDF",
+    "confidence": 0.9,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "uses",
+    "obj": "N-Triples",
+    "confidence": 0.9,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "is_part_of",
+    "obj": "Tecnologia",
+    "confidence": 0.95,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "teaches",
+    "obj": "SPARQL",
+    "confidence": 0.95,
+    "source_module": 4,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "teaches",
+    "obj": "Queries",
+    "confidence": 0.95,
+    "source_module": 4,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "teaches",
+    "obj": "Inferência",
+    "confidence": 0.95,
+    "source_module": 4,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "teaches",
+    "obj": "OWL",
+    "confidence": 0.95,
+    "source_module": 4,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "teaches",
+    "obj": "SHACL",
+    "confidence": 0.95,
+    "source_module": 4,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "teaches",
+    "obj": "Pattern Matching",
+    "confidence": 0.95,
+    "source_module": 4,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "teaches",
+    "obj": "W3C Standard",
+    "confidence": 0.95,
+    "source_module": 4,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "teaches",
+    "obj": "Optimization",
+    "confidence": 0.95,
+    "source_module": 4,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "has_topic",
+    "obj": "SPARQL_=_SQL_para_grafos_RDF",
+    "confidence": 0.9,
+    "source_module": 4,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "has_topic",
+    "obj": "50+_queries_práticas_(simples_a_avançadas)",
+    "confidence": 0.9,
+    "source_module": 4,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "has_topic",
+    "obj": "Operadores",
+    "confidence": 0.9,
+    "source_module": 4,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "requires",
+    "obj": "modulo_3",
+    "confidence": 0.95,
+    "source_module": 4,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "references",
+    "obj": "modulo_3",
+    "confidence": 0.85,
+    "source_module": 4,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "references",
+    "obj": "modulo_8",
+    "confidence": 0.85,
+    "source_module": 4,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "references",
+    "obj": "modulo_9",
+    "confidence": 0.85,
+    "source_module": 4,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "uses",
+    "obj": "SPARQL 1.1",
+    "confidence": 0.9,
+    "source_module": 4,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "uses",
+    "obj": "OWL 2 RL",
+    "confidence": 0.9,
+    "source_module": 4,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "is_part_of",
+    "obj": "Tecnologia",
+    "confidence": 0.95,
+    "source_module": 4,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "teaches",
+    "obj": "SAP AI Foundation",
+    "confidence": 0.95,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "teaches",
+    "obj": "Neuro-Simbólica",
+    "confidence": 0.95,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "teaches",
+    "obj": "Knowledge Graph",
+    "confidence": 0.95,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "teaches",
+    "obj": "SAP-RPT-1.5",
+    "confidence": 0.95,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "teaches",
+    "obj": "Agent Hub",
+    "confidence": 0.95,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "teaches",
+    "obj": "Clean Core",
+    "confidence": 0.95,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "teaches",
+    "obj": "Joule",
+    "confidence": 0.95,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "teaches",
+    "obj": "MCP",
+    "confidence": 0.95,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "has_topic",
+    "obj": "Neuro-Simbólica_=_Neural_(LLM)_+_Simbólica_(Grafo/Lógica)",
+    "confidence": 0.9,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "has_topic",
+    "obj": "Stack_SAP",
+    "confidence": 0.9,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "has_topic",
+    "obj": "S/4HANA_+_Clean_Core_integration",
+    "confidence": 0.9,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "requires",
+    "obj": "modulo_1",
+    "confidence": 0.95,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "requires",
+    "obj": "modulo_2",
+    "confidence": 0.95,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "requires",
+    "obj": "modulo_3",
+    "confidence": 0.95,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "references",
+    "obj": "modulo_6",
+    "confidence": 0.85,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "references",
+    "obj": "modulo_8",
+    "confidence": 0.85,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "references",
+    "obj": "modulo_9",
+    "confidence": 0.85,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "uses",
+    "obj": "SAP HANA",
+    "confidence": 0.9,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "uses",
+    "obj": "SAP-RPT-1.5",
+    "confidence": 0.9,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "is_part_of",
+    "obj": "Tecnologia",
+    "confidence": 0.95,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "teaches",
+    "obj": "Chunking",
+    "confidence": 0.95,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "teaches",
+    "obj": "Embeddings",
+    "confidence": 0.95,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "teaches",
+    "obj": "Hybrid Search",
+    "confidence": 0.95,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "teaches",
+    "obj": "Semantic",
+    "confidence": 0.95,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "teaches",
+    "obj": "Late Chunking",
+    "confidence": 0.95,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "teaches",
+    "obj": "Reranking",
+    "confidence": 0.95,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "teaches",
+    "obj": "Vectors",
+    "confidence": 0.95,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "teaches",
+    "obj": "Similarity",
+    "confidence": 0.95,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "has_topic",
+    "obj": "6+_estratégias",
+    "confidence": 0.9,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "has_topic",
+    "obj": "Late_Chunking_=_79%_acurácia_(benchmark_Vectara_NAACL_2025)",
+    "confidence": 0.9,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "has_topic",
+    "obj": "10+_modelos_de_embedding_em_2026",
+    "confidence": 0.9,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "requires",
+    "obj": "modulo_1",
+    "confidence": 0.95,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "requires",
+    "obj": "modulo_3",
+    "confidence": 0.95,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "references",
+    "obj": "modulo_7",
+    "confidence": 0.85,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "references",
+    "obj": "modulo_9",
+    "confidence": 0.85,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "references",
+    "obj": "modulo_10",
+    "confidence": 0.85,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "uses",
+    "obj": "Embeddings",
+    "confidence": 0.9,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "uses",
+    "obj": "Vector DB",
+    "confidence": 0.9,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "is_part_of",
+    "obj": "Tecnologia",
+    "confidence": 0.95,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "teaches",
+    "obj": "Extração de Triplas",
+    "confidence": 0.95,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "teaches",
+    "obj": "NER",
+    "confidence": 0.95,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "teaches",
+    "obj": "Relation Extraction",
+    "confidence": 0.95,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "teaches",
+    "obj": "NLP",
+    "confidence": 0.95,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "teaches",
+    "obj": "LLM-based",
+    "confidence": 0.95,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "teaches",
+    "obj": "Normalização",
+    "confidence": 0.95,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "teaches",
+    "obj": "Validação",
+    "confidence": 0.95,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "teaches",
+    "obj": "SHACL",
+    "confidence": 0.95,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "has_topic",
+    "obj": "Pipeline",
+    "confidence": 0.9,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "has_topic",
+    "obj": "NER_tradicional_(spaCy)",
+    "confidence": 0.9,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "has_topic",
+    "obj": "LLM-based",
+    "confidence": 0.9,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "requires",
+    "obj": "modulo_1",
+    "confidence": 0.95,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "requires",
+    "obj": "modulo_3",
+    "confidence": 0.95,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "requires",
+    "obj": "modulo_4",
+    "confidence": 0.95,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "references",
+    "obj": "modulo_3",
+    "confidence": 0.85,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "references",
+    "obj": "modulo_8",
+    "confidence": 0.85,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "references",
+    "obj": "modulo_9",
+    "confidence": 0.85,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "uses",
+    "obj": "spaCy",
+    "confidence": 0.9,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "uses",
+    "obj": "LLM",
+    "confidence": 0.9,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "is_part_of",
+    "obj": "Construção",
+    "confidence": 0.95,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "teaches",
+    "obj": "SAP HANA",
+    "confidence": 0.95,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "teaches",
+    "obj": "Knowledge Graph Engine",
+    "confidence": 0.95,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "teaches",
+    "obj": "KGE",
+    "confidence": 0.95,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "teaches",
+    "obj": "RDF Triple Store",
+    "confidence": 0.95,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "teaches",
+    "obj": "SPARQL queries",
+    "confidence": 0.95,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "teaches",
+    "obj": "No-ETL",
+    "confidence": 0.95,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "teaches",
+    "obj": "Inferencing",
+    "confidence": 0.95,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "has_topic",
+    "obj": "KGE_=_motor_nativo_HANA_para_armazenar/consultar_RDF",
+    "confidence": 0.9,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "has_topic",
+    "obj": "Diferença",
+    "confidence": 0.9,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "has_topic",
+    "obj": "Multi-model",
+    "confidence": 0.9,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "requires",
+    "obj": "modulo_3",
+    "confidence": 0.95,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "requires",
+    "obj": "modulo_4",
+    "confidence": 0.95,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "requires",
+    "obj": "modulo_5",
+    "confidence": 0.95,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "references",
+    "obj": "modulo_4",
+    "confidence": 0.85,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "references",
+    "obj": "modulo_9",
+    "confidence": 0.85,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "references",
+    "obj": "modulo_10",
+    "confidence": 0.85,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "uses",
+    "obj": "SAP HANA Cloud",
+    "confidence": 0.9,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "uses",
+    "obj": "RDF",
+    "confidence": 0.9,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "is_part_of",
+    "obj": "Construção",
+    "confidence": 0.95,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "teaches",
+    "obj": "Graph RAG",
+    "confidence": 0.95,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "teaches",
+    "obj": "Agent-to-Agent",
+    "confidence": 0.95,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "teaches",
+    "obj": "MCP",
+    "confidence": 0.95,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "teaches",
+    "obj": "Agent Hub",
+    "confidence": 0.95,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "teaches",
+    "obj": "Orchestration",
+    "confidence": 0.95,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "teaches",
+    "obj": "Multi-hop",
+    "confidence": 0.95,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "teaches",
+    "obj": "Hybrid Retrieval",
+    "confidence": 0.95,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "teaches",
+    "obj": "5-Layers",
+    "confidence": 0.95,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "has_topic",
+    "obj": "Pipeline_5-camadas",
+    "confidence": 0.9,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "has_topic",
+    "obj": "Comparison",
+    "confidence": 0.9,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "has_topic",
+    "obj": "Agent-to-Agent_communication_(A2A)",
+    "confidence": 0.9,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "requires",
+    "obj": "modulo_1",
+    "confidence": 0.95,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "requires",
+    "obj": "modulo_2",
+    "confidence": 0.95,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "requires",
+    "obj": "modulo_3",
+    "confidence": 0.95,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "requires",
+    "obj": "modulo_4",
+    "confidence": 0.95,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "requires",
+    "obj": "modulo_5",
+    "confidence": 0.95,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "requires",
+    "obj": "modulo_6",
+    "confidence": 0.95,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "requires",
+    "obj": "modulo_7",
+    "confidence": 0.95,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "requires",
+    "obj": "modulo_8",
+    "confidence": 0.95,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "references",
+    "obj": "modulo_10",
+    "confidence": 0.85,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "references",
+    "obj": "modulo_11",
+    "confidence": 0.85,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "references",
+    "obj": "modulo_12",
+    "confidence": 0.85,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "uses",
+    "obj": "LangGraph",
+    "confidence": 0.9,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "uses",
+    "obj": "Agent Hub",
+    "confidence": 0.9,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "is_part_of",
+    "obj": "Arquitetura",
+    "confidence": 0.95,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "teaches",
+    "obj": "LangChain",
+    "confidence": 0.95,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "teaches",
+    "obj": "LlamaIndex",
+    "confidence": 0.95,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "teaches",
+    "obj": "LangGraph",
+    "confidence": 0.95,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "teaches",
+    "obj": "RAG implementation",
+    "confidence": 0.95,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "teaches",
+    "obj": "Framework comparison",
+    "confidence": 0.95,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "teaches",
+    "obj": "Production deployment",
+    "confidence": 0.95,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "has_topic",
+    "obj": "LangChain",
+    "confidence": 0.9,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "has_topic",
+    "obj": "LlamaIndex",
+    "confidence": 0.9,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "has_topic",
+    "obj": "Best_Practice_2026",
+    "confidence": 0.9,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "requires",
+    "obj": "modulo_1",
+    "confidence": 0.95,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "requires",
+    "obj": "modulo_3",
+    "confidence": 0.95,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "requires",
+    "obj": "modulo_4",
+    "confidence": 0.95,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "requires",
+    "obj": "modulo_6",
+    "confidence": 0.95,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "references",
+    "obj": "modulo_9",
+    "confidence": 0.85,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "references",
+    "obj": "modulo_11",
+    "confidence": 0.85,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "references",
+    "obj": "modulo_12",
+    "confidence": 0.85,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "uses",
+    "obj": "LangChain",
+    "confidence": 0.9,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "uses",
+    "obj": "LlamaIndex",
+    "confidence": 0.9,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "is_part_of",
+    "obj": "Arquitetura",
+    "confidence": 0.95,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "teaches",
+    "obj": "GDPR",
+    "confidence": 0.95,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "teaches",
+    "obj": "LGPD",
+    "confidence": 0.95,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "teaches",
+    "obj": "Compliance",
+    "confidence": 0.95,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "teaches",
+    "obj": "Encryption",
+    "confidence": 0.95,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "teaches",
+    "obj": "RBAC",
+    "confidence": 0.95,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "teaches",
+    "obj": "Audit",
+    "confidence": 0.95,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "teaches",
+    "obj": "Data Classification",
+    "confidence": 0.95,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "teaches",
+    "obj": "PII Protection",
+    "confidence": 0.95,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "has_topic",
+    "obj": "4_níveis_de_classificação_de_dados",
+    "confidence": 0.9,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "has_topic",
+    "obj": "6_papéis_RBAC_com_matriz_de_permissões",
+    "confidence": 0.9,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "has_topic",
+    "obj": "Criptografia_Fernet_(AEAD_+_HMAC-SHA256)",
+    "confidence": 0.9,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "requires",
+    "obj": "modulo_9",
+    "confidence": 0.95,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "requires",
+    "obj": "modulo_10",
+    "confidence": 0.95,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "references",
+    "obj": "modulo_12",
+    "confidence": 0.85,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "references",
+    "obj": "modulo_14",
+    "confidence": 0.85,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "references",
+    "obj": "modulo_15",
+    "confidence": 0.85,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "uses",
+    "obj": "Fernet encryption",
+    "confidence": 0.9,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "uses",
+    "obj": "PBKDF2",
+    "confidence": 0.9,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "is_part_of",
+    "obj": "Governança",
+    "confidence": 0.95,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "teaches",
+    "obj": "RAGAS",
+    "confidence": 0.95,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "teaches",
+    "obj": "Evaluation Metrics",
+    "confidence": 0.95,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "teaches",
+    "obj": "Faithfulness",
+    "confidence": 0.95,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "teaches",
+    "obj": "Relevancy",
+    "confidence": 0.95,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "teaches",
+    "obj": "NDCG",
+    "confidence": 0.95,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "teaches",
+    "obj": "Spearman Correlation",
+    "confidence": 0.95,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "teaches",
+    "obj": "Benchmarking",
+    "confidence": 0.95,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "has_topic",
+    "obj": "4_métricas",
+    "confidence": 0.9,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "has_topic",
+    "obj": "NDCG",
+    "confidence": 0.9,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "has_topic",
+    "obj": "Spearman_correlation_(ρ)",
+    "confidence": 0.9,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "requires",
+    "obj": "modulo_9",
+    "confidence": 0.95,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "requires",
+    "obj": "modulo_10",
+    "confidence": 0.95,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "references",
+    "obj": "modulo_11",
+    "confidence": 0.85,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "references",
+    "obj": "modulo_13",
+    "confidence": 0.85,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "references",
+    "obj": "modulo_14",
+    "confidence": 0.85,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "uses",
+    "obj": "RAGAS",
+    "confidence": 0.9,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "uses",
+    "obj": "Statistical metrics",
+    "confidence": 0.9,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "is_part_of",
+    "obj": "Governança",
+    "confidence": 0.95,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "teaches",
+    "obj": "Prompt Engineering",
+    "confidence": 0.95,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "teaches",
+    "obj": "Chain-of-Thought",
+    "confidence": 0.95,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "teaches",
+    "obj": "Few-Shot",
+    "confidence": 0.95,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "teaches",
+    "obj": "Structured Output",
+    "confidence": 0.95,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "teaches",
+    "obj": "In-Context Learning",
+    "confidence": 0.95,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "teaches",
+    "obj": "Template Optimization",
+    "confidence": 0.95,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "has_topic",
+    "obj": "Técnicas",
+    "confidence": 0.9,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "has_topic",
+    "obj": "Impacto",
+    "confidence": 0.9,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "has_topic",
+    "obj": "In-context_learning_vs_fine-tuning",
+    "confidence": 0.9,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "requires",
+    "obj": "modulo_9",
+    "confidence": 0.95,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "requires",
+    "obj": "modulo_10",
+    "confidence": 0.95,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "references",
+    "obj": "modulo_14",
+    "confidence": 0.85,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "references",
+    "obj": "modulo_15",
+    "confidence": 0.85,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "uses",
+    "obj": "Prompt templates",
+    "confidence": 0.9,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "uses",
+    "obj": "LLM optimization",
+    "confidence": 0.9,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "is_part_of",
+    "obj": "Refinamento",
+    "confidence": 0.95,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "teaches",
+    "obj": "SAP Supply Chain Intelligence",
+    "confidence": 0.95,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "teaches",
+    "obj": "LangGraph",
+    "confidence": 0.95,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "teaches",
+    "obj": "Production Code",
+    "confidence": 0.95,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "teaches",
+    "obj": "Lei de Little",
+    "confidence": 0.95,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "teaches",
+    "obj": "Async/ASGI",
+    "confidence": 0.95,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "teaches",
+    "obj": "Real Project",
+    "confidence": 0.95,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "has_topic",
+    "obj": "Projeto_real",
+    "confidence": 0.9,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "has_topic",
+    "obj": "LangGraph",
+    "confidence": 0.9,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "has_topic",
+    "obj": "Lei_de_Little",
+    "confidence": 0.9,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "requires",
+    "obj": "modulo_9",
+    "confidence": 0.95,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "requires",
+    "obj": "modulo_10",
+    "confidence": 0.95,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "requires",
+    "obj": "modulo_11",
+    "confidence": 0.95,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "requires",
+    "obj": "modulo_12",
+    "confidence": 0.95,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "requires",
+    "obj": "modulo_13",
+    "confidence": 0.95,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "references",
+    "obj": "modulo_15",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "uses",
+    "obj": "LangGraph",
+    "confidence": 0.9,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "uses",
+    "obj": "ASGI",
+    "confidence": 0.9,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "is_part_of",
+    "obj": "Refinamento",
+    "confidence": 0.95,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "teaches",
+    "obj": "Deployment",
+    "confidence": 0.95,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "teaches",
+    "obj": "Scaling",
+    "confidence": 0.95,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "teaches",
+    "obj": "ROI",
+    "confidence": 0.95,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "teaches",
+    "obj": "Kubernetes",
+    "confidence": 0.95,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "teaches",
+    "obj": "Monitoring",
+    "confidence": 0.95,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "teaches",
+    "obj": "Semantic Caching",
+    "confidence": 0.95,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "teaches",
+    "obj": "Build vs Buy",
+    "confidence": 0.95,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "teaches",
+    "obj": "Payback Period",
+    "confidence": 0.95,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "has_topic",
+    "obj": "Auto-scaling",
+    "confidence": 0.9,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "has_topic",
+    "obj": "Semantic_Caching",
+    "confidence": 0.9,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "has_topic",
+    "obj": "Monitoring",
+    "confidence": 0.9,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "requires",
+    "obj": "modulo_9",
+    "confidence": 0.95,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "requires",
+    "obj": "modulo_10",
+    "confidence": 0.95,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "requires",
+    "obj": "modulo_11",
+    "confidence": 0.95,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "requires",
+    "obj": "modulo_12",
+    "confidence": 0.95,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "requires",
+    "obj": "modulo_14",
+    "confidence": 0.95,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "uses",
+    "obj": "Kubernetes",
+    "confidence": 0.9,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "uses",
+    "obj": "Prometheus",
+    "confidence": 0.9,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "is_part_of",
+    "obj": "Deployment",
+    "confidence": 0.95,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "RAG",
+    "predicate": "defined_in",
+    "obj": "modulo_1",
+    "confidence": 0.9,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "RAG",
+    "predicate": "defined_in",
+    "obj": "modulo_2",
+    "confidence": 0.9,
+    "source_module": 2,
+    "line_number": 0
+  },
+  {
+    "subject": "RAG",
+    "predicate": "defined_in",
+    "obj": "modulo_9",
+    "confidence": 0.9,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "RAG",
+    "predicate": "defined_in",
+    "obj": "modulo_10",
+    "confidence": 0.9,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "Grafos",
+    "predicate": "defined_in",
+    "obj": "modulo_3",
+    "confidence": 0.9,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "Grafos",
+    "predicate": "defined_in",
+    "obj": "modulo_4",
+    "confidence": 0.9,
+    "source_module": 4,
+    "line_number": 0
+  },
+  {
+    "subject": "Grafos",
+    "predicate": "defined_in",
+    "obj": "modulo_8",
+    "confidence": 0.9,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "Grafos",
+    "predicate": "defined_in",
+    "obj": "modulo_9",
+    "confidence": 0.9,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "Extração",
+    "predicate": "defined_in",
+    "obj": "modulo_7",
+    "confidence": 0.9,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "Extração",
+    "predicate": "defined_in",
+    "obj": "modulo_14",
+    "confidence": 0.9,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "Avaliação",
+    "predicate": "defined_in",
+    "obj": "modulo_12",
+    "confidence": 0.9,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "Deployment",
+    "predicate": "defined_in",
+    "obj": "modulo_14",
+    "confidence": 0.9,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "Deployment",
+    "predicate": "defined_in",
+    "obj": "modulo_15",
+    "confidence": 0.9,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "Banco_Brasil",
+    "predicate": "documented_in",
+    "obj": "modulo_2",
+    "confidence": 0.95,
+    "source_module": 2,
+    "line_number": 0
+  },
+  {
+    "subject": "Banco_Brasil",
+    "predicate": "documented_in",
+    "obj": "modulo_15",
+    "confidence": 0.95,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "Manufatura_Europa",
+    "predicate": "documented_in",
+    "obj": "modulo_14",
+    "confidence": 0.95,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "Manufatura_Europa",
+    "predicate": "documented_in",
+    "obj": "modulo_15",
+    "confidence": 0.95,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "SaaS_EUA",
+    "predicate": "documented_in",
+    "obj": "modulo_9",
+    "confidence": 0.95,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "SaaS_EUA",
+    "predicate": "documented_in",
+    "obj": "modulo_15",
+    "confidence": 0.95,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Definição_técnica",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 21
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Conhecimento_estático",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 34
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Custos_de_retreinamento",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 36
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Falta_de_rastreabilidade",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 37
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Exemplo_prático",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 60
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Por_que_é_crítico?",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 69
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Estratégias_principais_em_2026",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 74
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Benchmark_NVIDIA_2026",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 83
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "0.648_de_acurácia",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 84
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Exemplo_-_Fixed-Size_Chunking_com_Python",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 88
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Como_funciona?",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 130
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Modelos_de_Embedding_Disponíveis_em_2026",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 135
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "OpenAI_text-embedding-3-small",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 139
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Voyage_AI_voyage-3",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 140
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Nomic_embed-text-v1.5",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 141
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Cohere_embed-english-v3.0",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 142
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Sentence-Transformers_all-minilm-l6-v2",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 143
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Exemplo_-_Gerar_Embeddings_com_Python",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 145
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Implicações_práticas",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 181
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Por_que_não_usar_banco_relacional?",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 191
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Busca_por_ID",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 195
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Busca_exata_por_coluna",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 196
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Similaridade_semântica",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 197
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Escala_(milhões_de_vetores)",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 198
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Custo_de_busca_para_1M_vetores",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 199
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Vector_Stores_Populares_em_2026",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 201
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Exemplo_-_Usando_ChromaDB_Localmente",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 219
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Tipos_de_Retrieval_em_2026",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 275
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Semantic_Search_(Vetorial)",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 277
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Hybrid_Search_(Recomendado_em_Produção)",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 282
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Exemplo_-_Hybrid_Search",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 293
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Exemplo_de_Prompt_Construído",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 453
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Tempo_para_Produção",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 703
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Custo_de_Implementação",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 704
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Atualização_de_Conhecimento",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 705
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Performance_em_Domínio_Específico",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 708
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Casos_de_Uso",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 710
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Embedding",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 717
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Vector_DB",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 718
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Código_Simulado",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 754
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Por_que_RAG_é_crítico_aqui",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 806
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Implementação_específica",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 811
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "1._Perda_de_Contexto_Global",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 825
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "2._Incapacidade_em_Consultas_Analíticas",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 830
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "3._Falta_de_Auditabilidade_Lógica",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 835
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "4._Alucinações_ainda_Ocorrem",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 841
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "5._Problema_de_\"Relevância_Local_vs_Global\"",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 846
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Análise_cross-document",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 854
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Reasoning_multi-hop",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 856
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Conteúdo_em_rápida_mudança",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 857
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Conhecimento_não-textual",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 858
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Informação_altamente_estruturada",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 859
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Exercício_1",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 946
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Exercício_2",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 952
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Exercício_3",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 958
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "os_fundamentos_de_RAG_tradicional_(Naive_RAG)",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 1010
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "5_Componentes",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 1013
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Casos_reais",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 1018
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Próxima_etapa",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 1021
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "limitações_críticas",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 1021
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "mentions",
+    "obj": "Módulo_1_Finalizado",
+    "confidence": 0.75,
+    "source_module": 1,
+    "line_number": 1025
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "imports",
+    "obj": "sentence_transformers",
+    "confidence": 0.85,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "imports",
+    "obj": "numpy",
+    "confidence": 0.85,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "imports",
+    "obj": "cosine_similarity",
+    "confidence": 0.85,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "imports",
+    "obj": "chromadb",
+    "confidence": 0.85,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "imports",
+    "obj": "Settings",
+    "confidence": 0.85,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "imports",
+    "obj": "rank_bm25",
+    "confidence": 0.85,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "imports",
+    "obj": "os",
+    "confidence": 0.85,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_1",
+    "predicate": "imports",
+    "obj": "anthropic",
+    "confidence": 0.85,
+    "source_module": 1,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "chunks_isolados",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 21
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Estudo_de_caso_2026",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 29
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Taxa_de_erro_vs_Tamanho_do_Documento",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 40
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "35%_de_erro",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 43
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "48%_de_erro",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 44
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Exemplo_1:_Contrato_com_Cláusula_de_Não-Concorrência",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 48
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "O_que_RAG_recupera",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 88
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Resposta_gerada",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 69
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Probabilidade_de_erro",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 72
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Exemplo_2:_Dados_Financeiros_com_Retroativo",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 74
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Custo_do_erro",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 134
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Chunking_quebra_linhas_narrativas",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 96
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Embeddings_não_capturaram_negações",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 97
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Falta_de_contexto_de_scope",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 98
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "recuperação_de_informação_textual",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 113
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "análise_agregada",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 113
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Query_Típica",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 129
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "O_que_RAG_faz",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 131
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Por_quê",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 136
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "POR_QUÊ",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 179
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "1._Compliance:_Por_que_você_negou_este_empréstimo?",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 183
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "2._Legal:_Qual_artigo_da_lei_x_foi_violado?",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 197
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Definição_técnica",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 326
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "não_presente_nos_documentos_recuperados",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 326
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Frequência_em_2026",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 328
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Taxa_de_ocorrência",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 405
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "O_que_aconteceu",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 862
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Por_quê_aconteceu",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 450
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Custo_direto",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 479
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Custo_indireto",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 481
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Solução_parcial",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 530
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Solução_completa",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 536
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Contexto_Global",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 549
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Queries_Analíticas",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 550
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Performance_Consultas",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 553
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Custo_Storage",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 554
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Custo_Implementação",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 555
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Tempo_Setup",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 556
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "O_que_falhou",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 901
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Solução_necessária",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 913
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "limitações_críticas_de_Naive_RAG",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 989
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "3_Problemas_Estruturais",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 991
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Casos_Reais",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 998
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Transição_Necessária",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 1007
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Próxima_Etapa",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 1011
+  },
+  {
+    "subject": "modulo_2",
+    "predicate": "mentions",
+    "obj": "Módulo_2_Finalizado",
+    "confidence": 0.75,
+    "source_module": 2,
+    "line_number": 1015
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Grafo_de_Conhecimento_(Knowledge_Graph)",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 19
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Diferença_crítica_com_banco_de_dados_tradicional",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 26
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Identificador_único",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 46
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Exemplo_de_Nó",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 50
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Opcional_com_propriedades",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 68
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Exemplo_de_Aresta",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 70
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "RDF_(Resource_Description_Framework)",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 113
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Exemplo_SAP",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 333
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Query_Language",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 356
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Exemplo_simples",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 369
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Código_Python",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 389
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Código_Python_para_Multi-Hop",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 466
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Estrutura_de_Dados",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 530
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Consulta_1-hop",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 532
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Consulta_3-hop",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 533
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Consulta_5-hop",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 534
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Análise_Analítica",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 535
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Busca_Semântica",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 536
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Complexidade_Query",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 537
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Conformidade_Regulatória",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 539
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Custo_Operacional",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 540
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Curva_de_Aprendizado",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 541
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Dados_públicos",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 615
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Triplas_RDF",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 726
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "20+_exemplos",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 728
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Inferência_Multi-Hop",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 732
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Casos_reais",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 736
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "mentions",
+    "obj": "Módulo_3_Finalizado",
+    "confidence": 0.75,
+    "source_module": 3,
+    "line_number": 742
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "imports",
+    "obj": "rdflib",
+    "confidence": 0.85,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_3",
+    "predicate": "imports",
+    "obj": "datetime",
+    "confidence": 0.85,
+    "source_module": 3,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "mentions",
+    "obj": "SPARQL",
+    "confidence": 0.75,
+    "source_module": 4,
+    "line_number": 19
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "mentions",
+    "obj": "Resultado_esperado",
+    "confidence": 0.75,
+    "source_module": 4,
+    "line_number": 74
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "mentions",
+    "obj": "OWL_(Web_Ontology_Language)",
+    "confidence": 0.75,
+    "source_module": 4,
+    "line_number": 1155
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "mentions",
+    "obj": "SHACL_(Shapes_Constraint_Language)",
+    "confidence": 0.75,
+    "source_module": 4,
+    "line_number": 1204
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "mentions",
+    "obj": "SPARQL_Domínio",
+    "confidence": 0.75,
+    "source_module": 4,
+    "line_number": 1254
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "mentions",
+    "obj": "OWL_Ontologias",
+    "confidence": 0.75,
+    "source_module": 4,
+    "line_number": 1258
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "mentions",
+    "obj": "SHACL_Validação",
+    "confidence": 0.75,
+    "source_module": 4,
+    "line_number": 1260
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "mentions",
+    "obj": "Casos_Reais",
+    "confidence": 0.75,
+    "source_module": 4,
+    "line_number": 1262
+  },
+  {
+    "subject": "modulo_4",
+    "predicate": "mentions",
+    "obj": "Módulo_4_Finalizado",
+    "confidence": 0.75,
+    "source_module": 4,
+    "line_number": 1266
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "Analogia_humana",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 23
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "LLM_Puro",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 36
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "RAG_Tradicional",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 37
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "Simbólico_Puro",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 38
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "O_que_contém",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 106
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "Diferença_do_GPT/Claude",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 136
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "Exemplo_de_Prompt_para_SAP-RPT-1.5",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 154
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "O_que_é",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 229
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "Exemplo_de_Workflow_Multi-Agent",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 186
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "SaaS_Era",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 264
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "SaaR_Era",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 271
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "Clean_Core_Strategy",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 289
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "Fluxo_com_S/4HANA_+_AI_Foundation",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 335
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "Solução_com_AI_Foundation",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 368
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "Solução_com_Neuro-Simbólica",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 455
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "\"\n________)\n____\n____def_analyze_purchase_request(self,_po_id:_str):\n________\"\"\"\n________Analisa_requisição_de_compra_com_Knowledge_Graph_+_Rules.\n________\"\"\"\n________#_1._Buscar_dados_em_S/4HANA\n________po_data_=_self.hana.query(f\"\"\"\n____________SELECT_po_id,_vendor_id,_material_id,_quantity,_\n___________________unit_price,_requested_date,_requester_id\n____________FROM_purchase_orders\n____________WHERE_po_id_=_'{po_id}'\n________\"\"\")\n________\n________#_2._Enriquecer_com_dados_do_Knowledge_Graph\n________vendor_data_=_self.graph.query(f\"\"\"\n____________PREFIX_ex:_<http://sap.com/procurement/>\n____________SELECT_?vendor_?reliability_?country_?financialHealth\n____________WHERE_{{\n______________ex:vendor/{po_data['vendor_id']}_\n________________ex:hasReliabilityScore_?reliability_;\n________________ex:locatedIn_?country_;\n________________ex:financialScore_?financialHealth_.\n____________}}\n________\"\"\")\n________\n________#_3._Avaliar_risco_usando_Business_Rules\n________risk_assessment_=_self._evaluate_risk(po_data,_vendor_data)\n________\n________#_4._Usar_SAP-RPT-1.5_para_predição\n________prediction_=_self.ai.predict(\n____________input={\n________________\"purchase_order\":_po_data,\n________________\"vendor_metrics\":_vendor_data,\n________________\"risk_factors\":_risk_assessment\n____________},\n____________model=\"sap-rpt-1.5\",\n____________task=\"procurement_approval\"\n________)\n________\n________#_5._Gerar_recomendação\n________recommendation_=_self._generate_recommendation(prediction)\n________\n________return_{\n____________\"po_id\":_po_id,\n____________\"recommendation\":_recommendation['action'],\n____________\"confidence\":_recommendation['confidence'],\n____________\"reasoning\":_recommendation['audit_trail'],\n____________\"timestamp\":_str(datetime.now())\n________}\n____\n____def__evaluate_risk(self,_po_data,_vendor_data):\n________\"\"\"Aplica_business_rules\"\"\"\n________risks_=_[]\n________\n________#_Regra_1:_Novo_fornecedor?\n________if_vendor_data.get('months_as_vendor',_0)_<_6:\n____________risks.append(\"NEW_VENDOR\")\n________\n________#_Regra_2:_Desconto_muito_alto?\n________if_po_data['discount_pct']_>_20:\n____________risks.append(\"UNUSUAL_DISCOUNT\")\n________\n________#_Regra_3:_País_de_risco?\n________geopolitical_risk_countries_=_['KP',_'IR',_'SY']\n________if_vendor_data.get('country')_in_geopolitical_risk_countries:\n____________risks.append(\"GEOPOLITICAL_RISK\")\n________\n________#_Regra_4:_Fornecedor_com_atraso_histórico?\n________if_vendor_data.get('on_time_delivery_rate',_100)_<_80:\n____________risks.append(\"DELIVERY_RISK\")\n________\n________return_{\n____________\"risk_flags\":_risks,\n____________\"risk_score\":_len(risks)_/_4.0__#_0-1_scale\n________}\n____\n____def__generate_recommendation(self,_prediction):\n________\"\"\"Gera_ação_recomendada\"\"\"\n________if_prediction.approval_probability_>_0.9:\n____________action_=_\"AUTO_APPROVE\"\n____________required_approvers_=_1\n________elif_prediction.approval_probability_>_0.7:\n____________action_=_\"APPROVE_WITH_CONDITIONS\"\n____________required_approvers_=_2\n________else:\n____________action_=_\"ESCALATE_TO_MANAGER\"\n____________required_approvers_=_3\n________\n________return_{\n____________\"action\":_action,\n____________\"confidence\":_prediction.approval_probability,\n____________\"required_approvers\":_required_approvers,\n____________\"audit_trail\":_{\n________________\"model_used\":_\"sap-rpt-1.5\",\n________________\"graph_queries\":_prediction.graph_references,\n________________\"rules_applied\":_prediction.rules_applied,\n________________\"reasoning\":_prediction.explanation\n____________}\n________}\n\n\n#_Uso\nagent_=_ProcurementOptimizationAgent()\nresult_=_agent.analyze_purchase_request(\"PO-2026-0001\")\n\nprint(f\"Recomendação:_{result['recommendation']}\")\nprint(f\"Confiança:_{result['confidence']:.1%}\")\nprint(f\"\\nRastreamento_de_Auditoria:\")\nfor_key,_value_in_result['reasoning'].items():\n____print(f\"__{key}:_{value}\")\n```\n\n---\n\n##_5.7_Comparação:_SAP_AI_Foundation_vs_Alternativas\n\n|_Aspecto_|_SAP_AI_Foundation_|_LangChain_+_GPT_|_RAG_+_Open_Source_|\n|---------|-------------------|-----------------|-------------------|\n|_",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 501
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "_|_Nativo_(S/4HANA)_|_Requer_RAG_|_Manual_|\n|_",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 621
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "_|_95%+_|_20%_|_30%_|\n|_",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 622
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "_|_8-12_semanas_|_4-6_semanas_|_12-16_semanas_|\n|_",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 623
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "_|_95%_acurácia_|_78%_acurácia_|_72%_acurácia_|\n|_",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 624
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "_|_$500k-1M_|_$200k-400k_|_$300k-600k_|\n|_",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 625
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "_|_6-8x_|_3-4x_|_2-3x_|\n|_",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 626
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "_|_Excelente_|_Boa_|_Média_|\n|_",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 627
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": "_|_SAP_suporta_|_Self-service_|_Self-service_|\n\n---\n\n##_5.8_Referências_Científicas\n\nEmergent_Mind._(2026)._Neuro-Symbolic_AI_Architecture._Retrieved_from_https://www.emergentmind.com/topics/neuro-symbolic-ai-architecture\n\nSAVIC_Technologies._(2026)._SAP_AI_Foundation_Architecture_2026:_Knowledge_Graph,_SAP-RPT-1_&_Agent_Hub._Retrieved_from_https://www.savictech.com/insights/sap-ai-foundation-knowledge-graph-architecture-enterprise-2026/\n\nChen,_Y.,_et_al._(2024)._Neuro-Symbolic_AI:_Explainability,_Challenges,_and_Future_Trends._arXiv._Retrieved_from_https://arxiv.org/pdf/2411.04383\n\nSalah,_A.,_et_al._(2024)._Bridging_the_Gap:_Representation_Spaces_in_Neuro-Symbolic_AI._arXiv._Retrieved_from_https://arxiv.org/pdf/2411.04393\n\n---\n\n##_Resumo_do_Módulo_5\n\n✅_",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 628
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": ":_Combina_neural_(LLMs)_+_simbólica_(grafos,_regras)\n\n✅_",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 646
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": ":\n__-_Knowledge_Graph_(452k_tabelas_SAP)\n__-_SAP-RPT-1.5_(modelo_treinado_em_dados_SAP)\n__-_Agent_Hub_(orquestração_multi-agent)\n__-_MCP_(protocolo_de_comunicação)\n\n✅_",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 648
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": ":_De_software_para_reasoning_automático\n\n✅_",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 654
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": ":_Simplificação_de_S/4HANA_+_AI_Foundation\n\n✅_",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 656
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": ":_Churn_prediction,_Fraude_detection,_Supply_Chain\n\n✅_",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 658
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "mentions",
+    "obj": ":_6-8x_em_Year_1_(vs_3-4x_com_alternativas)\n\n---\n\n",
+    "confidence": 0.75,
+    "source_module": 5,
+    "line_number": 660
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "imports",
+    "obj": "sap_ai_foundation",
+    "confidence": 0.85,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_5",
+    "predicate": "imports",
+    "obj": "sap_hana",
+    "confidence": 0.85,
+    "source_module": 5,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "Fixed_256",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 46
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "Fixed_512",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 47
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "Fixed_1024",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 48
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "Semantic_(small)",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 49
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "Semantic_(medium)",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 50
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "Late_Chunking",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 732
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "Como_funciona",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 102
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "Melhor_acurácia_(79%)",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 261
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "Código_(Simplificado)",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 270
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "OpenAI_text-embedding-3-small",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 383
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "Voyage_AI_voyage-3-lite",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 384
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "Nomic_embed-text-v1.5",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 385
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "Cohere_embed-english-v3.0",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 386
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "Sentence-Transformers_all-minilm-l6-v2",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 387
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "OpenAI_3-small",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 396
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "Voyage_3-lite",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 397
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "Cohere_v3.0",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 398
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "Nomic_v1.5",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 399
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "6_Estratégias_de_Chunking",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 728
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "Embeddings_2026",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 736
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "Hybrid_Search",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 738
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "Pipeline_Completo",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 742
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "mentions",
+    "obj": "Módulo_6_Finalizado",
+    "confidence": 0.75,
+    "source_module": 6,
+    "line_number": 746
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "imports",
+    "obj": "sentence_transformers",
+    "confidence": 0.85,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "imports",
+    "obj": "numpy",
+    "confidence": 0.85,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_6",
+    "predicate": "imports",
+    "obj": "voyageai",
+    "confidence": 0.85,
+    "source_module": 6,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "mentions",
+    "obj": "Entidades_Custom",
+    "confidence": 0.75,
+    "source_module": 7,
+    "line_number": 174
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "mentions",
+    "obj": "Uso_Ideal",
+    "confidence": 0.75,
+    "source_module": 7,
+    "line_number": 176
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "mentions",
+    "obj": "Volume_muito_alto_(>1M_docs)",
+    "confidence": 0.75,
+    "source_module": 7,
+    "line_number": 664
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "mentions",
+    "obj": "Qualidade_crítica",
+    "confidence": 0.75,
+    "source_module": 7,
+    "line_number": 665
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "mentions",
+    "obj": "Entidades_custom",
+    "confidence": 0.75,
+    "source_module": 7,
+    "line_number": 666
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "mentions",
+    "obj": "Baixo_orçamento",
+    "confidence": 0.75,
+    "source_module": 7,
+    "line_number": 667
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "mentions",
+    "obj": "Relation_Extraction",
+    "confidence": 0.75,
+    "source_module": 7,
+    "line_number": 688
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "mentions",
+    "obj": "Pipeline_Completo",
+    "confidence": 0.75,
+    "source_module": 7,
+    "line_number": 696
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "mentions",
+    "obj": "Módulo_7_Finalizado",
+    "confidence": 0.75,
+    "source_module": 7,
+    "line_number": 700
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "imports",
+    "obj": "spacy",
+    "confidence": 0.85,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "imports",
+    "obj": "anthropic",
+    "confidence": 0.85,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "imports",
+    "obj": "json",
+    "confidence": 0.85,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "imports",
+    "obj": "re",
+    "confidence": 0.85,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "imports",
+    "obj": "typing",
+    "confidence": 0.85,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "imports",
+    "obj": "unicodedata",
+    "confidence": 0.85,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "imports",
+    "obj": "datetime",
+    "confidence": 0.85,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "imports",
+    "obj": "SequenceTagger",
+    "confidence": 0.85,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "imports",
+    "obj": "Sentence",
+    "confidence": 0.85,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "imports",
+    "obj": "pyshacl",
+    "confidence": 0.85,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_7",
+    "predicate": "imports",
+    "obj": "rdflib",
+    "confidence": 0.85,
+    "source_module": 7,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "Diferença_KGE_vs_Property_Graph",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 34
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "W3C_Standard",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 507
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "Recomendação_2026",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 42
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "No_HANA_Cloud,_o_SPARQL_endpoint_é_automático",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 122
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "Query_1:_SELECT_simples",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 133
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "Query_2:_Com_filtro_e_agregação",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 148
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "Query_3:_Inferência_(transitividade)",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 161
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "Query_4:_Busca_semântica_(graph_pattern)",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 173
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "Problema_tradicional",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 245
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "No-ETL_(Projeção_RDF)",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 251
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "Tipos_de_índices_disponíveis",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 305
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "Performance_Gain",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 346
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "Single_triple",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 352
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "2-hop_path",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 353
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "3-hop_path",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 354
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "Full_scan",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 356
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "Dados_em_S/4HANA",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 364
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "Grafo_RDF_de_Conhecimento",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 370
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "Query_completa_(SQL_+_SPARQL)",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 381
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "Integração_S/4HANA",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 540
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "SAP_HANA_Cloud_KGE",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 532
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "SPARQL_Queries",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 534
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "No-ETL_Architecture",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 536
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "mentions",
+    "obj": "Módulo_8_Finalizado",
+    "confidence": 0.75,
+    "source_module": 8,
+    "line_number": 546
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "imports",
+    "obj": "SPARQLWrapper",
+    "confidence": 0.85,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "imports",
+    "obj": "json",
+    "confidence": 0.85,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "imports",
+    "obj": "com",
+    "confidence": 0.85,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_8",
+    "predicate": "imports",
+    "obj": "org",
+    "confidence": 0.85,
+    "source_module": 8,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "mentions",
+    "obj": "Protocolo_de_Troca",
+    "confidence": 0.75,
+    "source_module": 9,
+    "line_number": 284
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "mentions",
+    "obj": "state,\n________________\"result\":_f\"Custo_estimado:_R$_50.000\",\n________________\"messages\":_state['messages']_+_[\n____________________Message(\n________________________sender=\"finance_agent\",\n________________________receiver=\"router\",\n________________________content=\"Custo_calculado\",\n________________________timestamp=\"2026-09-05T10:30:00Z\"\n____________________)\n________________]\n____________}\n________\n________return_state\n\nclass_SupplyChainAgent:\n____\"\"\"Agente_especialista_em_supply_chain\"\"\"\n____\n____def_process(self,_state:_AgentState):\n________\"\"\"Process_supply_chain_queries\"\"\"\n________\n________if_\"supplier\"_in_state['query'].lower():\n____________return_{\n________________",
+    "confidence": 0.75,
+    "source_module": 9,
+    "line_number": 426
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "mentions",
+    "obj": "5-Layer_Architecture",
+    "confidence": 0.75,
+    "source_module": 9,
+    "line_number": 681
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "mentions",
+    "obj": "Graph_Traversal",
+    "confidence": 0.75,
+    "source_module": 9,
+    "line_number": 683
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "mentions",
+    "obj": "Semantic_Ranking",
+    "confidence": 0.75,
+    "source_module": 9,
+    "line_number": 685
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "mentions",
+    "obj": "MCP_Protocol",
+    "confidence": 0.75,
+    "source_module": 9,
+    "line_number": 687
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "mentions",
+    "obj": "Agent-to-Agent_(A2A)",
+    "confidence": 0.75,
+    "source_module": 9,
+    "line_number": 689
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "mentions",
+    "obj": "Agent_Hub",
+    "confidence": 0.75,
+    "source_module": 9,
+    "line_number": 691
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "mentions",
+    "obj": "Pipeline_Executável",
+    "confidence": 0.75,
+    "source_module": 9,
+    "line_number": 693
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "mentions",
+    "obj": "Módulo_9_Finalizado",
+    "confidence": 0.75,
+    "source_module": 9,
+    "line_number": 697
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "imports",
+    "obj": "MinMaxScaler",
+    "confidence": 0.85,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "imports",
+    "obj": "numpy",
+    "confidence": 0.85,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "imports",
+    "obj": "sentence_transformers",
+    "confidence": 0.85,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "imports",
+    "obj": "rank_bm25",
+    "confidence": 0.85,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "imports",
+    "obj": "Server",
+    "confidence": 0.85,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "imports",
+    "obj": "Tool",
+    "confidence": 0.85,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "imports",
+    "obj": "json",
+    "confidence": 0.85,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "imports",
+    "obj": "SPARQLWrapper",
+    "confidence": 0.85,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "imports",
+    "obj": "StateGraph",
+    "confidence": 0.85,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_9",
+    "predicate": "imports",
+    "obj": "typing",
+    "confidence": 0.85,
+    "source_module": 9,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "mentions",
+    "obj": "Código_para_RAG_básico",
+    "confidence": 0.75,
+    "source_module": 10,
+    "line_number": 22
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "mentions",
+    "obj": "Retrieval_Quality",
+    "confidence": 0.75,
+    "source_module": 10,
+    "line_number": 23
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "mentions",
+    "obj": "Curva_de_aprendizado",
+    "confidence": 0.75,
+    "source_module": 10,
+    "line_number": 25
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "mentions",
+    "obj": "Production_RAG",
+    "confidence": 0.75,
+    "source_module": 10,
+    "line_number": 26
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "mentions",
+    "obj": "Agentes_complexos",
+    "confidence": 0.75,
+    "source_module": 10,
+    "line_number": 27
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "mentions",
+    "obj": "Chunking_strategies",
+    "confidence": 0.75,
+    "source_module": 10,
+    "line_number": 28
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "mentions",
+    "obj": "LangChain_Implementation",
+    "confidence": 0.75,
+    "source_module": 10,
+    "line_number": 440
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "mentions",
+    "obj": "LlamaIndex_Implementation",
+    "confidence": 0.75,
+    "source_module": 10,
+    "line_number": 442
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "mentions",
+    "obj": "SAP_HANA_Integration",
+    "confidence": 0.75,
+    "source_module": 10,
+    "line_number": 444
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "mentions",
+    "obj": "Performance_Benchmark",
+    "confidence": 0.75,
+    "source_module": 10,
+    "line_number": 446
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "mentions",
+    "obj": "Hybrid_Approach",
+    "confidence": 0.75,
+    "source_module": 10,
+    "line_number": 448
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "mentions",
+    "obj": "Métricas_RAGAS",
+    "confidence": 0.75,
+    "source_module": 10,
+    "line_number": 450
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "mentions",
+    "obj": "Módulo_10_Finalizado",
+    "confidence": 0.75,
+    "source_module": 10,
+    "line_number": 454
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "imports",
+    "obj": "PDFLoader",
+    "confidence": 0.85,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "imports",
+    "obj": "RecursiveCharacterTextSplitter",
+    "confidence": 0.85,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "imports",
+    "obj": "OpenAIEmbeddings",
+    "confidence": 0.85,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "imports",
+    "obj": "Chroma",
+    "confidence": 0.85,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "imports",
+    "obj": "RetrievalQA",
+    "confidence": 0.85,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "imports",
+    "obj": "ChatOpenAI",
+    "confidence": 0.85,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "imports",
+    "obj": "PromptTemplate",
+    "confidence": 0.85,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "imports",
+    "obj": "SimpleDirectoryReader",
+    "confidence": 0.85,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "imports",
+    "obj": "SentenceSplitter",
+    "confidence": 0.85,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "imports",
+    "obj": "OpenAIEmbedding",
+    "confidence": 0.85,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "imports",
+    "obj": "OpenAI",
+    "confidence": 0.85,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "imports",
+    "obj": "Document",
+    "confidence": 0.85,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "imports",
+    "obj": "hdbcli",
+    "confidence": 0.85,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_10",
+    "predicate": "imports",
+    "obj": "StateGraph",
+    "confidence": 0.85,
+    "source_module": 10,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "mentions",
+    "obj": "Data_Classification",
+    "confidence": 0.75,
+    "source_module": 11,
+    "line_number": 1025
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "mentions",
+    "obj": "Access_Control",
+    "confidence": 0.75,
+    "source_module": 11,
+    "line_number": 1027
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "mentions",
+    "obj": "Direitos_GDPR/LGPD",
+    "confidence": 0.75,
+    "source_module": 11,
+    "line_number": 1033
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "mentions",
+    "obj": "Consent_Management",
+    "confidence": 0.75,
+    "source_module": 11,
+    "line_number": 1035
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "mentions",
+    "obj": "Secure_RAG_Pipeline",
+    "confidence": 0.75,
+    "source_module": 11,
+    "line_number": 1037
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "mentions",
+    "obj": "Compliance_Metrics",
+    "confidence": 0.75,
+    "source_module": 11,
+    "line_number": 1039
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "mentions",
+    "obj": "Módulo_11_Finalizado",
+    "confidence": 0.75,
+    "source_module": 11,
+    "line_number": 1043
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "imports",
+    "obj": "enum",
+    "confidence": 0.85,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "imports",
+    "obj": "dataclasses",
+    "confidence": 0.85,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "imports",
+    "obj": "typing",
+    "confidence": 0.85,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "imports",
+    "obj": "hashlib",
+    "confidence": 0.85,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "imports",
+    "obj": "re",
+    "confidence": 0.85,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "imports",
+    "obj": "datetime",
+    "confidence": 0.85,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "imports",
+    "obj": "uuid",
+    "confidence": 0.85,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "imports",
+    "obj": "Fernet",
+    "confidence": 0.85,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "imports",
+    "obj": "hashes",
+    "confidence": 0.85,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "imports",
+    "obj": "PBKDF2",
+    "confidence": 0.85,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "imports",
+    "obj": "os",
+    "confidence": 0.85,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "imports",
+    "obj": "base64",
+    "confidence": 0.85,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "imports",
+    "obj": "json",
+    "confidence": 0.85,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "imports",
+    "obj": "csv",
+    "confidence": 0.85,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "imports",
+    "obj": "io",
+    "confidence": 0.85,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_11",
+    "predicate": "imports",
+    "obj": "pseudonymization_engine",
+    "confidence": 0.85,
+    "source_module": 11,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "mentions",
+    "obj": "Context_Precision",
+    "confidence": 0.75,
+    "source_module": 12,
+    "line_number": 1058
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "mentions",
+    "obj": "Context_Recall",
+    "confidence": 0.75,
+    "source_module": 12,
+    "line_number": 1060
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "mentions",
+    "obj": "RAGAS_Framework",
+    "confidence": 0.75,
+    "source_module": 12,
+    "line_number": 1052
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "mentions",
+    "obj": "Faithfulness_Scorer",
+    "confidence": 0.75,
+    "source_module": 12,
+    "line_number": 1054
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "mentions",
+    "obj": "Relevancy_Evaluator",
+    "confidence": 0.75,
+    "source_module": 12,
+    "line_number": 1056
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "mentions",
+    "obj": "Benchmarking_Framework",
+    "confidence": 0.75,
+    "source_module": 12,
+    "line_number": 1062
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "mentions",
+    "obj": "Continuous_Testing",
+    "confidence": 0.75,
+    "source_module": 12,
+    "line_number": 1066
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "mentions",
+    "obj": "Advanced_Metrics",
+    "confidence": 0.75,
+    "source_module": 12,
+    "line_number": 1068
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "mentions",
+    "obj": "Módulo_12_Finalizado",
+    "confidence": 0.75,
+    "source_module": 12,
+    "line_number": 1072
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "imports",
+    "obj": "typing",
+    "confidence": 0.85,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "imports",
+    "obj": "re",
+    "confidence": 0.85,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "imports",
+    "obj": "difflib",
+    "confidence": 0.85,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "imports",
+    "obj": "rank_bm25",
+    "confidence": 0.85,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "imports",
+    "obj": "cosine_similarity",
+    "confidence": 0.85,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "imports",
+    "obj": "numpy",
+    "confidence": 0.85,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "imports",
+    "obj": "sentence_transformers",
+    "confidence": 0.85,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "imports",
+    "obj": "dataclasses",
+    "confidence": 0.85,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "imports",
+    "obj": "json",
+    "confidence": 0.85,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "imports",
+    "obj": "datetime",
+    "confidence": 0.85,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_12",
+    "predicate": "imports",
+    "obj": "time",
+    "confidence": 0.85,
+    "source_module": 12,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "mentions",
+    "obj": "kwargs)_->_str:\n________\"\"\"Renderizar_template_com_variáveis\"\"\"\n________template_=_self.get_template(name)\n________if_not_template:\n____________raise_ValueError(f\"Template_'{name}'_não_encontrado\")\n________\n________return_template.template.format(",
+    "confidence": 0.75,
+    "source_module": 13,
+    "line_number": 551
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "mentions",
+    "obj": "Few-Shot_Learning",
+    "confidence": 0.75,
+    "source_module": 13,
+    "line_number": 986
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "mentions",
+    "obj": "In-Context_Learning",
+    "confidence": 0.75,
+    "source_module": 13,
+    "line_number": 988
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "mentions",
+    "obj": "Structured_Output",
+    "confidence": 0.75,
+    "source_module": 13,
+    "line_number": 990
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "mentions",
+    "obj": "Prompt_Templates",
+    "confidence": 0.75,
+    "source_module": 13,
+    "line_number": 992
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "mentions",
+    "obj": "A/B_Testing",
+    "confidence": 0.75,
+    "source_module": 13,
+    "line_number": 996
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "mentions",
+    "obj": "Quality_Checker",
+    "confidence": 0.75,
+    "source_module": 13,
+    "line_number": 998
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "mentions",
+    "obj": "Módulo_13_Finalizado",
+    "confidence": 0.75,
+    "source_module": 13,
+    "line_number": 1002
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "imports",
+    "obj": "re",
+    "confidence": 0.85,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "imports",
+    "obj": "typing",
+    "confidence": 0.85,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "imports",
+    "obj": "json",
+    "confidence": 0.85,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "imports",
+    "obj": "enum",
+    "confidence": 0.85,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "imports",
+    "obj": "dataclasses",
+    "confidence": 0.85,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_13",
+    "predicate": "imports",
+    "obj": "random",
+    "confidence": 0.85,
+    "source_module": 13,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "mentions",
+    "obj": "Fazer_Deploy",
+    "confidence": 0.75,
+    "source_module": 14,
+    "line_number": 10
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "mentions",
+    "obj": "state,\n____________\"category\":_category\n________}\n\n#_src/agents/supply_chain.py\nclass_SupplyChainAgent:\n____\"\"\"Especialista_em_supply_chain\"\"\"\n____\n____def___init__(self,_llm,_retriever):\n________self.llm_=_llm\n________self.retriever_=_retriever\n________self.logger_=_logging.getLogger(__name__)\n____\n____def_process(self,_state:_QueryState)_->_QueryState:\n________\"\"\"Processar_query_de_supply_chain\"\"\"\n________\n________#_Recuperar_documentos_relevantes\n________docs_=_self.retriever.query(state[\"query\"],_k=5)\n________context_=_\"\\n\".join([d[\"text\"]_for_d_in_docs])\n________\n________#_Gerar_resposta\n________prompt_=_f\"\"\"Você_é_especialista_em_supply_chain.\n\nCONTEXTO:\n{context}\n\nPERGUNTA:\n{state['query']}\n\nRESPONDA:_Baseado_no_contexto,_qual_é_a_resposta?\"\"\"\n________\n________response_=_self.llm.complete(prompt)\n________\n________self.logger.info(\"✅_Supply_Chain_Agent_processou_query\")\n________\n________return_{\n____________",
+    "confidence": 0.75,
+    "source_module": 14,
+    "line_number": 464
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "mentions",
+    "obj": "Projeto_End-to-End",
+    "confidence": 0.75,
+    "source_module": 14,
+    "line_number": 1038
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "mentions",
+    "obj": "Data_Preparation",
+    "confidence": 0.75,
+    "source_module": 14,
+    "line_number": 1040
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "mentions",
+    "obj": "API_REST",
+    "confidence": 0.75,
+    "source_module": 14,
+    "line_number": 1046
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "mentions",
+    "obj": "Production_Readiness",
+    "confidence": 0.75,
+    "source_module": 14,
+    "line_number": 1054
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "mentions",
+    "obj": "Módulo_14_Finalizado",
+    "confidence": 0.75,
+    "source_module": 14,
+    "line_number": 1058
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "pydantic_settings",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "typing",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "hdbcli",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "logging",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "settings",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "Document",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "OpenAIEmbedding",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "OpenAI",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "StorageContext",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "StateGraph",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "fastapi",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "JSONResponse",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "pydantic",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "time",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "datetime",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "RouterAgent",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "VectorRetriever",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "RAGASEvaluator",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "PerformanceMonitor",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "uvicorn",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "pytest",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "TestClient",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "app",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "requests",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "collections",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_14",
+    "predicate": "imports",
+    "obj": "prometheus_client",
+    "confidence": 0.85,
+    "source_module": 14,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "mentions",
+    "obj": "Build_vs_Buy",
+    "confidence": 0.75,
+    "source_module": 15,
+    "line_number": 785
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "mentions",
+    "obj": "Impact_Real",
+    "confidence": 0.75,
+    "source_module": 15,
+    "line_number": 789
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "mentions",
+    "obj": "Módulo_15_Finalizado",
+    "confidence": 0.75,
+    "source_module": 15,
+    "line_number": 793
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "imports",
+    "obj": "dataclasses",
+    "confidence": 0.85,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "imports",
+    "obj": "typing",
+    "confidence": 0.85,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "imports",
+    "obj": "functools",
+    "confidence": 0.85,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "imports",
+    "obj": "redis",
+    "confidence": 0.85,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "imports",
+    "obj": "asyncio",
+    "confidence": 0.85,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "imports",
+    "obj": "Alerter",
+    "confidence": 0.85,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "imports",
+    "obj": "enum",
+    "confidence": 0.85,
+    "source_module": 15,
+    "line_number": 0
+  },
+  {
+    "subject": "modulo_15",
+    "predicate": "imports",
+    "obj": "json",
+    "confidence": 0.85,
+    "source_module": 15,
+    "line_number": 0
+  }
+]

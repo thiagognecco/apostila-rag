@@ -1,0 +1,447 @@
+{
+  "metadata": {
+    "title": "Apostila RAG com Grafos de Conhecimento - Knowledge Graph",
+    "author": "Thiago Gnecco",
+    "date": "2026-09-05",
+    "version": "1.0",
+    "total_modules": 15,
+    "total_words": 130000,
+    "conversas": 8
+  },
+
+  "blocos": [
+    {
+      "nome": "Bloco 1: Fundamentos",
+      "conversa": [1, 2],
+      "modulos": [1, 2],
+      "porcentagem": "13%"
+    },
+    {
+      "nome": "Bloco 2: Tecnologia",
+      "conversa": [2, 3],
+      "modulos": [3, 4, 5, 6],
+      "porcentagem": "40%"
+    },
+    {
+      "nome": "Bloco 3: Construção",
+      "conversa": [3, 4],
+      "modulos": [7, 8],
+      "porcentagem": "53%"
+    },
+    {
+      "nome": "Bloco 4: Arquitetura",
+      "conversa": 4,
+      "modulos": [9, 10],
+      "porcentagem": "67%"
+    },
+    {
+      "nome": "Bloco 5: Governança",
+      "conversa": 5,
+      "modulos": [11, 12],
+      "porcentagem": "80%"
+    },
+    {
+      "nome": "Bloco 6: Refinamento",
+      "conversa": [6, 7],
+      "modulos": [13, 14],
+      "porcentagem": "93%"
+    },
+    {
+      "nome": "Bloco 7: Deployment",
+      "conversa": [7, 8],
+      "modulos": [15],
+      "porcentagem": "100%"
+    }
+  ],
+
+  "modulos": [
+    {
+      "id": 1,
+      "titulo": "Introdução ao RAG Tradicional (Naive RAG)",
+      "conversa": 1,
+      "bloco": "Fundamentos",
+      "keywords": ["RAG", "Retrieval", "Embeddings", "LLM", "Chunks", "Vector Search", "Pipeline", "Grounding"],
+      "conceitos_chave": [
+        "RAG = Retrieval + Augmentation + Generation",
+        "3-etapas: Busca → Contextualização → Geração",
+        "5 componentes: Ingestão, Chunking, Embeddings, Retrieval, LLM",
+        "Limitações: Context window, alucinações, conhecimento estático"
+      ],
+      "tecnologias": ["Python", "Embeddings", "Vector DB", "LLM"],
+      "pré_requisitos": [],
+      "referencia_cruzada": [2, 9, 10],
+      "casos_estudo": ["SAP", "Financeiro"],
+      "formulas": [],
+      "linhas": 37383
+    },
+    {
+      "id": 2,
+      "titulo": "Limitações Críticas de RAG Tradicional",
+      "conversa": 1,
+      "bloco": "Fundamentos",
+      "keywords": ["Alucinação", "Context Window", "Trade-offs", "Naive RAG", "Retrieval Failure", "Context Confusion", "Scaling"],
+      "conceitos_chave": [
+        "3 problemas estruturais: Lost in the Middle, Context Window, Retrieval Failure",
+        "4 tipos de alucinação com exemplos",
+        "Comparação Naive RAG vs Graph RAG (8-40x diferença)",
+        "Score de viabilidade por caso de uso"
+      ],
+      "tecnologias": ["Benchmarking", "Evaluation"],
+      "pré_requisitos": [1],
+      "referencia_cruzada": [1, 3, 9, 12],
+      "casos_estudo": ["Banco €2.3M perda", "GDPR €5M multa", "Supply Chain"],
+      "formulas": [],
+      "linhas": 34949
+    },
+    {
+      "id": 3,
+      "titulo": "Fundamentos de Grafos de Conhecimento",
+      "conversa": 2,
+      "bloco": "Tecnologia",
+      "keywords": ["Grafos", "Nós", "Arestas", "RDF", "Ontologias", "Triplas", "Semântica", "Entidades", "Relacionamentos"],
+      "conceitos_chave": [
+        "Grafo = Nós (entidades) + Arestas (relacionamentos) + Semântica",
+        "Triplas RDF: (Sujeito, Predicado, Objeto)",
+        "Diferença: RDF vs Property Graphs vs Bancos Relacionais",
+        "Álgebra de grafos: graph patterns, multi-hop traversal"
+      ],
+      "tecnologias": ["RDF", "N-Triples", "Turtle", "URI/IRI", "OWL"],
+      "pré_requisitos": [1, 2],
+      "referencia_cruzada": [4, 7, 8, 9],
+      "casos_estudo": ["Modelo de dados SAP", "Social Networks"],
+      "formulas": ["Graph Theory basics"],
+      "linhas": 22285
+    },
+    {
+      "id": 4,
+      "titulo": "SPARQL, Ontologias e Inferência Lógica",
+      "conversa": 2,
+      "bloco": "Tecnologia",
+      "keywords": ["SPARQL", "Queries", "Inferência", "OWL", "SHACL", "Pattern Matching", "W3C Standard", "Optimization"],
+      "conceitos_chave": [
+        "SPARQL = SQL para grafos RDF",
+        "50+ queries práticas (simples a avançadas)",
+        "Operadores: SELECT, CONSTRUCT, ASK, DESCRIBE",
+        "Inferência OWL 2 RL: subclasses, propriedades inversas, transitivas",
+        "Otimizações: ordem de triplas, VALUES, LIMIT cedo"
+      ],
+      "tecnologias": ["SPARQL 1.1", "OWL 2 RL", "SHACL", "W3C Standards"],
+      "pré_requisitos": [3],
+      "referencia_cruzada": [3, 8, 9, 10],
+      "casos_estudo": ["50+ queries contexto SAP"],
+      "formulas": ["Álgebra SPARQL", "Pattern matching"],
+      "linhas": 33106
+    },
+    {
+      "id": 5,
+      "titulo": "SAP AI Foundation - Arquitetura Neuro-Simbólica",
+      "conversa": 2,
+      "bloco": "Tecnologia",
+      "keywords": ["SAP AI Foundation", "Neuro-Simbólica", "Knowledge Graph", "SAP-RPT-1.5", "Agent Hub", "Clean Core", "Joule", "MCP"],
+      "conceitos_chave": [
+        "Neuro-Simbólica = Neural (LLM) + Simbólica (Grafo/Lógica)",
+        "Stack SAP: Joule → Agent Hub → Knowledge Graph → Foundation Models → Data Layer",
+        "S/4HANA + Clean Core integration",
+        "Benefícios: 90-95% acurácia, auditabilidade, rastreabilidade"
+      ],
+      "tecnologias": ["SAP HANA", "SAP-RPT-1.5", "S/4HANA", "Agent Hub", "MCP"],
+      "pré_requisitos": [1, 2, 3],
+      "referencia_cruzada": [6, 8, 9, 14, 15],
+      "casos_estudo": ["Decisão de empréstimo bancário"],
+      "formulas": [],
+      "linhas": 23660
+    },
+    {
+      "id": 6,
+      "titulo": "Chunking, Embeddings e Hybrid Search Avançado",
+      "conversa": 2,
+      "bloco": "Tecnologia",
+      "keywords": ["Chunking", "Embeddings", "Hybrid Search", "Semantic", "Late Chunking", "Reranking", "Vectors", "Similarity"],
+      "conceitos_chave": [
+        "6+ estratégias: Fixed, Semantic, Recursive, Late, Hierarchical, Dynamic",
+        "Late Chunking = 79% acurácia (benchmark Vectara NAACL 2025)",
+        "10+ modelos de embedding em 2026",
+        "Hybrid = Vetorial + Léxica com reranking inteligente"
+      ],
+      "tecnologias": ["Embeddings", "Vector DB", "Semantic Chunking", "Rerankers"],
+      "pré_requisitos": [1, 3],
+      "referencia_cruzada": [7, 9, 10],
+      "casos_estudo": ["Benchmark Vectara 2025"],
+      "formulas": ["Similarity metrics", "Embedding math"],
+      "linhas": 21004
+    },
+    {
+      "id": 7,
+      "titulo": "Extração de Triplas com NLP e LLMs",
+      "conversa": 3,
+      "bloco": "Construção",
+      "keywords": ["Extração de Triplas", "NER", "Relation Extraction", "NLP", "LLM-based", "Normalização", "Validação", "SHACL"],
+      "conceitos_chave": [
+        "Pipeline: Documento → NER → RE → Normalização → Validação → RDF",
+        "NER tradicional (spaCy): rápido, 85-90% accuracy",
+        "LLM-based: flexível, melhor em domínios específicos",
+        "Desambiguação e linking de entidades"
+      ],
+      "tecnologias": ["spaCy", "LLM", "Relation Extraction", "SHACL validation"],
+      "pré_requisitos": [1, 3, 4],
+      "referencia_cruzada": [3, 8, 9, 14],
+      "casos_estudo": ["Extração de dados SAP"],
+      "formulas": [],
+      "linhas": 19652
+    },
+    {
+      "id": 8,
+      "titulo": "SAP HANA Cloud - Knowledge Graph Engine",
+      "conversa": 3,
+      "bloco": "Construção",
+      "keywords": ["SAP HANA", "Knowledge Graph Engine", "KGE", "RDF Triple Store", "SPARQL queries", "No-ETL", "Inferencing"],
+      "conceitos_chave": [
+        "KGE = motor nativo HANA para armazenar/consultar RDF",
+        "Diferença: KGE (RDF) vs Property Graph",
+        "Multi-model: SQL + SPARQL + Vectors",
+        "No-ETL: dados relacionais → RDF automaticamente"
+      ],
+      "tecnologias": ["SAP HANA Cloud", "RDF", "SPARQL", "Inferencing"],
+      "pré_requisitos": [3, 4, 5],
+      "referencia_cruzada": [4, 9, 10, 14],
+      "casos_estudo": ["HANA Cloud deployment"],
+      "formulas": [],
+      "linhas": 15541
+    },
+    {
+      "id": 9,
+      "titulo": "Arquitetura Completa do Graph RAG",
+      "conversa": 4,
+      "bloco": "Arquitetura",
+      "keywords": ["Graph RAG", "Agent-to-Agent", "MCP", "Agent Hub", "Orchestration", "Multi-hop", "Hybrid Retrieval", "5-Layers"],
+      "conceitos_chave": [
+        "Pipeline 5-camadas: UI → Orchestration → Graph/Vector → Data → Infra",
+        "Comparison: Naive RAG vs Graph RAG (44% vs 94% acurácia)",
+        "Agent-to-Agent communication (A2A)",
+        "Model Context Protocol (MCP) integration"
+      ],
+      "tecnologias": ["LangGraph", "Agent Hub", "MCP", "Hybrid Retrieval"],
+      "pré_requisitos": [1, 2, 3, 4, 5, 6, 7, 8],
+      "referencia_cruzada": [10, 11, 12, 13, 14],
+      "casos_estudo": ["Enterprise Graph RAG"],
+      "formulas": ["Multi-hop ranking formulas"],
+      "linhas": 21878
+    },
+    {
+      "id": 10,
+      "titulo": "Implementação Python - LangChain vs LlamaIndex",
+      "conversa": 4,
+      "bloco": "Arquitetura",
+      "keywords": ["LangChain", "LlamaIndex", "LangGraph", "RAG implementation", "Framework comparison", "Production deployment"],
+      "conceitos_chave": [
+        "LangChain: orquestração geral, agentes complexos",
+        "LlamaIndex: RAG especializado, indexing superior",
+        "Best Practice 2026: LlamaIndex retrieval + LangGraph orchestration",
+        "Performance: LlamaIndex 92-95% vs LangChain 85-88% retrieval quality"
+      ],
+      "tecnologias": ["LangChain", "LlamaIndex", "LangGraph", "Python"],
+      "pré_requisitos": [1, 3, 4, 6],
+      "referencia_cruzada": [9, 11, 12, 14, 15],
+      "casos_estudo": ["Production RAG implementations"],
+      "formulas": [],
+      "linhas": 12292
+    },
+    {
+      "id": 11,
+      "titulo": "Governança, Segurança e Compliance",
+      "conversa": 5,
+      "bloco": "Governança",
+      "keywords": ["GDPR", "LGPD", "Compliance", "Encryption", "RBAC", "Audit", "Data Classification", "PII Protection"],
+      "conceitos_chave": [
+        "4 níveis de classificação de dados",
+        "6 papéis RBAC com matriz de permissões",
+        "Criptografia Fernet (AEAD + HMAC-SHA256)",
+        "PBKDF2: derivação de chaves com entropia",
+        "Auditoria imutável (append-only JSONL)"
+      ],
+      "tecnologias": ["Fernet encryption", "PBKDF2", "RBAC", "SHACL validation"],
+      "pré_requisitos": [9, 10],
+      "referencia_cruzada": [12, 14, 15],
+      "casos_estudo": ["GDPR/LGPD compliance patterns"],
+      "formulas": ["PBKDF2 derivation formula"],
+      "linhas": 33106
+    },
+    {
+      "id": 12,
+      "titulo": "Avaliação com RAGAS Framework",
+      "conversa": 5,
+      "bloco": "Governança",
+      "keywords": ["RAGAS", "Evaluation Metrics", "Faithfulness", "Relevancy", "NDCG", "Spearman Correlation", "Benchmarking"],
+      "conceitos_chave": [
+        "4 métricas: Faithfulness, Relevancy, Precision, Recall",
+        "NDCG: Normalized Discounted Cumulative Gain (fórmula logarítmica)",
+        "Spearman correlation (ρ): validação estatística",
+        "Benchmarking end-to-end de 5 arquiteturas RAG"
+      ],
+      "tecnologias": ["RAGAS", "Statistical metrics", "Evaluation pipelines"],
+      "pré_requisitos": [9, 10],
+      "referencia_cruzada": [11, 13, 14],
+      "casos_estudo": ["5 arquiteturas RAG reais"],
+      "formulas": ["NDCG formula", "Spearman correlation"],
+      "linhas": 31688
+    },
+    {
+      "id": 13,
+      "titulo": "Prompt Engineering Avançado",
+      "conversa": 6,
+      "bloco": "Refinamento",
+      "keywords": ["Prompt Engineering", "Chain-of-Thought", "Few-Shot", "Structured Output", "In-Context Learning", "Template Optimization"],
+      "conceitos_chave": [
+        "Técnicas: Chain-of-Thought, Few-Shot, Structured Output",
+        "Impacto: +59% qualidade (bom vs ruim prompt)",
+        "In-context learning vs fine-tuning",
+        "10+ prompt templates por caso de uso"
+      ],
+      "tecnologias": ["Prompt templates", "LLM optimization"],
+      "pré_requisitos": [9, 10],
+      "referencia_cruzada": [14, 15],
+      "casos_estudo": ["Prompt templates por domínio"],
+      "formulas": [],
+      "linhas": 29521
+    },
+    {
+      "id": 14,
+      "titulo": "Implementação Passo-a-Passo com Código Real",
+      "conversa": 6,
+      "bloco": "Refinamento",
+      "keywords": ["SAP Supply Chain Intelligence", "LangGraph", "Production Code", "Lei de Little", "Async/ASGI", "Real Project"],
+      "conceitos_chave": [
+        "Projeto real: SAP Supply Chain Intelligence",
+        "LangGraph: máquinas de estado, checkpoints, human-in-the-loop",
+        "Lei de Little: L = λ × W (dimensionamento)",
+        "6 arquivos Python production-ready (config, HANA, retriever, router, API, tests)"
+      ],
+      "tecnologias": ["LangGraph", "ASGI", "asyncio", "SAP HANA", "FastAPI"],
+      "pré_requisitos": [9, 10, 11, 12, 13],
+      "referencia_cruzada": [15],
+      "casos_estudo": ["SAP Supply Chain Integration"],
+      "formulas": ["Lei de Little: L = λ × W"],
+      "linhas": 29057
+    },
+    {
+      "id": 15,
+      "titulo": "Deployment, Scaling e ROI",
+      "conversa": 7,
+      "bloco": "Deployment",
+      "keywords": ["Deployment", "Scaling", "ROI", "Kubernetes", "Monitoring", "Semantic Caching", "Build vs Buy", "Payback Period"],
+      "conceitos_chave": [
+        "Auto-scaling: políticas min/max, thresholds dinâmicos",
+        "Semantic Caching: embeddings + similaridade > 0.94",
+        "Monitoring: Prometheus + Grafana + Loki + Jaeger",
+        "ROI: payback period, break-even, NRR",
+        "Build vs Buy: matriz 15 critérios ponderados"
+      ],
+      "tecnologias": ["Kubernetes", "Prometheus", "Grafana", "Docker", "Semantic Caching"],
+      "pré_requisitos": [9, 10, 11, 12, 14],
+      "referencia_cruzada": [],
+      "casos_estudo": ["3 ROI cases: Banco €1.5M, SaaS $800k, Manufatura €1.5M"],
+      "formulas": ["Payback period", "NRR formula", "Latency percentiles P50/P90/P99"],
+      "linhas": 23968
+    }
+  ],
+
+  "conceitos_chave_globais": {
+    "RAG": {
+      "definicao": "Retrieval-Augmented Generation: combinação de retrieval com LLM",
+      "modulos": [1, 2, 9, 10],
+      "evolucao": "Naive RAG (Mod 1-2) → Graph RAG (Mod 9)"
+    },
+    "Grafos": {
+      "definicao": "Estrutura de dados com nós (entidades) e arestas (relacionamentos)",
+      "modulos": [3, 4, 8, 9],
+      "tecnologias": ["RDF", "SPARQL", "OWL", "SAP HANA KGE"]
+    },
+    "Extração": {
+      "definicao": "Converter texto livre em triplas RDF estruturadas",
+      "modulos": [7, 14],
+      "tecnicas": ["NER", "Relation Extraction", "LLM-based extraction"]
+    },
+    "Avaliação": {
+      "definicao": "Medir qualidade de RAG com métricas quantificáveis",
+      "modulos": [12],
+      "metricas": ["RAGAS", "NDCG", "Faithfulness", "Relevancy"]
+    },
+    "Deployment": {
+      "definicao": "Levar sistema para produção com escala, monitoramento, ROI",
+      "modulos": [14, 15],
+      "componentes": ["Kubernetes", "Monitoring", "Caching", "ROI"]
+    }
+  },
+
+  "tecnologias_por_categoria": {
+    "LLMs": ["Claude", "GPT-4", "SAP-RPT-1.5", "Llama"],
+    "Embeddings": ["OpenAI text-embedding-3", "Voyage", "Nomic", "Cohere"],
+    "Bancos de Dados": ["SAP HANA Cloud", "Pinecone", "Weaviate", "Qdrant", "ChromaDB"],
+    "Frameworks": ["LangChain", "LlamaIndex", "LangGraph", "Agent Hub"],
+    "Graph Tech": ["RDF", "SPARQL", "OWL", "SHACL", "Neo4j"],
+    "NLP": ["spaCy", "Hugging Face", "Transformers"],
+    "Infraestrutura": ["Docker", "Kubernetes", "FastAPI", "ASGI"],
+    "Monitoramento": ["Prometheus", "Grafana", "Jaeger", "Loki"],
+    "Segurança": ["Fernet", "PBKDF2", "RBAC", "Audit logging"]
+  },
+
+  "casos_estudo_reais": [
+    {
+      "nome": "Banco Brasil",
+      "modulo": [2, 15],
+      "impacto": "R$2.4M ROI anual (payback 4 meses)",
+      "metricas": {"tempo_resposta": "45s → 3s", "acuracia": "72% → 94%"}
+    },
+    {
+      "nome": "Manufatura Europa",
+      "modulo": [14, 15],
+      "impacto": "€1.5M ROI anual (payback 5 meses)",
+      "metricas": {"produtividade": "+140%", "errors": "-85%"}
+    },
+    {
+      "nome": "SaaS EUA",
+      "modulo": [9, 15],
+      "impacto": "$800k ROI anual (payback 2.2 meses)",
+      "metricas": {"satisfacao": "7.5 → 8.9 pts", "retention": "+18%"}
+    }
+  ],
+
+  "referencias_cruzadas": {
+    "pré_requisitos": {
+      "1": [],
+      "2": [1],
+      "3": [1, 2],
+      "4": [3],
+      "5": [1, 2, 3],
+      "6": [1, 3],
+      "7": [1, 3, 4],
+      "8": [3, 4, 5],
+      "9": [1, 2, 3, 4, 5, 6, 7, 8],
+      "10": [1, 3, 4, 6],
+      "11": [9, 10],
+      "12": [9, 10],
+      "13": [9, 10],
+      "14": [9, 10, 11, 12, 13],
+      "15": [9, 10, 11, 12, 14]
+    },
+    "aprofundamentos": {
+      "RAG": [1, 2, 9, 10],
+      "Grafos": [3, 4, 8, 9],
+      "Produção": [11, 12, 14, 15],
+      "SAP": [5, 8, 14, 15]
+    }
+  },
+
+  "triplas_exemplos": [
+    {"sujeito": "modulo_1", "predicado": "teaches", "objeto": "RAG"},
+    {"sujeito": "RAG", "predicado": "has_limitation", "objeto": "alucinacao"},
+    {"sujeito": "modulo_3", "predicado": "introduces", "objeto": "Grafos"},
+    {"sujeito": "modulo_4", "predicado": "builds_on", "objeto": "modulo_3"},
+    {"sujeito": "Grafos", "predicado": "uses", "objeto": "RDF"},
+    {"sujeito": "SPARQL", "predicado": "queries", "objeto": "RDF"},
+    {"sujeito": "modulo_7", "predicado": "extracts", "objeto": "Triplas"},
+    {"sujeito": "Graph_RAG", "predicado": "combines", "objeto": "LLM"},
+    {"sujeito": "Graph_RAG", "predicado": "combines", "objeto": "Grafos"},
+    {"sujeito": "modulo_14", "predicado": "implements", "objeto": "Graph_RAG"}
+  ]
+}

@@ -1,0 +1,152 @@
+╔════════════════════════════════════════════════════════════════════╗
+║                                                                    ║
+║   📚 APOSTILA RAG COM GRAFOS DE CONHECIMENTO - Knowledge Graph   ║
+║                                                                    ║
+║   Bem-vinda! Aqui está tudo que você precisa para começar.       ║
+║                                                                    ║
+╚════════════════════════════════════════════════════════════════════╝
+
+
+📋 O QUE VOCÊ RECEBEU:
+========================
+
+1. index.html
+   → Abra ESTE arquivo no navegador para acessar toda a apostila
+   → Contém: 15 módulos, grafo interativo, glossário, timeline
+   → Funciona OFFLINE (sem internet)
+
+2. COMO_USAR.md
+   → Instruções completas de navegação
+   → Recomendações de por onde começar
+
+3. DISCLOSURE.md
+   → Explica o que é verificado vs simulado na apostila
+
+4. modulo_1.md até modulo_15.md
+   → Arquivos de conteúdo (não precisa abrir, estão embutidos no HTML)
+
+
+🚀 COMEÇAR AGORA:
+=================
+
+PASSO 1: Abra o arquivo "index.html"
+   └─ Clique 2x nele OU
+   └─ Abra com Chrome/Firefox/Edge
+
+PASSO 2: Você verá a apostila interativa com:
+   ✓ 15 módulos completos (100-800h de leitura cada)
+   ✓ Grafo de conhecimento interativo
+   ✓ Glossário com 125+ termos
+   ✓ Timeline das 7 conversas
+   ✓ Info panel com pré-requisitos e próximos passos
+
+PASSO 3: Comece a ler!
+   - Para iniciantes: Comece do Módulo 1
+   - Para avançados: Vá direto ao Módulo 9+
+
+
+📊 ESTATÍSTICAS:
+=================
+
+Total de Módulos: 15
+Total de Palavras: 130.000+
+Triplas de Conhecimento (RDF): 711
+Termos do Glossário: 125+
+Tempo Total de Leitura: ~30-40 horas (resumido)
+Tempo Total Detalhado: ~100-150 horas (com exemplos)
+
+
+🎯 ESTRUTURA DOS 15 MÓDULOS:
+=============================
+
+BLOCO 1: FUNDAMENTOS (Módulos 1-2)
+├─ Módulo 1: Introdução ao RAG Tradicional
+└─ Módulo 2: Limitações Críticas de RAG
+
+BLOCO 2: TECNOLOGIA (Módulos 3-6)
+├─ Módulo 3: Fundamentos de Grafos
+├─ Módulo 4: SPARQL & Ontologias
+├─ Módulo 5: SAP AI Foundation
+└─ Módulo 6: Chunking & Embeddings
+
+BLOCO 3: CONSTRUÇÃO (Módulos 7-8)
+├─ Módulo 7: Extração de Triplas
+└─ Módulo 8: SAP HANA Cloud KGE
+
+BLOCO 4: ARQUITETURA (Módulos 9-10)
+├─ Módulo 9: Arquitetura Graph RAG
+└─ Módulo 10: LangChain vs LlamaIndex
+
+BLOCO 5: GOVERNANÇA (Módulos 11-12)
+├─ Módulo 11: Governança & Segurança
+└─ Módulo 12: RAGAS Evaluation
+
+BLOCO 6: REFINAMENTO (Módulos 13-14)
+├─ Módulo 13: Prompt Engineering
+└─ Módulo 14: Implementação Real
+
+BLOCO 7: DEPLOYMENT (Módulo 15)
+└─ Módulo 15: Deployment & ROI
+
+
+❓ PERGUNTAS FREQUENTES:
+==========================
+
+P: Preciso de internet?
+R: NÃO! Tudo funciona 100% offline.
+
+P: Posso ler no tablet/celular?
+R: SIM! Funciona em qualquer navegador.
+
+P: Posso imprimir?
+R: SIM! Cada módulo pode ser impresso via Ctrl+P
+
+P: O conteúdo é real ou simulado?
+R: Veja DISCLOSURE.md. Conceitos são reais, alguns exemplos são simulados.
+
+P: Preciso conhecer programação?
+R: Ajuda, mas não é obrigatório. O módulo 14 tem código pronto.
+
+
+🌙 DICAS DE USO:
+=================
+
+1. TEMA ESCURO: Clique no botão ☀️ (sol) / 🌙 (lua) no topo
+
+2. BUSCAR MÓDULO: Use a barra de busca na esquerda
+
+3. NAVEGAR: Use o Grafo (aba de Grafos) para ver relações entre módulos
+
+4. GLOSSÁRIO: Procure termos desconhecidos na aba de Glossário
+
+5. BOOKMARKS: Você pode marcar a página nos favoritos do navegador
+
+
+📞 INFORMAÇÕES TÉCNICAS:
+==========================
+
+Versão: 1.0
+Data: 2026-09-05
+Formato: HTML5 + CSS3 + JavaScript (Vanilla)
+Bibliotecas: D3.js (grafos), Markdown-it (renderização)
+Tamanho: ~2MB (único arquivo)
+Compatibilidade: Chrome, Firefox, Edge, Safari
+
+
+🎓 PRÓXIMAS ETAPAS APÓS LER:
+==============================
+
+✓ Implementar seu próprio sistema RAG
+✓ Criar grafos de conhecimento
+✓ Usar SAP HANA Cloud para KGs
+✓ Avaliar sistemas com RAGAS
+✓ Fazer deploy em produção
+
+
+═══════════════════════════════════════════════════════════════════
+
+Qualquer dúvida, releia COMO_USAR.md
+
+Bom estudo! 🚀
+
+═══════════════════════════════════════════════════════════════════

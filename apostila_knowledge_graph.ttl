@@ -1,0 +1,946 @@
+@prefix ex: <http://example.com/apostila/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+# Knowledge Graph da Apostila RAG com Grafos de Conhecimento
+# Gerado automaticamente via extract_knowledge_graph.py
+
+ex:modulo_1 ex:teaches ex:RAG . # confidence: 0.95
+ex:modulo_1 ex:teaches ex:Retrieval . # confidence: 0.95
+ex:modulo_1 ex:teaches ex:Embeddings . # confidence: 0.95
+ex:modulo_1 ex:teaches ex:LLM . # confidence: 0.95
+ex:modulo_1 ex:teaches ex:Chunks . # confidence: 0.95
+ex:modulo_1 ex:teaches ex:Vector Search . # confidence: 0.95
+ex:modulo_1 ex:teaches ex:Pipeline . # confidence: 0.95
+ex:modulo_1 ex:teaches ex:Grounding . # confidence: 0.95
+ex:modulo_1 ex:has_topic ex:RAG_=_Retrieval_+_Augmentation_+_Generation . # confidence: 0.9
+ex:modulo_1 ex:has_topic ex:3-etapas . # confidence: 0.9
+ex:modulo_1 ex:has_topic ex:5_componentes . # confidence: 0.9
+ex:modulo_1 ex:references ex:modulo_2 . # confidence: 0.85
+ex:modulo_1 ex:references ex:modulo_9 . # confidence: 0.85
+ex:modulo_1 ex:references ex:modulo_10 . # confidence: 0.85
+ex:modulo_1 ex:uses ex:Python . # confidence: 0.9
+ex:modulo_1 ex:uses ex:Embeddings . # confidence: 0.9
+ex:modulo_1 ex:is_part_of ex:Fundamentos . # confidence: 0.95
+ex:modulo_2 ex:teaches ex:Alucinação . # confidence: 0.95
+ex:modulo_2 ex:teaches ex:Context Window . # confidence: 0.95
+ex:modulo_2 ex:teaches ex:Trade-offs . # confidence: 0.95
+ex:modulo_2 ex:teaches ex:Naive RAG . # confidence: 0.95
+ex:modulo_2 ex:teaches ex:Retrieval Failure . # confidence: 0.95
+ex:modulo_2 ex:teaches ex:Context Confusion . # confidence: 0.95
+ex:modulo_2 ex:teaches ex:Scaling . # confidence: 0.95
+ex:modulo_2 ex:has_topic ex:3_problemas_estruturais . # confidence: 0.9
+ex:modulo_2 ex:has_topic ex:4_tipos_de_alucinação_com_exemplos . # confidence: 0.9
+ex:modulo_2 ex:has_topic ex:Comparação_Naive_RAG_vs_Graph_RAG_(8-40x_diferença) . # confidence: 0.9
+ex:modulo_2 ex:requires ex:modulo_1 . # confidence: 0.95
+ex:modulo_2 ex:references ex:modulo_1 . # confidence: 0.85
+ex:modulo_2 ex:references ex:modulo_3 . # confidence: 0.85
+ex:modulo_2 ex:references ex:modulo_9 . # confidence: 0.85
+ex:modulo_2 ex:uses ex:Benchmarking . # confidence: 0.9
+ex:modulo_2 ex:uses ex:Evaluation . # confidence: 0.9
+ex:modulo_2 ex:is_part_of ex:Fundamentos . # confidence: 0.95
+ex:modulo_3 ex:teaches ex:Grafos . # confidence: 0.95
+ex:modulo_3 ex:teaches ex:Nós . # confidence: 0.95
+ex:modulo_3 ex:teaches ex:Arestas . # confidence: 0.95
+ex:modulo_3 ex:teaches ex:RDF . # confidence: 0.95
+ex:modulo_3 ex:teaches ex:Ontologias . # confidence: 0.95
+ex:modulo_3 ex:teaches ex:Triplas . # confidence: 0.95
+ex:modulo_3 ex:teaches ex:Semântica . # confidence: 0.95
+ex:modulo_3 ex:teaches ex:Entidades . # confidence: 0.95
+ex:modulo_3 ex:teaches ex:Relacionamentos . # confidence: 0.95
+ex:modulo_3 ex:has_topic ex:Grafo_=_Nós_(entidades)_+_Arestas_(relacionamentos)_+_Semântica . # confidence: 0.9
+ex:modulo_3 ex:has_topic ex:Triplas_RDF . # confidence: 0.9
+ex:modulo_3 ex:has_topic ex:Diferença . # confidence: 0.9
+ex:modulo_3 ex:requires ex:modulo_1 . # confidence: 0.95
+ex:modulo_3 ex:requires ex:modulo_2 . # confidence: 0.95
+ex:modulo_3 ex:references ex:modulo_4 . # confidence: 0.85
+ex:modulo_3 ex:references ex:modulo_7 . # confidence: 0.85
+ex:modulo_3 ex:references ex:modulo_8 . # confidence: 0.85
+ex:modulo_3 ex:uses ex:RDF . # confidence: 0.9
+ex:modulo_3 ex:uses ex:N-Triples . # confidence: 0.9
+ex:modulo_3 ex:is_part_of ex:Tecnologia . # confidence: 0.95
+ex:modulo_4 ex:teaches ex:SPARQL . # confidence: 0.95
+ex:modulo_4 ex:teaches ex:Queries . # confidence: 0.95
+ex:modulo_4 ex:teaches ex:Inferência . # confidence: 0.95
+ex:modulo_4 ex:teaches ex:OWL . # confidence: 0.95
+ex:modulo_4 ex:teaches ex:SHACL . # confidence: 0.95
+ex:modulo_4 ex:teaches ex:Pattern Matching . # confidence: 0.95
+ex:modulo_4 ex:teaches ex:W3C Standard . # confidence: 0.95
+ex:modulo_4 ex:teaches ex:Optimization . # confidence: 0.95
+ex:modulo_4 ex:has_topic ex:SPARQL_=_SQL_para_grafos_RDF . # confidence: 0.9
+ex:modulo_4 ex:has_topic ex:50+_queries_práticas_(simples_a_avançadas) . # confidence: 0.9
+ex:modulo_4 ex:has_topic ex:Operadores . # confidence: 0.9
+ex:modulo_4 ex:requires ex:modulo_3 . # confidence: 0.95
+ex:modulo_4 ex:references ex:modulo_3 . # confidence: 0.85
+ex:modulo_4 ex:references ex:modulo_8 . # confidence: 0.85
+ex:modulo_4 ex:references ex:modulo_9 . # confidence: 0.85
+ex:modulo_4 ex:uses ex:SPARQL 1.1 . # confidence: 0.9
+ex:modulo_4 ex:uses ex:OWL 2 RL . # confidence: 0.9
+ex:modulo_4 ex:is_part_of ex:Tecnologia . # confidence: 0.95
+ex:modulo_5 ex:teaches ex:SAP AI Foundation . # confidence: 0.95
+ex:modulo_5 ex:teaches ex:Neuro-Simbólica . # confidence: 0.95
+ex:modulo_5 ex:teaches ex:Knowledge Graph . # confidence: 0.95
+ex:modulo_5 ex:teaches ex:SAP-RPT-1.5 . # confidence: 0.95
+ex:modulo_5 ex:teaches ex:Agent Hub . # confidence: 0.95
+ex:modulo_5 ex:teaches ex:Clean Core . # confidence: 0.95
+ex:modulo_5 ex:teaches ex:Joule . # confidence: 0.95
+ex:modulo_5 ex:teaches ex:MCP . # confidence: 0.95
+ex:modulo_5 ex:has_topic ex:Neuro-Simbólica_=_Neural_(LLM)_+_Simbólica_(Grafo/Lógica) . # confidence: 0.9
+ex:modulo_5 ex:has_topic ex:Stack_SAP . # confidence: 0.9
+ex:modulo_5 ex:has_topic ex:S/4HANA_+_Clean_Core_integration . # confidence: 0.9
+ex:modulo_5 ex:requires ex:modulo_1 . # confidence: 0.95
+ex:modulo_5 ex:requires ex:modulo_2 . # confidence: 0.95
+ex:modulo_5 ex:requires ex:modulo_3 . # confidence: 0.95
+ex:modulo_5 ex:references ex:modulo_6 . # confidence: 0.85
+ex:modulo_5 ex:references ex:modulo_8 . # confidence: 0.85
+ex:modulo_5 ex:references ex:modulo_9 . # confidence: 0.85
+ex:modulo_5 ex:uses ex:SAP HANA . # confidence: 0.9
+ex:modulo_5 ex:uses ex:SAP-RPT-1.5 . # confidence: 0.9
+ex:modulo_5 ex:is_part_of ex:Tecnologia . # confidence: 0.95
+ex:modulo_6 ex:teaches ex:Chunking . # confidence: 0.95
+ex:modulo_6 ex:teaches ex:Embeddings . # confidence: 0.95
+ex:modulo_6 ex:teaches ex:Hybrid Search . # confidence: 0.95
+ex:modulo_6 ex:teaches ex:Semantic . # confidence: 0.95
+ex:modulo_6 ex:teaches ex:Late Chunking . # confidence: 0.95
+ex:modulo_6 ex:teaches ex:Reranking . # confidence: 0.95
+ex:modulo_6 ex:teaches ex:Vectors . # confidence: 0.95
+ex:modulo_6 ex:teaches ex:Similarity . # confidence: 0.95
+ex:modulo_6 ex:has_topic ex:6+_estratégias . # confidence: 0.9
+ex:modulo_6 ex:has_topic ex:Late_Chunking_=_79%_acurácia_(benchmark_Vectara_NAACL_2025) . # confidence: 0.9
+ex:modulo_6 ex:has_topic ex:10+_modelos_de_embedding_em_2026 . # confidence: 0.9
+ex:modulo_6 ex:requires ex:modulo_1 . # confidence: 0.95
+ex:modulo_6 ex:requires ex:modulo_3 . # confidence: 0.95
+ex:modulo_6 ex:references ex:modulo_7 . # confidence: 0.85
+ex:modulo_6 ex:references ex:modulo_9 . # confidence: 0.85
+ex:modulo_6 ex:references ex:modulo_10 . # confidence: 0.85
+ex:modulo_6 ex:uses ex:Embeddings . # confidence: 0.9
+ex:modulo_6 ex:uses ex:Vector DB . # confidence: 0.9
+ex:modulo_6 ex:is_part_of ex:Tecnologia . # confidence: 0.95
+ex:modulo_7 ex:teaches ex:Extração de Triplas . # confidence: 0.95
+ex:modulo_7 ex:teaches ex:NER . # confidence: 0.95
+ex:modulo_7 ex:teaches ex:Relation Extraction . # confidence: 0.95
+ex:modulo_7 ex:teaches ex:NLP . # confidence: 0.95
+ex:modulo_7 ex:teaches ex:LLM-based . # confidence: 0.95
+ex:modulo_7 ex:teaches ex:Normalização . # confidence: 0.95
+ex:modulo_7 ex:teaches ex:Validação . # confidence: 0.95
+ex:modulo_7 ex:teaches ex:SHACL . # confidence: 0.95
+ex:modulo_7 ex:has_topic ex:Pipeline . # confidence: 0.9
+ex:modulo_7 ex:has_topic ex:NER_tradicional_(spaCy) . # confidence: 0.9
+ex:modulo_7 ex:has_topic ex:LLM-based . # confidence: 0.9
+ex:modulo_7 ex:requires ex:modulo_1 . # confidence: 0.95
+ex:modulo_7 ex:requires ex:modulo_3 . # confidence: 0.95
+ex:modulo_7 ex:requires ex:modulo_4 . # confidence: 0.95
+ex:modulo_7 ex:references ex:modulo_3 . # confidence: 0.85
+ex:modulo_7 ex:references ex:modulo_8 . # confidence: 0.85
+ex:modulo_7 ex:references ex:modulo_9 . # confidence: 0.85
+ex:modulo_7 ex:uses ex:spaCy . # confidence: 0.9
+ex:modulo_7 ex:uses ex:LLM . # confidence: 0.9
+ex:modulo_7 ex:is_part_of ex:Construção . # confidence: 0.95
+ex:modulo_8 ex:teaches ex:SAP HANA . # confidence: 0.95
+ex:modulo_8 ex:teaches ex:Knowledge Graph Engine . # confidence: 0.95
+ex:modulo_8 ex:teaches ex:KGE . # confidence: 0.95
+ex:modulo_8 ex:teaches ex:RDF Triple Store . # confidence: 0.95
+ex:modulo_8 ex:teaches ex:SPARQL queries . # confidence: 0.95
+ex:modulo_8 ex:teaches ex:No-ETL . # confidence: 0.95
+ex:modulo_8 ex:teaches ex:Inferencing . # confidence: 0.95
+ex:modulo_8 ex:has_topic ex:KGE_=_motor_nativo_HANA_para_armazenar/consultar_RDF . # confidence: 0.9
+ex:modulo_8 ex:has_topic ex:Diferença . # confidence: 0.9
+ex:modulo_8 ex:has_topic ex:Multi-model . # confidence: 0.9
+ex:modulo_8 ex:requires ex:modulo_3 . # confidence: 0.95
+ex:modulo_8 ex:requires ex:modulo_4 . # confidence: 0.95
+ex:modulo_8 ex:requires ex:modulo_5 . # confidence: 0.95
+ex:modulo_8 ex:references ex:modulo_4 . # confidence: 0.85
+ex:modulo_8 ex:references ex:modulo_9 . # confidence: 0.85
+ex:modulo_8 ex:references ex:modulo_10 . # confidence: 0.85
+ex:modulo_8 ex:uses ex:SAP HANA Cloud . # confidence: 0.9
+ex:modulo_8 ex:uses ex:RDF . # confidence: 0.9
+ex:modulo_8 ex:is_part_of ex:Construção . # confidence: 0.95
+ex:modulo_9 ex:teaches ex:Graph RAG . # confidence: 0.95
+ex:modulo_9 ex:teaches ex:Agent-to-Agent . # confidence: 0.95
+ex:modulo_9 ex:teaches ex:MCP . # confidence: 0.95
+ex:modulo_9 ex:teaches ex:Agent Hub . # confidence: 0.95
+ex:modulo_9 ex:teaches ex:Orchestration . # confidence: 0.95
+ex:modulo_9 ex:teaches ex:Multi-hop . # confidence: 0.95
+ex:modulo_9 ex:teaches ex:Hybrid Retrieval . # confidence: 0.95
+ex:modulo_9 ex:teaches ex:5-Layers . # confidence: 0.95
+ex:modulo_9 ex:has_topic ex:Pipeline_5-camadas . # confidence: 0.9
+ex:modulo_9 ex:has_topic ex:Comparison . # confidence: 0.9
+ex:modulo_9 ex:has_topic ex:Agent-to-Agent_communication_(A2A) . # confidence: 0.9
+ex:modulo_9 ex:requires ex:modulo_1 . # confidence: 0.95
+ex:modulo_9 ex:requires ex:modulo_2 . # confidence: 0.95
+ex:modulo_9 ex:requires ex:modulo_3 . # confidence: 0.95
+ex:modulo_9 ex:requires ex:modulo_4 . # confidence: 0.95
+ex:modulo_9 ex:requires ex:modulo_5 . # confidence: 0.95
+ex:modulo_9 ex:requires ex:modulo_6 . # confidence: 0.95
+ex:modulo_9 ex:requires ex:modulo_7 . # confidence: 0.95
+ex:modulo_9 ex:requires ex:modulo_8 . # confidence: 0.95
+ex:modulo_9 ex:references ex:modulo_10 . # confidence: 0.85
+ex:modulo_9 ex:references ex:modulo_11 . # confidence: 0.85
+ex:modulo_9 ex:references ex:modulo_12 . # confidence: 0.85
+ex:modulo_9 ex:uses ex:LangGraph . # confidence: 0.9
+ex:modulo_9 ex:uses ex:Agent Hub . # confidence: 0.9
+ex:modulo_9 ex:is_part_of ex:Arquitetura . # confidence: 0.95
+ex:modulo_10 ex:teaches ex:LangChain . # confidence: 0.95
+ex:modulo_10 ex:teaches ex:LlamaIndex . # confidence: 0.95
+ex:modulo_10 ex:teaches ex:LangGraph . # confidence: 0.95
+ex:modulo_10 ex:teaches ex:RAG implementation . # confidence: 0.95
+ex:modulo_10 ex:teaches ex:Framework comparison . # confidence: 0.95
+ex:modulo_10 ex:teaches ex:Production deployment . # confidence: 0.95
+ex:modulo_10 ex:has_topic ex:LangChain . # confidence: 0.9
+ex:modulo_10 ex:has_topic ex:LlamaIndex . # confidence: 0.9
+ex:modulo_10 ex:has_topic ex:Best_Practice_2026 . # confidence: 0.9
+ex:modulo_10 ex:requires ex:modulo_1 . # confidence: 0.95
+ex:modulo_10 ex:requires ex:modulo_3 . # confidence: 0.95
+ex:modulo_10 ex:requires ex:modulo_4 . # confidence: 0.95
+ex:modulo_10 ex:requires ex:modulo_6 . # confidence: 0.95
+ex:modulo_10 ex:references ex:modulo_9 . # confidence: 0.85
+ex:modulo_10 ex:references ex:modulo_11 . # confidence: 0.85
+ex:modulo_10 ex:references ex:modulo_12 . # confidence: 0.85
+ex:modulo_10 ex:uses ex:LangChain . # confidence: 0.9
+ex:modulo_10 ex:uses ex:LlamaIndex . # confidence: 0.9
+ex:modulo_10 ex:is_part_of ex:Arquitetura . # confidence: 0.95
+ex:modulo_11 ex:teaches ex:GDPR . # confidence: 0.95
+ex:modulo_11 ex:teaches ex:LGPD . # confidence: 0.95
+ex:modulo_11 ex:teaches ex:Compliance . # confidence: 0.95
+ex:modulo_11 ex:teaches ex:Encryption . # confidence: 0.95
+ex:modulo_11 ex:teaches ex:RBAC . # confidence: 0.95
+ex:modulo_11 ex:teaches ex:Audit . # confidence: 0.95
+ex:modulo_11 ex:teaches ex:Data Classification . # confidence: 0.95
+ex:modulo_11 ex:teaches ex:PII Protection . # confidence: 0.95
+ex:modulo_11 ex:has_topic ex:4_níveis_de_classificação_de_dados . # confidence: 0.9
+ex:modulo_11 ex:has_topic ex:6_papéis_RBAC_com_matriz_de_permissões . # confidence: 0.9
+ex:modulo_11 ex:has_topic ex:Criptografia_Fernet_(AEAD_+_HMAC-SHA256) . # confidence: 0.9
+ex:modulo_11 ex:requires ex:modulo_9 . # confidence: 0.95
+ex:modulo_11 ex:requires ex:modulo_10 . # confidence: 0.95
+ex:modulo_11 ex:references ex:modulo_12 . # confidence: 0.85
+ex:modulo_11 ex:references ex:modulo_14 . # confidence: 0.85
+ex:modulo_11 ex:references ex:modulo_15 . # confidence: 0.85
+ex:modulo_11 ex:uses ex:Fernet encryption . # confidence: 0.9
+ex:modulo_11 ex:uses ex:PBKDF2 . # confidence: 0.9
+ex:modulo_11 ex:is_part_of ex:Governança . # confidence: 0.95
+ex:modulo_12 ex:teaches ex:RAGAS . # confidence: 0.95
+ex:modulo_12 ex:teaches ex:Evaluation Metrics . # confidence: 0.95
+ex:modulo_12 ex:teaches ex:Faithfulness . # confidence: 0.95
+ex:modulo_12 ex:teaches ex:Relevancy . # confidence: 0.95
+ex:modulo_12 ex:teaches ex:NDCG . # confidence: 0.95
+ex:modulo_12 ex:teaches ex:Spearman Correlation . # confidence: 0.95
+ex:modulo_12 ex:teaches ex:Benchmarking . # confidence: 0.95
+ex:modulo_12 ex:has_topic ex:4_métricas . # confidence: 0.9
+ex:modulo_12 ex:has_topic ex:NDCG . # confidence: 0.9
+ex:modulo_12 ex:has_topic ex:Spearman_correlation_(ρ) . # confidence: 0.9
+ex:modulo_12 ex:requires ex:modulo_9 . # confidence: 0.95
+ex:modulo_12 ex:requires ex:modulo_10 . # confidence: 0.95
+ex:modulo_12 ex:references ex:modulo_11 . # confidence: 0.85
+ex:modulo_12 ex:references ex:modulo_13 . # confidence: 0.85
+ex:modulo_12 ex:references ex:modulo_14 . # confidence: 0.85
+ex:modulo_12 ex:uses ex:RAGAS . # confidence: 0.9
+ex:modulo_12 ex:uses ex:Statistical metrics . # confidence: 0.9
+ex:modulo_12 ex:is_part_of ex:Governança . # confidence: 0.95
+ex:modulo_13 ex:teaches ex:Prompt Engineering . # confidence: 0.95
+ex:modulo_13 ex:teaches ex:Chain-of-Thought . # confidence: 0.95
+ex:modulo_13 ex:teaches ex:Few-Shot . # confidence: 0.95
+ex:modulo_13 ex:teaches ex:Structured Output . # confidence: 0.95
+ex:modulo_13 ex:teaches ex:In-Context Learning . # confidence: 0.95
+ex:modulo_13 ex:teaches ex:Template Optimization . # confidence: 0.95
+ex:modulo_13 ex:has_topic ex:Técnicas . # confidence: 0.9
+ex:modulo_13 ex:has_topic ex:Impacto . # confidence: 0.9
+ex:modulo_13 ex:has_topic ex:In-context_learning_vs_fine-tuning . # confidence: 0.9
+ex:modulo_13 ex:requires ex:modulo_9 . # confidence: 0.95
+ex:modulo_13 ex:requires ex:modulo_10 . # confidence: 0.95
+ex:modulo_13 ex:references ex:modulo_14 . # confidence: 0.85
+ex:modulo_13 ex:references ex:modulo_15 . # confidence: 0.85
+ex:modulo_13 ex:uses ex:Prompt templates . # confidence: 0.9
+ex:modulo_13 ex:uses ex:LLM optimization . # confidence: 0.9
+ex:modulo_13 ex:is_part_of ex:Refinamento . # confidence: 0.95
+ex:modulo_14 ex:teaches ex:SAP Supply Chain Intelligence . # confidence: 0.95
+ex:modulo_14 ex:teaches ex:LangGraph . # confidence: 0.95
+ex:modulo_14 ex:teaches ex:Production Code . # confidence: 0.95
+ex:modulo_14 ex:teaches ex:Lei de Little . # confidence: 0.95
+ex:modulo_14 ex:teaches ex:Async/ASGI . # confidence: 0.95
+ex:modulo_14 ex:teaches ex:Real Project . # confidence: 0.95
+ex:modulo_14 ex:has_topic ex:Projeto_real . # confidence: 0.9
+ex:modulo_14 ex:has_topic ex:LangGraph . # confidence: 0.9
+ex:modulo_14 ex:has_topic ex:Lei_de_Little . # confidence: 0.9
+ex:modulo_14 ex:requires ex:modulo_9 . # confidence: 0.95
+ex:modulo_14 ex:requires ex:modulo_10 . # confidence: 0.95
+ex:modulo_14 ex:requires ex:modulo_11 . # confidence: 0.95
+ex:modulo_14 ex:requires ex:modulo_12 . # confidence: 0.95
+ex:modulo_14 ex:requires ex:modulo_13 . # confidence: 0.95
+ex:modulo_14 ex:references ex:modulo_15 . # confidence: 0.85
+ex:modulo_14 ex:uses ex:LangGraph . # confidence: 0.9
+ex:modulo_14 ex:uses ex:ASGI . # confidence: 0.9
+ex:modulo_14 ex:is_part_of ex:Refinamento . # confidence: 0.95
+ex:modulo_15 ex:teaches ex:Deployment . # confidence: 0.95
+ex:modulo_15 ex:teaches ex:Scaling . # confidence: 0.95
+ex:modulo_15 ex:teaches ex:ROI . # confidence: 0.95
+ex:modulo_15 ex:teaches ex:Kubernetes . # confidence: 0.95
+ex:modulo_15 ex:teaches ex:Monitoring . # confidence: 0.95
+ex:modulo_15 ex:teaches ex:Semantic Caching . # confidence: 0.95
+ex:modulo_15 ex:teaches ex:Build vs Buy . # confidence: 0.95
+ex:modulo_15 ex:teaches ex:Payback Period . # confidence: 0.95
+ex:modulo_15 ex:has_topic ex:Auto-scaling . # confidence: 0.9
+ex:modulo_15 ex:has_topic ex:Semantic_Caching . # confidence: 0.9
+ex:modulo_15 ex:has_topic ex:Monitoring . # confidence: 0.9
+ex:modulo_15 ex:requires ex:modulo_9 . # confidence: 0.95
+ex:modulo_15 ex:requires ex:modulo_10 . # confidence: 0.95
+ex:modulo_15 ex:requires ex:modulo_11 . # confidence: 0.95
+ex:modulo_15 ex:requires ex:modulo_12 . # confidence: 0.95
+ex:modulo_15 ex:requires ex:modulo_14 . # confidence: 0.95
+ex:modulo_15 ex:uses ex:Kubernetes . # confidence: 0.9
+ex:modulo_15 ex:uses ex:Prometheus . # confidence: 0.9
+ex:modulo_15 ex:is_part_of ex:Deployment . # confidence: 0.95
+ex:RAG ex:defined_in ex:modulo_1 . # confidence: 0.9
+ex:RAG ex:defined_in ex:modulo_2 . # confidence: 0.9
+ex:RAG ex:defined_in ex:modulo_9 . # confidence: 0.9
+ex:RAG ex:defined_in ex:modulo_10 . # confidence: 0.9
+ex:Grafos ex:defined_in ex:modulo_3 . # confidence: 0.9
+ex:Grafos ex:defined_in ex:modulo_4 . # confidence: 0.9
+ex:Grafos ex:defined_in ex:modulo_8 . # confidence: 0.9
+ex:Grafos ex:defined_in ex:modulo_9 . # confidence: 0.9
+ex:Extração ex:defined_in ex:modulo_7 . # confidence: 0.9
+ex:Extração ex:defined_in ex:modulo_14 . # confidence: 0.9
+ex:Avaliação ex:defined_in ex:modulo_12 . # confidence: 0.9
+ex:Deployment ex:defined_in ex:modulo_14 . # confidence: 0.9
+ex:Deployment ex:defined_in ex:modulo_15 . # confidence: 0.9
+ex:Banco_Brasil ex:documented_in ex:modulo_2 . # confidence: 0.95
+ex:Banco_Brasil ex:documented_in ex:modulo_15 . # confidence: 0.95
+ex:Manufatura_Europa ex:documented_in ex:modulo_14 . # confidence: 0.95
+ex:Manufatura_Europa ex:documented_in ex:modulo_15 . # confidence: 0.95
+ex:SaaS_EUA ex:documented_in ex:modulo_9 . # confidence: 0.95
+ex:SaaS_EUA ex:documented_in ex:modulo_15 . # confidence: 0.95
+ex:modulo_1 ex:mentions ex:Definição_técnica . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Conhecimento_estático . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Custos_de_retreinamento . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Falta_de_rastreabilidade . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Exemplo_prático . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Por_que_é_crítico? . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Estratégias_principais_em_2026 . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Benchmark_NVIDIA_2026 . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:0.648_de_acurácia . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Exemplo_-_Fixed-Size_Chunking_com_Python . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Como_funciona? . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Modelos_de_Embedding_Disponíveis_em_2026 . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:OpenAI_text-embedding-3-small . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Voyage_AI_voyage-3 . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Nomic_embed-text-v1.5 . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Cohere_embed-english-v3.0 . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Sentence-Transformers_all-minilm-l6-v2 . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Exemplo_-_Gerar_Embeddings_com_Python . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Implicações_práticas . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Por_que_não_usar_banco_relacional? . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Busca_por_ID . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Busca_exata_por_coluna . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Similaridade_semântica . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Escala_(milhões_de_vetores) . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Custo_de_busca_para_1M_vetores . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Vector_Stores_Populares_em_2026 . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Exemplo_-_Usando_ChromaDB_Localmente . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Tipos_de_Retrieval_em_2026 . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Semantic_Search_(Vetorial) . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Hybrid_Search_(Recomendado_em_Produção) . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Exemplo_-_Hybrid_Search . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Exemplo_de_Prompt_Construído . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Tempo_para_Produção . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Custo_de_Implementação . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Atualização_de_Conhecimento . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Performance_em_Domínio_Específico . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Casos_de_Uso . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Embedding . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Vector_DB . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Código_Simulado . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Por_que_RAG_é_crítico_aqui . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Implementação_específica . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:1._Perda_de_Contexto_Global . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:2._Incapacidade_em_Consultas_Analíticas . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:3._Falta_de_Auditabilidade_Lógica . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:4._Alucinações_ainda_Ocorrem . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:5._Problema_de_"Relevância_Local_vs_Global" . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Análise_cross-document . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Reasoning_multi-hop . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Conteúdo_em_rápida_mudança . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Conhecimento_não-textual . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Informação_altamente_estruturada . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Exercício_1 . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Exercício_2 . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Exercício_3 . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:os_fundamentos_de_RAG_tradicional_(Naive_RAG) . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:5_Componentes . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Casos_reais . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Próxima_etapa . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:limitações_críticas . # confidence: 0.75
+ex:modulo_1 ex:mentions ex:Módulo_1_Finalizado . # confidence: 0.75
+ex:modulo_1 ex:imports ex:sentence_transformers . # confidence: 0.85
+ex:modulo_1 ex:imports ex:numpy . # confidence: 0.85
+ex:modulo_1 ex:imports ex:cosine_similarity . # confidence: 0.85
+ex:modulo_1 ex:imports ex:chromadb . # confidence: 0.85
+ex:modulo_1 ex:imports ex:Settings . # confidence: 0.85
+ex:modulo_1 ex:imports ex:rank_bm25 . # confidence: 0.85
+ex:modulo_1 ex:imports ex:os . # confidence: 0.85
+ex:modulo_1 ex:imports ex:anthropic . # confidence: 0.85
+ex:modulo_2 ex:mentions ex:chunks_isolados . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Estudo_de_caso_2026 . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Taxa_de_erro_vs_Tamanho_do_Documento . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:35%_de_erro . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:48%_de_erro . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Exemplo_1:_Contrato_com_Cláusula_de_Não-Concorrência . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:O_que_RAG_recupera . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Resposta_gerada . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Probabilidade_de_erro . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Exemplo_2:_Dados_Financeiros_com_Retroativo . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Custo_do_erro . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Chunking_quebra_linhas_narrativas . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Embeddings_não_capturaram_negações . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Falta_de_contexto_de_scope . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:recuperação_de_informação_textual . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:análise_agregada . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Query_Típica . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:O_que_RAG_faz . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Por_quê . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:POR_QUÊ . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:1._Compliance:_Por_que_você_negou_este_empréstimo? . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:2._Legal:_Qual_artigo_da_lei_x_foi_violado? . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Definição_técnica . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:não_presente_nos_documentos_recuperados . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Frequência_em_2026 . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Taxa_de_ocorrência . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:O_que_aconteceu . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Por_quê_aconteceu . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Custo_direto . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Custo_indireto . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Solução_parcial . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Solução_completa . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Contexto_Global . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Queries_Analíticas . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Performance_Consultas . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Custo_Storage . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Custo_Implementação . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Tempo_Setup . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:O_que_falhou . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Solução_necessária . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:limitações_críticas_de_Naive_RAG . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:3_Problemas_Estruturais . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Casos_Reais . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Transição_Necessária . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Próxima_Etapa . # confidence: 0.75
+ex:modulo_2 ex:mentions ex:Módulo_2_Finalizado . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Grafo_de_Conhecimento_(Knowledge_Graph) . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Diferença_crítica_com_banco_de_dados_tradicional . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Identificador_único . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Exemplo_de_Nó . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Opcional_com_propriedades . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Exemplo_de_Aresta . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:RDF_(Resource_Description_Framework) . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Exemplo_SAP . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Query_Language . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Exemplo_simples . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Código_Python . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Código_Python_para_Multi-Hop . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Estrutura_de_Dados . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Consulta_1-hop . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Consulta_3-hop . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Consulta_5-hop . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Análise_Analítica . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Busca_Semântica . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Complexidade_Query . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Conformidade_Regulatória . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Custo_Operacional . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Curva_de_Aprendizado . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Dados_públicos . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Triplas_RDF . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:20+_exemplos . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Inferência_Multi-Hop . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Casos_reais . # confidence: 0.75
+ex:modulo_3 ex:mentions ex:Módulo_3_Finalizado . # confidence: 0.75
+ex:modulo_3 ex:imports ex:rdflib . # confidence: 0.85
+ex:modulo_3 ex:imports ex:datetime . # confidence: 0.85
+ex:modulo_4 ex:mentions ex:SPARQL . # confidence: 0.75
+ex:modulo_4 ex:mentions ex:Resultado_esperado . # confidence: 0.75
+ex:modulo_4 ex:mentions ex:OWL_(Web_Ontology_Language) . # confidence: 0.75
+ex:modulo_4 ex:mentions ex:SHACL_(Shapes_Constraint_Language) . # confidence: 0.75
+ex:modulo_4 ex:mentions ex:SPARQL_Domínio . # confidence: 0.75
+ex:modulo_4 ex:mentions ex:OWL_Ontologias . # confidence: 0.75
+ex:modulo_4 ex:mentions ex:SHACL_Validação . # confidence: 0.75
+ex:modulo_4 ex:mentions ex:Casos_Reais . # confidence: 0.75
+ex:modulo_4 ex:mentions ex:Módulo_4_Finalizado . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:Analogia_humana . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:LLM_Puro . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:RAG_Tradicional . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:Simbólico_Puro . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:O_que_contém . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:Diferença_do_GPT/Claude . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:Exemplo_de_Prompt_para_SAP-RPT-1.5 . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:O_que_é . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:Exemplo_de_Workflow_Multi-Agent . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:SaaS_Era . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:SaaR_Era . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:Clean_Core_Strategy . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:Fluxo_com_S/4HANA_+_AI_Foundation . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:Solução_com_AI_Foundation . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:Solução_com_Neuro-Simbólica . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:"
+________)
+____
+____def_analyze_purchase_request(self,_po_id:_str):
+________"""
+________Analisa_requisição_de_compra_com_Knowledge_Graph_+_Rules.
+________"""
+________#_1._Buscar_dados_em_S/4HANA
+________po_data_=_self.hana.query(f"""
+____________SELECT_po_id,_vendor_id,_material_id,_quantity,_
+___________________unit_price,_requested_date,_requester_id
+____________FROM_purchase_orders
+____________WHERE_po_id_=_'{po_id}'
+________""")
+________
+________#_2._Enriquecer_com_dados_do_Knowledge_Graph
+________vendor_data_=_self.graph.query(f"""
+____________PREFIX_ex:_<http://sap.com/procurement/>
+____________SELECT_?vendor_?reliability_?country_?financialHealth
+____________WHERE_{{
+______________ex:vendor/{po_data['vendor_id']}_
+________________ex:hasReliabilityScore_?reliability_;
+________________ex:locatedIn_?country_;
+________________ex:financialScore_?financialHealth_.
+____________}}
+________""")
+________
+________#_3._Avaliar_risco_usando_Business_Rules
+________risk_assessment_=_self._evaluate_risk(po_data,_vendor_data)
+________
+________#_4._Usar_SAP-RPT-1.5_para_predição
+________prediction_=_self.ai.predict(
+____________input={
+________________"purchase_order":_po_data,
+________________"vendor_metrics":_vendor_data,
+________________"risk_factors":_risk_assessment
+____________},
+____________model="sap-rpt-1.5",
+____________task="procurement_approval"
+________)
+________
+________#_5._Gerar_recomendação
+________recommendation_=_self._generate_recommendation(prediction)
+________
+________return_{
+____________"po_id":_po_id,
+____________"recommendation":_recommendation['action'],
+____________"confidence":_recommendation['confidence'],
+____________"reasoning":_recommendation['audit_trail'],
+____________"timestamp":_str(datetime.now())
+________}
+____
+____def__evaluate_risk(self,_po_data,_vendor_data):
+________"""Aplica_business_rules"""
+________risks_=_[]
+________
+________#_Regra_1:_Novo_fornecedor?
+________if_vendor_data.get('months_as_vendor',_0)_<_6:
+____________risks.append("NEW_VENDOR")
+________
+________#_Regra_2:_Desconto_muito_alto?
+________if_po_data['discount_pct']_>_20:
+____________risks.append("UNUSUAL_DISCOUNT")
+________
+________#_Regra_3:_País_de_risco?
+________geopolitical_risk_countries_=_['KP',_'IR',_'SY']
+________if_vendor_data.get('country')_in_geopolitical_risk_countries:
+____________risks.append("GEOPOLITICAL_RISK")
+________
+________#_Regra_4:_Fornecedor_com_atraso_histórico?
+________if_vendor_data.get('on_time_delivery_rate',_100)_<_80:
+____________risks.append("DELIVERY_RISK")
+________
+________return_{
+____________"risk_flags":_risks,
+____________"risk_score":_len(risks)_/_4.0__#_0-1_scale
+________}
+____
+____def__generate_recommendation(self,_prediction):
+________"""Gera_ação_recomendada"""
+________if_prediction.approval_probability_>_0.9:
+____________action_=_"AUTO_APPROVE"
+____________required_approvers_=_1
+________elif_prediction.approval_probability_>_0.7:
+____________action_=_"APPROVE_WITH_CONDITIONS"
+____________required_approvers_=_2
+________else:
+____________action_=_"ESCALATE_TO_MANAGER"
+____________required_approvers_=_3
+________
+________return_{
+____________"action":_action,
+____________"confidence":_prediction.approval_probability,
+____________"required_approvers":_required_approvers,
+____________"audit_trail":_{
+________________"model_used":_"sap-rpt-1.5",
+________________"graph_queries":_prediction.graph_references,
+________________"rules_applied":_prediction.rules_applied,
+________________"reasoning":_prediction.explanation
+____________}
+________}
+
+
+#_Uso
+agent_=_ProcurementOptimizationAgent()
+result_=_agent.analyze_purchase_request("PO-2026-0001")
+
+print(f"Recomendação:_{result['recommendation']}")
+print(f"Confiança:_{result['confidence']:.1%}")
+print(f"\nRastreamento_de_Auditoria:")
+for_key,_value_in_result['reasoning'].items():
+____print(f"__{key}:_{value}")
+```
+
+---
+
+##_5.7_Comparação:_SAP_AI_Foundation_vs_Alternativas
+
+|_Aspecto_|_SAP_AI_Foundation_|_LangChain_+_GPT_|_RAG_+_Open_Source_|
+|---------|-------------------|-----------------|-------------------|
+|_ . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:_|_Nativo_(S/4HANA)_|_Requer_RAG_|_Manual_|
+|_ . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:_|_95%+_|_20%_|_30%_|
+|_ . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:_|_8-12_semanas_|_4-6_semanas_|_12-16_semanas_|
+|_ . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:_|_95%_acurácia_|_78%_acurácia_|_72%_acurácia_|
+|_ . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:_|_$500k-1M_|_$200k-400k_|_$300k-600k_|
+|_ . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:_|_6-8x_|_3-4x_|_2-3x_|
+|_ . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:_|_Excelente_|_Boa_|_Média_|
+|_ . # confidence: 0.75
+ex:modulo_5 ex:mentions ex:_|_SAP_suporta_|_Self-service_|_Self-service_|
+
+---
+
+##_5.8_Referências_Científicas
+
+Emergent_Mind._(2026)._Neuro-Symbolic_AI_Architecture._Retrieved_from_https://www.emergentmind.com/topics/neuro-symbolic-ai-architecture
+
+SAVIC_Technologies._(2026)._SAP_AI_Foundation_Architecture_2026:_Knowledge_Graph,_SAP-RPT-1_&_Agent_Hub._Retrieved_from_https://www.savictech.com/insights/sap-ai-foundation-knowledge-graph-architecture-enterprise-2026/
+
+Chen,_Y.,_et_al._(2024)._Neuro-Symbolic_AI:_Explainability,_Challenges,_and_Future_Trends._arXiv._Retrieved_from_https://arxiv.org/pdf/2411.04383
+
+Salah,_A.,_et_al._(2024)._Bridging_the_Gap:_Representation_Spaces_in_Neuro-Symbolic_AI._arXiv._Retrieved_from_https://arxiv.org/pdf/2411.04393
+
+---
+
+##_Resumo_do_Módulo_5
+
+✅_ . # confidence: 0.75
+ex:modulo_5 ex:mentions ex::_Combina_neural_(LLMs)_+_simbólica_(grafos,_regras)
+
+✅_ . # confidence: 0.75
+ex:modulo_5 ex:mentions ex::
+__-_Knowledge_Graph_(452k_tabelas_SAP)
+__-_SAP-RPT-1.5_(modelo_treinado_em_dados_SAP)
+__-_Agent_Hub_(orquestração_multi-agent)
+__-_MCP_(protocolo_de_comunicação)
+
+✅_ . # confidence: 0.75
+ex:modulo_5 ex:mentions ex::_De_software_para_reasoning_automático
+
+✅_ . # confidence: 0.75
+ex:modulo_5 ex:mentions ex::_Simplificação_de_S/4HANA_+_AI_Foundation
+
+✅_ . # confidence: 0.75
+ex:modulo_5 ex:mentions ex::_Churn_prediction,_Fraude_detection,_Supply_Chain
+
+✅_ . # confidence: 0.75
+ex:modulo_5 ex:mentions ex::_6-8x_em_Year_1_(vs_3-4x_com_alternativas)
+
+---
+
+ . # confidence: 0.75
+ex:modulo_5 ex:imports ex:sap_ai_foundation . # confidence: 0.85
+ex:modulo_5 ex:imports ex:sap_hana . # confidence: 0.85
+ex:modulo_6 ex:mentions ex:Fixed_256 . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:Fixed_512 . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:Fixed_1024 . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:Semantic_(small) . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:Semantic_(medium) . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:Late_Chunking . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:Como_funciona . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:Melhor_acurácia_(79%) . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:Código_(Simplificado) . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:OpenAI_text-embedding-3-small . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:Voyage_AI_voyage-3-lite . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:Nomic_embed-text-v1.5 . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:Cohere_embed-english-v3.0 . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:Sentence-Transformers_all-minilm-l6-v2 . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:OpenAI_3-small . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:Voyage_3-lite . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:Cohere_v3.0 . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:Nomic_v1.5 . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:6_Estratégias_de_Chunking . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:Embeddings_2026 . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:Hybrid_Search . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:Pipeline_Completo . # confidence: 0.75
+ex:modulo_6 ex:mentions ex:Módulo_6_Finalizado . # confidence: 0.75
+ex:modulo_6 ex:imports ex:sentence_transformers . # confidence: 0.85
+ex:modulo_6 ex:imports ex:numpy . # confidence: 0.85
+ex:modulo_6 ex:imports ex:voyageai . # confidence: 0.85
+ex:modulo_7 ex:mentions ex:Entidades_Custom . # confidence: 0.75
+ex:modulo_7 ex:mentions ex:Uso_Ideal . # confidence: 0.75
+ex:modulo_7 ex:mentions ex:Volume_muito_alto_(>1M_docs) . # confidence: 0.75
+ex:modulo_7 ex:mentions ex:Qualidade_crítica . # confidence: 0.75
+ex:modulo_7 ex:mentions ex:Entidades_custom . # confidence: 0.75
+ex:modulo_7 ex:mentions ex:Baixo_orçamento . # confidence: 0.75
+ex:modulo_7 ex:mentions ex:Relation_Extraction . # confidence: 0.75
+ex:modulo_7 ex:mentions ex:Pipeline_Completo . # confidence: 0.75
+ex:modulo_7 ex:mentions ex:Módulo_7_Finalizado . # confidence: 0.75
+ex:modulo_7 ex:imports ex:spacy . # confidence: 0.85
+ex:modulo_7 ex:imports ex:anthropic . # confidence: 0.85
+ex:modulo_7 ex:imports ex:json . # confidence: 0.85
+ex:modulo_7 ex:imports ex:re . # confidence: 0.85
+ex:modulo_7 ex:imports ex:typing . # confidence: 0.85
+ex:modulo_7 ex:imports ex:unicodedata . # confidence: 0.85
+ex:modulo_7 ex:imports ex:datetime . # confidence: 0.85
+ex:modulo_7 ex:imports ex:SequenceTagger . # confidence: 0.85
+ex:modulo_7 ex:imports ex:Sentence . # confidence: 0.85
+ex:modulo_7 ex:imports ex:pyshacl . # confidence: 0.85
+ex:modulo_7 ex:imports ex:rdflib . # confidence: 0.85
+ex:modulo_8 ex:mentions ex:Diferença_KGE_vs_Property_Graph . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:W3C_Standard . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:Recomendação_2026 . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:No_HANA_Cloud,_o_SPARQL_endpoint_é_automático . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:Query_1:_SELECT_simples . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:Query_2:_Com_filtro_e_agregação . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:Query_3:_Inferência_(transitividade) . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:Query_4:_Busca_semântica_(graph_pattern) . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:Problema_tradicional . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:No-ETL_(Projeção_RDF) . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:Tipos_de_índices_disponíveis . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:Performance_Gain . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:Single_triple . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:2-hop_path . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:3-hop_path . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:Full_scan . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:Dados_em_S/4HANA . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:Grafo_RDF_de_Conhecimento . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:Query_completa_(SQL_+_SPARQL) . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:Integração_S/4HANA . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:SAP_HANA_Cloud_KGE . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:SPARQL_Queries . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:No-ETL_Architecture . # confidence: 0.75
+ex:modulo_8 ex:mentions ex:Módulo_8_Finalizado . # confidence: 0.75
+ex:modulo_8 ex:imports ex:SPARQLWrapper . # confidence: 0.85
+ex:modulo_8 ex:imports ex:json . # confidence: 0.85
+ex:modulo_8 ex:imports ex:com . # confidence: 0.85
+ex:modulo_8 ex:imports ex:org . # confidence: 0.85
+ex:modulo_9 ex:mentions ex:Protocolo_de_Troca . # confidence: 0.75
+ex:modulo_9 ex:mentions ex:state,
+________________"result":_f"Custo_estimado:_R$_50.000",
+________________"messages":_state['messages']_+_[
+____________________Message(
+________________________sender="finance_agent",
+________________________receiver="router",
+________________________content="Custo_calculado",
+________________________timestamp="2026-09-05T10:30:00Z"
+____________________)
+________________]
+____________}
+________
+________return_state
+
+class_SupplyChainAgent:
+____"""Agente_especialista_em_supply_chain"""
+____
+____def_process(self,_state:_AgentState):
+________"""Process_supply_chain_queries"""
+________
+________if_"supplier"_in_state['query'].lower():
+____________return_{
+________________ . # confidence: 0.75
+ex:modulo_9 ex:mentions ex:5-Layer_Architecture . # confidence: 0.75
+ex:modulo_9 ex:mentions ex:Graph_Traversal . # confidence: 0.75
+ex:modulo_9 ex:mentions ex:Semantic_Ranking . # confidence: 0.75
+ex:modulo_9 ex:mentions ex:MCP_Protocol . # confidence: 0.75
+ex:modulo_9 ex:mentions ex:Agent-to-Agent_(A2A) . # confidence: 0.75
+ex:modulo_9 ex:mentions ex:Agent_Hub . # confidence: 0.75
+ex:modulo_9 ex:mentions ex:Pipeline_Executável . # confidence: 0.75
+ex:modulo_9 ex:mentions ex:Módulo_9_Finalizado . # confidence: 0.75
+ex:modulo_9 ex:imports ex:MinMaxScaler . # confidence: 0.85
+ex:modulo_9 ex:imports ex:numpy . # confidence: 0.85
+ex:modulo_9 ex:imports ex:sentence_transformers . # confidence: 0.85
+ex:modulo_9 ex:imports ex:rank_bm25 . # confidence: 0.85
+ex:modulo_9 ex:imports ex:Server . # confidence: 0.85
+ex:modulo_9 ex:imports ex:Tool . # confidence: 0.85
+ex:modulo_9 ex:imports ex:json . # confidence: 0.85
+ex:modulo_9 ex:imports ex:SPARQLWrapper . # confidence: 0.85
+ex:modulo_9 ex:imports ex:StateGraph . # confidence: 0.85
+ex:modulo_9 ex:imports ex:typing . # confidence: 0.85
+ex:modulo_10 ex:mentions ex:Código_para_RAG_básico . # confidence: 0.75
+ex:modulo_10 ex:mentions ex:Retrieval_Quality . # confidence: 0.75
+ex:modulo_10 ex:mentions ex:Curva_de_aprendizado . # confidence: 0.75
+ex:modulo_10 ex:mentions ex:Production_RAG . # confidence: 0.75
+ex:modulo_10 ex:mentions ex:Agentes_complexos . # confidence: 0.75
+ex:modulo_10 ex:mentions ex:Chunking_strategies . # confidence: 0.75
+ex:modulo_10 ex:mentions ex:LangChain_Implementation . # confidence: 0.75
+ex:modulo_10 ex:mentions ex:LlamaIndex_Implementation . # confidence: 0.75
+ex:modulo_10 ex:mentions ex:SAP_HANA_Integration . # confidence: 0.75
+ex:modulo_10 ex:mentions ex:Performance_Benchmark . # confidence: 0.75
+ex:modulo_10 ex:mentions ex:Hybrid_Approach . # confidence: 0.75
+ex:modulo_10 ex:mentions ex:Métricas_RAGAS . # confidence: 0.75
+ex:modulo_10 ex:mentions ex:Módulo_10_Finalizado . # confidence: 0.75
+ex:modulo_10 ex:imports ex:PDFLoader . # confidence: 0.85
+ex:modulo_10 ex:imports ex:RecursiveCharacterTextSplitter . # confidence: 0.85
+ex:modulo_10 ex:imports ex:OpenAIEmbeddings . # confidence: 0.85
+ex:modulo_10 ex:imports ex:Chroma . # confidence: 0.85
+ex:modulo_10 ex:imports ex:RetrievalQA . # confidence: 0.85
+ex:modulo_10 ex:imports ex:ChatOpenAI . # confidence: 0.85
+ex:modulo_10 ex:imports ex:PromptTemplate . # confidence: 0.85
+ex:modulo_10 ex:imports ex:SimpleDirectoryReader . # confidence: 0.85
+ex:modulo_10 ex:imports ex:SentenceSplitter . # confidence: 0.85
+ex:modulo_10 ex:imports ex:OpenAIEmbedding . # confidence: 0.85
+ex:modulo_10 ex:imports ex:OpenAI . # confidence: 0.85
+ex:modulo_10 ex:imports ex:Document . # confidence: 0.85
+ex:modulo_10 ex:imports ex:hdbcli . # confidence: 0.85
+ex:modulo_10 ex:imports ex:StateGraph . # confidence: 0.85
+ex:modulo_11 ex:mentions ex:Data_Classification . # confidence: 0.75
+ex:modulo_11 ex:mentions ex:Access_Control . # confidence: 0.75
+ex:modulo_11 ex:mentions ex:Direitos_GDPR/LGPD . # confidence: 0.75
+ex:modulo_11 ex:mentions ex:Consent_Management . # confidence: 0.75
+ex:modulo_11 ex:mentions ex:Secure_RAG_Pipeline . # confidence: 0.75
+ex:modulo_11 ex:mentions ex:Compliance_Metrics . # confidence: 0.75
+ex:modulo_11 ex:mentions ex:Módulo_11_Finalizado . # confidence: 0.75
+ex:modulo_11 ex:imports ex:enum . # confidence: 0.85
+ex:modulo_11 ex:imports ex:dataclasses . # confidence: 0.85
+ex:modulo_11 ex:imports ex:typing . # confidence: 0.85
+ex:modulo_11 ex:imports ex:hashlib . # confidence: 0.85
+ex:modulo_11 ex:imports ex:re . # confidence: 0.85
+ex:modulo_11 ex:imports ex:datetime . # confidence: 0.85
+ex:modulo_11 ex:imports ex:uuid . # confidence: 0.85
+ex:modulo_11 ex:imports ex:Fernet . # confidence: 0.85
+ex:modulo_11 ex:imports ex:hashes . # confidence: 0.85
+ex:modulo_11 ex:imports ex:PBKDF2 . # confidence: 0.85
+ex:modulo_11 ex:imports ex:os . # confidence: 0.85
+ex:modulo_11 ex:imports ex:base64 . # confidence: 0.85
+ex:modulo_11 ex:imports ex:json . # confidence: 0.85
+ex:modulo_11 ex:imports ex:csv . # confidence: 0.85
+ex:modulo_11 ex:imports ex:io . # confidence: 0.85
+ex:modulo_11 ex:imports ex:pseudonymization_engine . # confidence: 0.85
+ex:modulo_12 ex:mentions ex:Context_Precision . # confidence: 0.75
+ex:modulo_12 ex:mentions ex:Context_Recall . # confidence: 0.75
+ex:modulo_12 ex:mentions ex:RAGAS_Framework . # confidence: 0.75
+ex:modulo_12 ex:mentions ex:Faithfulness_Scorer . # confidence: 0.75
+ex:modulo_12 ex:mentions ex:Relevancy_Evaluator . # confidence: 0.75
+ex:modulo_12 ex:mentions ex:Benchmarking_Framework . # confidence: 0.75
+ex:modulo_12 ex:mentions ex:Continuous_Testing . # confidence: 0.75
+ex:modulo_12 ex:mentions ex:Advanced_Metrics . # confidence: 0.75
+ex:modulo_12 ex:mentions ex:Módulo_12_Finalizado . # confidence: 0.75
+ex:modulo_12 ex:imports ex:typing . # confidence: 0.85
+ex:modulo_12 ex:imports ex:re . # confidence: 0.85
+ex:modulo_12 ex:imports ex:difflib . # confidence: 0.85
+ex:modulo_12 ex:imports ex:rank_bm25 . # confidence: 0.85
+ex:modulo_12 ex:imports ex:cosine_similarity . # confidence: 0.85
+ex:modulo_12 ex:imports ex:numpy . # confidence: 0.85
+ex:modulo_12 ex:imports ex:sentence_transformers . # confidence: 0.85
+ex:modulo_12 ex:imports ex:dataclasses . # confidence: 0.85
+ex:modulo_12 ex:imports ex:json . # confidence: 0.85
+ex:modulo_12 ex:imports ex:datetime . # confidence: 0.85
+ex:modulo_12 ex:imports ex:time . # confidence: 0.85
+ex:modulo_13 ex:mentions ex:kwargs)_->_str:
+________"""Renderizar_template_com_variáveis"""
+________template_=_self.get_template(name)
+________if_not_template:
+____________raise_ValueError(f"Template_'{name}'_não_encontrado")
+________
+________return_template.template.format( . # confidence: 0.75
+ex:modulo_13 ex:mentions ex:Few-Shot_Learning . # confidence: 0.75
+ex:modulo_13 ex:mentions ex:In-Context_Learning . # confidence: 0.75
+ex:modulo_13 ex:mentions ex:Structured_Output . # confidence: 0.75
+ex:modulo_13 ex:mentions ex:Prompt_Templates . # confidence: 0.75
+ex:modulo_13 ex:mentions ex:A/B_Testing . # confidence: 0.75
+ex:modulo_13 ex:mentions ex:Quality_Checker . # confidence: 0.75
+ex:modulo_13 ex:mentions ex:Módulo_13_Finalizado . # confidence: 0.75
+ex:modulo_13 ex:imports ex:re . # confidence: 0.85
+ex:modulo_13 ex:imports ex:typing . # confidence: 0.85
+ex:modulo_13 ex:imports ex:json . # confidence: 0.85
+ex:modulo_13 ex:imports ex:enum . # confidence: 0.85
+ex:modulo_13 ex:imports ex:dataclasses . # confidence: 0.85
+ex:modulo_13 ex:imports ex:random . # confidence: 0.85
+ex:modulo_14 ex:mentions ex:Fazer_Deploy . # confidence: 0.75
+ex:modulo_14 ex:mentions ex:state,
+____________"category":_category
+________}
+
+#_src/agents/supply_chain.py
+class_SupplyChainAgent:
+____"""Especialista_em_supply_chain"""
+____
+____def___init__(self,_llm,_retriever):
+________self.llm_=_llm
+________self.retriever_=_retriever
+________self.logger_=_logging.getLogger(__name__)
+____
+____def_process(self,_state:_QueryState)_->_QueryState:
+________"""Processar_query_de_supply_chain"""
+________
+________#_Recuperar_documentos_relevantes
+________docs_=_self.retriever.query(state["query"],_k=5)
+________context_=_"\n".join([d["text"]_for_d_in_docs])
+________
+________#_Gerar_resposta
+________prompt_=_f"""Você_é_especialista_em_supply_chain.
+
+CONTEXTO:
+{context}
+
+PERGUNTA:
+{state['query']}
+
+RESPONDA:_Baseado_no_contexto,_qual_é_a_resposta?"""
+________
+________response_=_self.llm.complete(prompt)
+________
+________self.logger.info("✅_Supply_Chain_Agent_processou_query")
+________
+________return_{
+____________ . # confidence: 0.75
+ex:modulo_14 ex:mentions ex:Projeto_End-to-End . # confidence: 0.75
+ex:modulo_14 ex:mentions ex:Data_Preparation . # confidence: 0.75
+ex:modulo_14 ex:mentions ex:API_REST . # confidence: 0.75
+ex:modulo_14 ex:mentions ex:Production_Readiness . # confidence: 0.75
+ex:modulo_14 ex:mentions ex:Módulo_14_Finalizado . # confidence: 0.75
+ex:modulo_14 ex:imports ex:pydantic_settings . # confidence: 0.85
+ex:modulo_14 ex:imports ex:typing . # confidence: 0.85
+ex:modulo_14 ex:imports ex:hdbcli . # confidence: 0.85
+ex:modulo_14 ex:imports ex:logging . # confidence: 0.85
+ex:modulo_14 ex:imports ex:settings . # confidence: 0.85
+ex:modulo_14 ex:imports ex:Document . # confidence: 0.85
+ex:modulo_14 ex:imports ex:OpenAIEmbedding . # confidence: 0.85
+ex:modulo_14 ex:imports ex:OpenAI . # confidence: 0.85
+ex:modulo_14 ex:imports ex:StorageContext . # confidence: 0.85
+ex:modulo_14 ex:imports ex:StateGraph . # confidence: 0.85
+ex:modulo_14 ex:imports ex:fastapi . # confidence: 0.85
+ex:modulo_14 ex:imports ex:JSONResponse . # confidence: 0.85
+ex:modulo_14 ex:imports ex:pydantic . # confidence: 0.85
+ex:modulo_14 ex:imports ex:time . # confidence: 0.85
+ex:modulo_14 ex:imports ex:datetime . # confidence: 0.85
+ex:modulo_14 ex:imports ex:RouterAgent . # confidence: 0.85
+ex:modulo_14 ex:imports ex:VectorRetriever . # confidence: 0.85
+ex:modulo_14 ex:imports ex:RAGASEvaluator . # confidence: 0.85
+ex:modulo_14 ex:imports ex:PerformanceMonitor . # confidence: 0.85
+ex:modulo_14 ex:imports ex:uvicorn . # confidence: 0.85
+ex:modulo_14 ex:imports ex:pytest . # confidence: 0.85
+ex:modulo_14 ex:imports ex:TestClient . # confidence: 0.85
+ex:modulo_14 ex:imports ex:app . # confidence: 0.85
+ex:modulo_14 ex:imports ex:requests . # confidence: 0.85
+ex:modulo_14 ex:imports ex:collections . # confidence: 0.85
+ex:modulo_14 ex:imports ex:prometheus_client . # confidence: 0.85
+ex:modulo_15 ex:mentions ex:Build_vs_Buy . # confidence: 0.75
+ex:modulo_15 ex:mentions ex:Impact_Real . # confidence: 0.75
+ex:modulo_15 ex:mentions ex:Módulo_15_Finalizado . # confidence: 0.75
+ex:modulo_15 ex:imports ex:dataclasses . # confidence: 0.85
+ex:modulo_15 ex:imports ex:typing . # confidence: 0.85
+ex:modulo_15 ex:imports ex:functools . # confidence: 0.85
+ex:modulo_15 ex:imports ex:redis . # confidence: 0.85
+ex:modulo_15 ex:imports ex:asyncio . # confidence: 0.85
+ex:modulo_15 ex:imports ex:Alerter . # confidence: 0.85
+ex:modulo_15 ex:imports ex:enum . # confidence: 0.85
+ex:modulo_15 ex:imports ex:json . # confidence: 0.85

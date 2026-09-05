@@ -1,0 +1,20 @@
+{
+  "total_triples": 711,
+  "unique_subjects": 23,
+  "unique_predicates": 10,
+  "unique_objects": 532,
+  "average_confidence": 0.840576652601969,
+  "predicates_count": {
+    "teaches": 112,
+    "has_topic": 45,
+    "references": 39,
+    "uses": 30,
+    "is_part_of": 15,
+    "requires": 43,
+    "defined_in": 13,
+    "documented_in": 6,
+    "mentions": 287,
+    "imports": 121
+  },
+  "modules_with_triples": 15
+}
