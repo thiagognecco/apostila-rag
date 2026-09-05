@@ -1493,13 +1493,23 @@ ORDER BY DESC(?freq)
             const width = container.clientWidth;
             const height = 600;
 
-            // Dados do grafo
-            const nodes = kgData.modulos.map((m, i) => ({
-                id: `mod_${m.id}`,
-                name: `Mod ${m.id}`,
-                grupo: m.bloco,
-                tamanho: 30
-            }));
+            // Dados do grafo com informações completas
+            const nodes = kgData.modulos.map((m, i) => {
+                const prerequisitos = kgData.modulos.filter(mod => mod.referencia_cruzada.includes(m.id));
+                const proximos = kgData.modulos.filter(mod => m.referencia_cruzada.includes(mod.id));
+                return {
+                    id: `mod_${m.id}`,
+                    numero: m.id,
+                    name: `Mod ${m.id}`,
+                    titulo: m.titulo,
+                    grupo: m.bloco,
+                    conversa: m.conversa,
+                    tamanho: 30,
+                    prerequisitos: prerequisitos.map(p => p.id),
+                    proximos: proximos.map(p => p.id),
+                    descricao: m.conceitos_chave.slice(0, 2).join(' • ')
+                };
+            });
 
             const links = [];
             kgData.modulos.forEach(m => {
@@ -1518,6 +1528,21 @@ ORDER BY DESC(?freq)
                 .attr('width', width)
                 .attr('height', height);
 
+            // Tooltip
+            const tooltip = d3.select('body').append('div')
+                .style('position', 'absolute')
+                .style('background-color', 'var(--bg-white)')
+                .style('color', 'var(--text-dark)')
+                .style('padding', '15px')
+                .style('border-radius', '8px')
+                .style('border', '2px solid var(--primary)')
+                .style('font-size', '12px')
+                .style('max-width', '300px')
+                .style('z-index', '1000')
+                .style('box-shadow', 'var(--shadow-lg)')
+                .style('display', 'none')
+                .style('pointer-events', 'none');
+
             // Simulação
             const simulation = d3.forceSimulation(nodes)
                 .force('link', d3.forceLink(links).id(d => d.id).distance(80))
@@ -1530,9 +1555,10 @@ ORDER BY DESC(?freq)
                 .data(links)
                 .enter()
                 .append('line')
-                .attr('class', 'graph-link');
+                .attr('class', 'graph-link')
+                .style('stroke-opacity', 0.3);
 
-            // Nodes
+            // Nodes (clicáveis e com hover)
             const node = svg.append('g')
                 .selectAll('circle')
                 .data(nodes)
@@ -1540,6 +1566,57 @@ ORDER BY DESC(?freq)
                 .append('circle')
                 .attr('class', 'graph-node')
                 .attr('r', d => d.tamanho / 2)
+                .style('cursor', 'pointer')
+                .on('click', (event, d) => {
+                    event.stopPropagation();
+                    loadModule(d.numero);
+                    switchView('module-view');
+                    tooltip.style('display', 'none');
+                })
+                .on('mouseover', (event, d) => {
+                    const prerequisitosText = d.prerequisitos.length > 0
+                        ? `<strong>Pré-requisitos:</strong> Módulo ${d.prerequisitos.join(', Módulo ')}<br/>`
+                        : '<strong>Pré-requisitos:</strong> Nenhum<br/>';
+                    const proximosText = d.proximos.length > 0
+                        ? `<strong>Próximos passos:</strong> Módulo ${d.proximos.join(', Módulo ')}<br/>`
+                        : '<strong>Próximos passos:</strong> Nenhum<br/>';
+
+                    tooltip.html(`
+                        <div style="font-weight: bold; color: var(--primary); margin-bottom: 8px;">
+                            ${d.name}: ${d.titulo}
+                        </div>
+                        <div style="margin-bottom: 8px;">
+                            <strong>Bloco:</strong> ${d.grupo}<br/>
+                            <strong>Conversa:</strong> ${d.conversa}
+                        </div>
+                        <div style="margin-bottom: 8px;">
+                            ${prerequisitosText}
+                            ${proximosText}
+                        </div>
+                        <div style="font-size: 11px; color: var(--text-muted); border-top: 1px solid var(--border); padding-top: 8px; margin-top: 8px;">
+                            💡 <strong>Conexões:</strong> Este módulo conecta a ${d.proximos.length + d.prerequisitos.length} outros módulos<br/>
+                            🔗 Clique para abrir o módulo completo
+                        </div>
+                    `)
+                    .style('display', 'block')
+                    .style('left', (event.pageX + 10) + 'px')
+                    .style('top', (event.pageY + 10) + 'px');
+
+                    d3.select(event.currentTarget)
+                        .transition()
+                        .duration(200)
+                        .attr('r', d => d.tamanho / 1.5)
+                        .style('stroke', 'var(--primary)')
+                        .style('stroke-width', 3);
+                })
+                .on('mouseout', (event, d) => {
+                    tooltip.style('display', 'none');
+                    d3.select(event.currentTarget)
+                        .transition()
+                        .duration(200)
+                        .attr('r', d => d.tamanho / 2)
+                        .style('stroke', 'none');
+                })
                 .call(d3.drag()
                     .on('start', dragstarted)
                     .on('drag', dragged)
@@ -1552,7 +1629,8 @@ ORDER BY DESC(?freq)
                 .enter()
                 .append('text')
                 .attr('class', 'graph-label')
-                .text(d => d.name);
+                .text(d => d.name)
+                .style('pointer-events', 'none');
 
             simulation.on('tick', () => {
                 link
@@ -1568,6 +1646,11 @@ ORDER BY DESC(?freq)
                 label
                     .attr('x', d => d.x)
                     .attr('y', d => d.y - 20);
+            });
+
+            // Fechar tooltip ao clicar fora
+            svg.on('click', () => {
+                tooltip.style('display', 'none');
             });
 
             function dragstarted(event, d) {
