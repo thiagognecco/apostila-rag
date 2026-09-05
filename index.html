@@ -867,11 +867,107 @@ let modulosConteudo = {"1":"# MÓDULO 1: INTRODUÇÃO AO RAG TRADICIONAL (NAIVE 
                         </div>
                     </div>
 
-                    <div id="graph-container"></div>
+                    <!-- EXPLICAÇÃO -->
+                    <div style="background-color: var(--bg-white); padding: 20px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid var(--primary);">
+                        <h3>📊 O que é um Grafo de Conhecimento?</h3>
+                        <p style="margin: 10px 0;">Um <strong>Knowledge Graph (Grafo de Conhecimento)</strong> é uma representação estruturada de informações usando a semântica RDF (Resource Description Framework). Ele conecta conceitos, módulos e tecnologias através de <strong>triplas RDF</strong> do formato <code>Sujeito → Predicado → Objeto</code>.</p>
+                        <p style="margin: 10px 0;"><strong>Nesta apostila:</strong> Cada módulo é um nó, e as relações entre eles formam as arestas (links) do grafo. Isso permite visualizar como os conceitos se conectam e se complementam.</p>
+                    </div>
 
-                    <h3 style="margin: 20px 0;">Queries SPARQL Disponíveis</h3>
-                    <div id="sparql-queries" style="background-color: var(--bg-white); padding: 20px; border-radius: 8px; margin-bottom: 20px;">
-                        <pre style="overflow-x: auto;"><code id="sparql-content"></code></pre>
+                    <!-- ESTATÍSTICAS -->
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 20px;">
+                        <div style="background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%); color: white; padding: 20px; border-radius: 8px; text-align: center;">
+                            <div style="font-size: 28px; font-weight: bold;">15</div>
+                            <div style="font-size: 12px; opacity: 0.9;">Nós (Módulos)</div>
+                        </div>
+                        <div style="background: linear-gradient(135deg, var(--secondary) 0%, #059669 100%); color: white; padding: 20px; border-radius: 8px; text-align: center;">
+                            <div style="font-size: 28px; font-weight: bold;">711</div>
+                            <div style="font-size: 12px; opacity: 0.9;">Triplas RDF</div>
+                        </div>
+                        <div style="background: linear-gradient(135deg, var(--accent) 0%, #d97706 100%); color: white; padding: 20px; border-radius: 8px; text-align: center;">
+                            <div style="font-size: 28px; font-weight: bold;">50+</div>
+                            <div style="font-size: 12px; opacity: 0.9;">Conexões</div>
+                        </div>
+                        <div style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); color: white; padding: 20px; border-radius: 8px; text-align: center;">
+                            <div style="font-size: 28px; font-weight: bold;">125+</div>
+                            <div style="font-size: 12px; opacity: 0.9;">Conceitos Únicos</div>
+                        </div>
+                    </div>
+
+                    <!-- GRAFO VISUAL -->
+                    <div style="background-color: var(--bg-white); padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid var(--border);">
+                        <h3 style="margin-bottom: 15px;">🔗 Visualização Interativa</h3>
+                        <p style="margin-bottom: 15px; font-size: 13px; color: var(--text-muted);">Arraste os nós para reorganizar • Cores representam blocos temáticos da apostila</p>
+                        <div id="graph-container" style="min-height: 600px; border: 1px solid var(--border); border-radius: 4px;"></div>
+                    </div>
+
+                    <!-- LEGENDA E ESTRUTURA -->
+                    <div style="background-color: var(--bg-white); padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                        <h3 style="margin-bottom: 15px;">📚 Estrutura dos Blocos Temáticos</h3>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
+                            <div style="padding: 12px; background-color: rgba(59, 130, 246, 0.1); border-left: 3px solid #3b82f6; border-radius: 4px;">
+                                <strong>Bloco 1: Fundamentos</strong><br/>
+                                <small>Módulos 1-2: Introdução e limitações de RAG</small>
+                            </div>
+                            <div style="padding: 12px; background-color: rgba(16, 185, 129, 0.1); border-left: 3px solid #10b981; border-radius: 4px;">
+                                <strong>Bloco 2: Tecnologia</strong><br/>
+                                <small>Módulos 3-6: Grafos, SPARQL, Embeddings</small>
+                            </div>
+                            <div style="padding: 12px; background-color: rgba(245, 158, 11, 0.1); border-left: 3px solid #f59e0b; border-radius: 4px;">
+                                <strong>Bloco 3: Construção</strong><br/>
+                                <small>Módulos 7-8: Extração e SAP HANA</small>
+                            </div>
+                            <div style="padding: 12px; background-color: rgba(168, 85, 247, 0.1); border-left: 3px solid #a855f7; border-radius: 4px;">
+                                <strong>Bloco 4: Arquitetura</strong><br/>
+                                <small>Módulos 9-10: Design patterns</small>
+                            </div>
+                            <div style="padding: 12px; background-color: rgba(236, 72, 153, 0.1); border-left: 3px solid #ec4899; border-radius: 4px;">
+                                <strong>Bloco 5: Governança</strong><br/>
+                                <small>Módulos 11-12: Segurança e Avaliação</small>
+                            </div>
+                            <div style="padding: 12px; background-color: rgba(34, 197, 94, 0.1); border-left: 3px solid #22c55e; border-radius: 4px;">
+                                <strong>Bloco 6-7: Refinamento & Deploy</strong><br/>
+                                <small>Módulos 13-15: Prompt, implementação, ROI</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DADOS DAS TRIPLAS RDF -->
+                    <div style="background-color: var(--bg-white); padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                        <h3 style="margin-bottom: 15px;">🔍 Exemplo de Triplas RDF Extraídas</h3>
+                        <p style="margin-bottom: 15px; font-size: 13px; color: var(--text-muted);">Amostra de 10 triplas que formam a base do grafo de conhecimento:</p>
+                        <div style="background-color: var(--bg-light); padding: 15px; border-radius: 4px; overflow-x: auto; font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.8;">
+                            <div>1. &lt;mod_1&gt; <span style="color: var(--secondary);">isPartOf</span> &lt;Fundamentos&gt;</div>
+                            <div>2. &lt;RAG&gt; <span style="color: var(--secondary);">hasComponent</span> &lt;Retrieval&gt;</div>
+                            <div>3. &lt;mod_3&gt; <span style="color: var(--secondary);">uses</span> &lt;RDF&gt;</div>
+                            <div>4. &lt;mod_4&gt; <span style="color: var(--secondary);">implements</span> &lt;SPARQL&gt;</div>
+                            <div>5. &lt;Embedding&gt; <span style="color: var(--secondary);">enables</span> &lt;SemanticSearch&gt;</div>
+                            <div>6. &lt;mod_9&gt; <span style="color: var(--secondary);">combines</span> &lt;Graph&gt; + &lt;RAG&gt;</div>
+                            <div>7. &lt;GDPR&gt; <span style="color: var(--secondary);">constrains</span> &lt;mod_11&gt;</div>
+                            <div>8. &lt;LangChain&gt; <span style="color: var(--secondary);">alternativeOf</span> &lt;LlamaIndex&gt;</div>
+                            <div>9. &lt;mod_12&gt; <span style="color: var(--secondary);">evaluatesWith</span> &lt;RAGAS&gt;</div>
+                            <div>10. &lt;Kubernetes&gt; <span style="color: var(--secondary);">deploysIn</span> &lt;mod_15&gt;</div>
+                            <div style="margin-top: 10px; color: var(--text-muted);">... e 701 triplas adicionais descrevendo conceitos, tecnologias e relações</div>
+                        </div>
+                    </div>
+
+                    <!-- QUERIES SPARQL -->
+                    <h3 style="margin: 20px 0;">🔎 Queries SPARQL Disponíveis</h3>
+                    <div id="sparql-queries" style="background-color: var(--bg-white); padding: 20px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid var(--secondary);">
+                        <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 10px;">Exemplos de consultas que você pode fazer ao grafo:</div>
+                        <pre style="overflow-x: auto; background-color: var(--bg-light); padding: 12px; border-radius: 4px;"><code id="sparql-content"></code></pre>
+                    </div>
+
+                    <!-- COMO USAR -->
+                    <div style="background-color: var(--bg-white); padding: 20px; border-radius: 8px; border-left: 4px solid var(--accent);">
+                        <h3 style="margin-bottom: 10px;">💡 Como Usar o Grafo</h3>
+                        <ul style="margin: 10px 0; padding-left: 20px;">
+                            <li><strong>Visualize conexões:</strong> Veja como os módulos se relacionam visualmente</li>
+                            <li><strong>Explore dependencies:</strong> Entenda pré-requisitos e sequência de aprendizado</li>
+                            <li><strong>Identifique temas:</strong> Agrupe módulos por bloco temático</li>
+                            <li><strong>Query avançada:</strong> Use SPARQL para consultas personalizadas (seção abaixo)</li>
+                            <li><strong>Navegação:</strong> Clique em um módulo do grafo para abrir seu conteúdo completo</li>
+                        </ul>
                     </div>
                 </div>
 
