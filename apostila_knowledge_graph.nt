@@ -1,0 +1,939 @@
+# N-Triples format
+<http://example.com/modulo_1> <http://example.com/teaches> <http://example.com/RAG> .
+<http://example.com/modulo_1> <http://example.com/teaches> <http://example.com/Retrieval> .
+<http://example.com/modulo_1> <http://example.com/teaches> <http://example.com/Embeddings> .
+<http://example.com/modulo_1> <http://example.com/teaches> <http://example.com/LLM> .
+<http://example.com/modulo_1> <http://example.com/teaches> <http://example.com/Chunks> .
+<http://example.com/modulo_1> <http://example.com/teaches> <http://example.com/Vector Search> .
+<http://example.com/modulo_1> <http://example.com/teaches> <http://example.com/Pipeline> .
+<http://example.com/modulo_1> <http://example.com/teaches> <http://example.com/Grounding> .
+<http://example.com/modulo_1> <http://example.com/has_topic> <http://example.com/RAG_=_Retrieval_+_Augmentation_+_Generation> .
+<http://example.com/modulo_1> <http://example.com/has_topic> <http://example.com/3-etapas> .
+<http://example.com/modulo_1> <http://example.com/has_topic> <http://example.com/5_componentes> .
+<http://example.com/modulo_1> <http://example.com/references> <http://example.com/modulo_2> .
+<http://example.com/modulo_1> <http://example.com/references> <http://example.com/modulo_9> .
+<http://example.com/modulo_1> <http://example.com/references> <http://example.com/modulo_10> .
+<http://example.com/modulo_1> <http://example.com/uses> <http://example.com/Python> .
+<http://example.com/modulo_1> <http://example.com/uses> <http://example.com/Embeddings> .
+<http://example.com/modulo_1> <http://example.com/is_part_of> <http://example.com/Fundamentos> .
+<http://example.com/modulo_2> <http://example.com/teaches> <http://example.com/Alucinação> .
+<http://example.com/modulo_2> <http://example.com/teaches> <http://example.com/Context Window> .
+<http://example.com/modulo_2> <http://example.com/teaches> <http://example.com/Trade-offs> .
+<http://example.com/modulo_2> <http://example.com/teaches> <http://example.com/Naive RAG> .
+<http://example.com/modulo_2> <http://example.com/teaches> <http://example.com/Retrieval Failure> .
+<http://example.com/modulo_2> <http://example.com/teaches> <http://example.com/Context Confusion> .
+<http://example.com/modulo_2> <http://example.com/teaches> <http://example.com/Scaling> .
+<http://example.com/modulo_2> <http://example.com/has_topic> <http://example.com/3_problemas_estruturais> .
+<http://example.com/modulo_2> <http://example.com/has_topic> <http://example.com/4_tipos_de_alucinação_com_exemplos> .
+<http://example.com/modulo_2> <http://example.com/has_topic> <http://example.com/Comparação_Naive_RAG_vs_Graph_RAG_(8-40x_diferença)> .
+<http://example.com/modulo_2> <http://example.com/requires> <http://example.com/modulo_1> .
+<http://example.com/modulo_2> <http://example.com/references> <http://example.com/modulo_1> .
+<http://example.com/modulo_2> <http://example.com/references> <http://example.com/modulo_3> .
+<http://example.com/modulo_2> <http://example.com/references> <http://example.com/modulo_9> .
+<http://example.com/modulo_2> <http://example.com/uses> <http://example.com/Benchmarking> .
+<http://example.com/modulo_2> <http://example.com/uses> <http://example.com/Evaluation> .
+<http://example.com/modulo_2> <http://example.com/is_part_of> <http://example.com/Fundamentos> .
+<http://example.com/modulo_3> <http://example.com/teaches> <http://example.com/Grafos> .
+<http://example.com/modulo_3> <http://example.com/teaches> <http://example.com/Nós> .
+<http://example.com/modulo_3> <http://example.com/teaches> <http://example.com/Arestas> .
+<http://example.com/modulo_3> <http://example.com/teaches> <http://example.com/RDF> .
+<http://example.com/modulo_3> <http://example.com/teaches> <http://example.com/Ontologias> .
+<http://example.com/modulo_3> <http://example.com/teaches> <http://example.com/Triplas> .
+<http://example.com/modulo_3> <http://example.com/teaches> <http://example.com/Semântica> .
+<http://example.com/modulo_3> <http://example.com/teaches> <http://example.com/Entidades> .
+<http://example.com/modulo_3> <http://example.com/teaches> <http://example.com/Relacionamentos> .
+<http://example.com/modulo_3> <http://example.com/has_topic> <http://example.com/Grafo_=_Nós_(entidades)_+_Arestas_(relacionamentos)_+_Semântica> .
+<http://example.com/modulo_3> <http://example.com/has_topic> <http://example.com/Triplas_RDF> .
+<http://example.com/modulo_3> <http://example.com/has_topic> <http://example.com/Diferença> .
+<http://example.com/modulo_3> <http://example.com/requires> <http://example.com/modulo_1> .
+<http://example.com/modulo_3> <http://example.com/requires> <http://example.com/modulo_2> .
+<http://example.com/modulo_3> <http://example.com/references> <http://example.com/modulo_4> .
+<http://example.com/modulo_3> <http://example.com/references> <http://example.com/modulo_7> .
+<http://example.com/modulo_3> <http://example.com/references> <http://example.com/modulo_8> .
+<http://example.com/modulo_3> <http://example.com/uses> <http://example.com/RDF> .
+<http://example.com/modulo_3> <http://example.com/uses> <http://example.com/N-Triples> .
+<http://example.com/modulo_3> <http://example.com/is_part_of> <http://example.com/Tecnologia> .
+<http://example.com/modulo_4> <http://example.com/teaches> <http://example.com/SPARQL> .
+<http://example.com/modulo_4> <http://example.com/teaches> <http://example.com/Queries> .
+<http://example.com/modulo_4> <http://example.com/teaches> <http://example.com/Inferência> .
+<http://example.com/modulo_4> <http://example.com/teaches> <http://example.com/OWL> .
+<http://example.com/modulo_4> <http://example.com/teaches> <http://example.com/SHACL> .
+<http://example.com/modulo_4> <http://example.com/teaches> <http://example.com/Pattern Matching> .
+<http://example.com/modulo_4> <http://example.com/teaches> <http://example.com/W3C Standard> .
+<http://example.com/modulo_4> <http://example.com/teaches> <http://example.com/Optimization> .
+<http://example.com/modulo_4> <http://example.com/has_topic> <http://example.com/SPARQL_=_SQL_para_grafos_RDF> .
+<http://example.com/modulo_4> <http://example.com/has_topic> <http://example.com/50+_queries_práticas_(simples_a_avançadas)> .
+<http://example.com/modulo_4> <http://example.com/has_topic> <http://example.com/Operadores> .
+<http://example.com/modulo_4> <http://example.com/requires> <http://example.com/modulo_3> .
+<http://example.com/modulo_4> <http://example.com/references> <http://example.com/modulo_3> .
+<http://example.com/modulo_4> <http://example.com/references> <http://example.com/modulo_8> .
+<http://example.com/modulo_4> <http://example.com/references> <http://example.com/modulo_9> .
+<http://example.com/modulo_4> <http://example.com/uses> <http://example.com/SPARQL 1.1> .
+<http://example.com/modulo_4> <http://example.com/uses> <http://example.com/OWL 2 RL> .
+<http://example.com/modulo_4> <http://example.com/is_part_of> <http://example.com/Tecnologia> .
+<http://example.com/modulo_5> <http://example.com/teaches> <http://example.com/SAP AI Foundation> .
+<http://example.com/modulo_5> <http://example.com/teaches> <http://example.com/Neuro-Simbólica> .
+<http://example.com/modulo_5> <http://example.com/teaches> <http://example.com/Knowledge Graph> .
+<http://example.com/modulo_5> <http://example.com/teaches> <http://example.com/SAP-RPT-1.5> .
+<http://example.com/modulo_5> <http://example.com/teaches> <http://example.com/Agent Hub> .
+<http://example.com/modulo_5> <http://example.com/teaches> <http://example.com/Clean Core> .
+<http://example.com/modulo_5> <http://example.com/teaches> <http://example.com/Joule> .
+<http://example.com/modulo_5> <http://example.com/teaches> <http://example.com/MCP> .
+<http://example.com/modulo_5> <http://example.com/has_topic> <http://example.com/Neuro-Simbólica_=_Neural_(LLM)_+_Simbólica_(Grafo/Lógica)> .
+<http://example.com/modulo_5> <http://example.com/has_topic> <http://example.com/Stack_SAP> .
+<http://example.com/modulo_5> <http://example.com/has_topic> <http://example.com/S/4HANA_+_Clean_Core_integration> .
+<http://example.com/modulo_5> <http://example.com/requires> <http://example.com/modulo_1> .
+<http://example.com/modulo_5> <http://example.com/requires> <http://example.com/modulo_2> .
+<http://example.com/modulo_5> <http://example.com/requires> <http://example.com/modulo_3> .
+<http://example.com/modulo_5> <http://example.com/references> <http://example.com/modulo_6> .
+<http://example.com/modulo_5> <http://example.com/references> <http://example.com/modulo_8> .
+<http://example.com/modulo_5> <http://example.com/references> <http://example.com/modulo_9> .
+<http://example.com/modulo_5> <http://example.com/uses> <http://example.com/SAP HANA> .
+<http://example.com/modulo_5> <http://example.com/uses> <http://example.com/SAP-RPT-1.5> .
+<http://example.com/modulo_5> <http://example.com/is_part_of> <http://example.com/Tecnologia> .
+<http://example.com/modulo_6> <http://example.com/teaches> <http://example.com/Chunking> .
+<http://example.com/modulo_6> <http://example.com/teaches> <http://example.com/Embeddings> .
+<http://example.com/modulo_6> <http://example.com/teaches> <http://example.com/Hybrid Search> .
+<http://example.com/modulo_6> <http://example.com/teaches> <http://example.com/Semantic> .
+<http://example.com/modulo_6> <http://example.com/teaches> <http://example.com/Late Chunking> .
+<http://example.com/modulo_6> <http://example.com/teaches> <http://example.com/Reranking> .
+<http://example.com/modulo_6> <http://example.com/teaches> <http://example.com/Vectors> .
+<http://example.com/modulo_6> <http://example.com/teaches> <http://example.com/Similarity> .
+<http://example.com/modulo_6> <http://example.com/has_topic> <http://example.com/6+_estratégias> .
+<http://example.com/modulo_6> <http://example.com/has_topic> <http://example.com/Late_Chunking_=_79%_acurácia_(benchmark_Vectara_NAACL_2025)> .
+<http://example.com/modulo_6> <http://example.com/has_topic> <http://example.com/10+_modelos_de_embedding_em_2026> .
+<http://example.com/modulo_6> <http://example.com/requires> <http://example.com/modulo_1> .
+<http://example.com/modulo_6> <http://example.com/requires> <http://example.com/modulo_3> .
+<http://example.com/modulo_6> <http://example.com/references> <http://example.com/modulo_7> .
+<http://example.com/modulo_6> <http://example.com/references> <http://example.com/modulo_9> .
+<http://example.com/modulo_6> <http://example.com/references> <http://example.com/modulo_10> .
+<http://example.com/modulo_6> <http://example.com/uses> <http://example.com/Embeddings> .
+<http://example.com/modulo_6> <http://example.com/uses> <http://example.com/Vector DB> .
+<http://example.com/modulo_6> <http://example.com/is_part_of> <http://example.com/Tecnologia> .
+<http://example.com/modulo_7> <http://example.com/teaches> <http://example.com/Extração de Triplas> .
+<http://example.com/modulo_7> <http://example.com/teaches> <http://example.com/NER> .
+<http://example.com/modulo_7> <http://example.com/teaches> <http://example.com/Relation Extraction> .
+<http://example.com/modulo_7> <http://example.com/teaches> <http://example.com/NLP> .
+<http://example.com/modulo_7> <http://example.com/teaches> <http://example.com/LLM-based> .
+<http://example.com/modulo_7> <http://example.com/teaches> <http://example.com/Normalização> .
+<http://example.com/modulo_7> <http://example.com/teaches> <http://example.com/Validação> .
+<http://example.com/modulo_7> <http://example.com/teaches> <http://example.com/SHACL> .
+<http://example.com/modulo_7> <http://example.com/has_topic> <http://example.com/Pipeline> .
+<http://example.com/modulo_7> <http://example.com/has_topic> <http://example.com/NER_tradicional_(spaCy)> .
+<http://example.com/modulo_7> <http://example.com/has_topic> <http://example.com/LLM-based> .
+<http://example.com/modulo_7> <http://example.com/requires> <http://example.com/modulo_1> .
+<http://example.com/modulo_7> <http://example.com/requires> <http://example.com/modulo_3> .
+<http://example.com/modulo_7> <http://example.com/requires> <http://example.com/modulo_4> .
+<http://example.com/modulo_7> <http://example.com/references> <http://example.com/modulo_3> .
+<http://example.com/modulo_7> <http://example.com/references> <http://example.com/modulo_8> .
+<http://example.com/modulo_7> <http://example.com/references> <http://example.com/modulo_9> .
+<http://example.com/modulo_7> <http://example.com/uses> <http://example.com/spaCy> .
+<http://example.com/modulo_7> <http://example.com/uses> <http://example.com/LLM> .
+<http://example.com/modulo_7> <http://example.com/is_part_of> <http://example.com/Construção> .
+<http://example.com/modulo_8> <http://example.com/teaches> <http://example.com/SAP HANA> .
+<http://example.com/modulo_8> <http://example.com/teaches> <http://example.com/Knowledge Graph Engine> .
+<http://example.com/modulo_8> <http://example.com/teaches> <http://example.com/KGE> .
+<http://example.com/modulo_8> <http://example.com/teaches> <http://example.com/RDF Triple Store> .
+<http://example.com/modulo_8> <http://example.com/teaches> <http://example.com/SPARQL queries> .
+<http://example.com/modulo_8> <http://example.com/teaches> <http://example.com/No-ETL> .
+<http://example.com/modulo_8> <http://example.com/teaches> <http://example.com/Inferencing> .
+<http://example.com/modulo_8> <http://example.com/has_topic> <http://example.com/KGE_=_motor_nativo_HANA_para_armazenar/consultar_RDF> .
+<http://example.com/modulo_8> <http://example.com/has_topic> <http://example.com/Diferença> .
+<http://example.com/modulo_8> <http://example.com/has_topic> <http://example.com/Multi-model> .
+<http://example.com/modulo_8> <http://example.com/requires> <http://example.com/modulo_3> .
+<http://example.com/modulo_8> <http://example.com/requires> <http://example.com/modulo_4> .
+<http://example.com/modulo_8> <http://example.com/requires> <http://example.com/modulo_5> .
+<http://example.com/modulo_8> <http://example.com/references> <http://example.com/modulo_4> .
+<http://example.com/modulo_8> <http://example.com/references> <http://example.com/modulo_9> .
+<http://example.com/modulo_8> <http://example.com/references> <http://example.com/modulo_10> .
+<http://example.com/modulo_8> <http://example.com/uses> <http://example.com/SAP HANA Cloud> .
+<http://example.com/modulo_8> <http://example.com/uses> <http://example.com/RDF> .
+<http://example.com/modulo_8> <http://example.com/is_part_of> <http://example.com/Construção> .
+<http://example.com/modulo_9> <http://example.com/teaches> <http://example.com/Graph RAG> .
+<http://example.com/modulo_9> <http://example.com/teaches> <http://example.com/Agent-to-Agent> .
+<http://example.com/modulo_9> <http://example.com/teaches> <http://example.com/MCP> .
+<http://example.com/modulo_9> <http://example.com/teaches> <http://example.com/Agent Hub> .
+<http://example.com/modulo_9> <http://example.com/teaches> <http://example.com/Orchestration> .
+<http://example.com/modulo_9> <http://example.com/teaches> <http://example.com/Multi-hop> .
+<http://example.com/modulo_9> <http://example.com/teaches> <http://example.com/Hybrid Retrieval> .
+<http://example.com/modulo_9> <http://example.com/teaches> <http://example.com/5-Layers> .
+<http://example.com/modulo_9> <http://example.com/has_topic> <http://example.com/Pipeline_5-camadas> .
+<http://example.com/modulo_9> <http://example.com/has_topic> <http://example.com/Comparison> .
+<http://example.com/modulo_9> <http://example.com/has_topic> <http://example.com/Agent-to-Agent_communication_(A2A)> .
+<http://example.com/modulo_9> <http://example.com/requires> <http://example.com/modulo_1> .
+<http://example.com/modulo_9> <http://example.com/requires> <http://example.com/modulo_2> .
+<http://example.com/modulo_9> <http://example.com/requires> <http://example.com/modulo_3> .
+<http://example.com/modulo_9> <http://example.com/requires> <http://example.com/modulo_4> .
+<http://example.com/modulo_9> <http://example.com/requires> <http://example.com/modulo_5> .
+<http://example.com/modulo_9> <http://example.com/requires> <http://example.com/modulo_6> .
+<http://example.com/modulo_9> <http://example.com/requires> <http://example.com/modulo_7> .
+<http://example.com/modulo_9> <http://example.com/requires> <http://example.com/modulo_8> .
+<http://example.com/modulo_9> <http://example.com/references> <http://example.com/modulo_10> .
+<http://example.com/modulo_9> <http://example.com/references> <http://example.com/modulo_11> .
+<http://example.com/modulo_9> <http://example.com/references> <http://example.com/modulo_12> .
+<http://example.com/modulo_9> <http://example.com/uses> <http://example.com/LangGraph> .
+<http://example.com/modulo_9> <http://example.com/uses> <http://example.com/Agent Hub> .
+<http://example.com/modulo_9> <http://example.com/is_part_of> <http://example.com/Arquitetura> .
+<http://example.com/modulo_10> <http://example.com/teaches> <http://example.com/LangChain> .
+<http://example.com/modulo_10> <http://example.com/teaches> <http://example.com/LlamaIndex> .
+<http://example.com/modulo_10> <http://example.com/teaches> <http://example.com/LangGraph> .
+<http://example.com/modulo_10> <http://example.com/teaches> <http://example.com/RAG implementation> .
+<http://example.com/modulo_10> <http://example.com/teaches> <http://example.com/Framework comparison> .
+<http://example.com/modulo_10> <http://example.com/teaches> <http://example.com/Production deployment> .
+<http://example.com/modulo_10> <http://example.com/has_topic> <http://example.com/LangChain> .
+<http://example.com/modulo_10> <http://example.com/has_topic> <http://example.com/LlamaIndex> .
+<http://example.com/modulo_10> <http://example.com/has_topic> <http://example.com/Best_Practice_2026> .
+<http://example.com/modulo_10> <http://example.com/requires> <http://example.com/modulo_1> .
+<http://example.com/modulo_10> <http://example.com/requires> <http://example.com/modulo_3> .
+<http://example.com/modulo_10> <http://example.com/requires> <http://example.com/modulo_4> .
+<http://example.com/modulo_10> <http://example.com/requires> <http://example.com/modulo_6> .
+<http://example.com/modulo_10> <http://example.com/references> <http://example.com/modulo_9> .
+<http://example.com/modulo_10> <http://example.com/references> <http://example.com/modulo_11> .
+<http://example.com/modulo_10> <http://example.com/references> <http://example.com/modulo_12> .
+<http://example.com/modulo_10> <http://example.com/uses> <http://example.com/LangChain> .
+<http://example.com/modulo_10> <http://example.com/uses> <http://example.com/LlamaIndex> .
+<http://example.com/modulo_10> <http://example.com/is_part_of> <http://example.com/Arquitetura> .
+<http://example.com/modulo_11> <http://example.com/teaches> <http://example.com/GDPR> .
+<http://example.com/modulo_11> <http://example.com/teaches> <http://example.com/LGPD> .
+<http://example.com/modulo_11> <http://example.com/teaches> <http://example.com/Compliance> .
+<http://example.com/modulo_11> <http://example.com/teaches> <http://example.com/Encryption> .
+<http://example.com/modulo_11> <http://example.com/teaches> <http://example.com/RBAC> .
+<http://example.com/modulo_11> <http://example.com/teaches> <http://example.com/Audit> .
+<http://example.com/modulo_11> <http://example.com/teaches> <http://example.com/Data Classification> .
+<http://example.com/modulo_11> <http://example.com/teaches> <http://example.com/PII Protection> .
+<http://example.com/modulo_11> <http://example.com/has_topic> <http://example.com/4_níveis_de_classificação_de_dados> .
+<http://example.com/modulo_11> <http://example.com/has_topic> <http://example.com/6_papéis_RBAC_com_matriz_de_permissões> .
+<http://example.com/modulo_11> <http://example.com/has_topic> <http://example.com/Criptografia_Fernet_(AEAD_+_HMAC-SHA256)> .
+<http://example.com/modulo_11> <http://example.com/requires> <http://example.com/modulo_9> .
+<http://example.com/modulo_11> <http://example.com/requires> <http://example.com/modulo_10> .
+<http://example.com/modulo_11> <http://example.com/references> <http://example.com/modulo_12> .
+<http://example.com/modulo_11> <http://example.com/references> <http://example.com/modulo_14> .
+<http://example.com/modulo_11> <http://example.com/references> <http://example.com/modulo_15> .
+<http://example.com/modulo_11> <http://example.com/uses> <http://example.com/Fernet encryption> .
+<http://example.com/modulo_11> <http://example.com/uses> <http://example.com/PBKDF2> .
+<http://example.com/modulo_11> <http://example.com/is_part_of> <http://example.com/Governança> .
+<http://example.com/modulo_12> <http://example.com/teaches> <http://example.com/RAGAS> .
+<http://example.com/modulo_12> <http://example.com/teaches> <http://example.com/Evaluation Metrics> .
+<http://example.com/modulo_12> <http://example.com/teaches> <http://example.com/Faithfulness> .
+<http://example.com/modulo_12> <http://example.com/teaches> <http://example.com/Relevancy> .
+<http://example.com/modulo_12> <http://example.com/teaches> <http://example.com/NDCG> .
+<http://example.com/modulo_12> <http://example.com/teaches> <http://example.com/Spearman Correlation> .
+<http://example.com/modulo_12> <http://example.com/teaches> <http://example.com/Benchmarking> .
+<http://example.com/modulo_12> <http://example.com/has_topic> <http://example.com/4_métricas> .
+<http://example.com/modulo_12> <http://example.com/has_topic> <http://example.com/NDCG> .
+<http://example.com/modulo_12> <http://example.com/has_topic> <http://example.com/Spearman_correlation_(ρ)> .
+<http://example.com/modulo_12> <http://example.com/requires> <http://example.com/modulo_9> .
+<http://example.com/modulo_12> <http://example.com/requires> <http://example.com/modulo_10> .
+<http://example.com/modulo_12> <http://example.com/references> <http://example.com/modulo_11> .
+<http://example.com/modulo_12> <http://example.com/references> <http://example.com/modulo_13> .
+<http://example.com/modulo_12> <http://example.com/references> <http://example.com/modulo_14> .
+<http://example.com/modulo_12> <http://example.com/uses> <http://example.com/RAGAS> .
+<http://example.com/modulo_12> <http://example.com/uses> <http://example.com/Statistical metrics> .
+<http://example.com/modulo_12> <http://example.com/is_part_of> <http://example.com/Governança> .
+<http://example.com/modulo_13> <http://example.com/teaches> <http://example.com/Prompt Engineering> .
+<http://example.com/modulo_13> <http://example.com/teaches> <http://example.com/Chain-of-Thought> .
+<http://example.com/modulo_13> <http://example.com/teaches> <http://example.com/Few-Shot> .
+<http://example.com/modulo_13> <http://example.com/teaches> <http://example.com/Structured Output> .
+<http://example.com/modulo_13> <http://example.com/teaches> <http://example.com/In-Context Learning> .
+<http://example.com/modulo_13> <http://example.com/teaches> <http://example.com/Template Optimization> .
+<http://example.com/modulo_13> <http://example.com/has_topic> <http://example.com/Técnicas> .
+<http://example.com/modulo_13> <http://example.com/has_topic> <http://example.com/Impacto> .
+<http://example.com/modulo_13> <http://example.com/has_topic> <http://example.com/In-context_learning_vs_fine-tuning> .
+<http://example.com/modulo_13> <http://example.com/requires> <http://example.com/modulo_9> .
+<http://example.com/modulo_13> <http://example.com/requires> <http://example.com/modulo_10> .
+<http://example.com/modulo_13> <http://example.com/references> <http://example.com/modulo_14> .
+<http://example.com/modulo_13> <http://example.com/references> <http://example.com/modulo_15> .
+<http://example.com/modulo_13> <http://example.com/uses> <http://example.com/Prompt templates> .
+<http://example.com/modulo_13> <http://example.com/uses> <http://example.com/LLM optimization> .
+<http://example.com/modulo_13> <http://example.com/is_part_of> <http://example.com/Refinamento> .
+<http://example.com/modulo_14> <http://example.com/teaches> <http://example.com/SAP Supply Chain Intelligence> .
+<http://example.com/modulo_14> <http://example.com/teaches> <http://example.com/LangGraph> .
+<http://example.com/modulo_14> <http://example.com/teaches> <http://example.com/Production Code> .
+<http://example.com/modulo_14> <http://example.com/teaches> <http://example.com/Lei de Little> .
+<http://example.com/modulo_14> <http://example.com/teaches> <http://example.com/Async/ASGI> .
+<http://example.com/modulo_14> <http://example.com/teaches> <http://example.com/Real Project> .
+<http://example.com/modulo_14> <http://example.com/has_topic> <http://example.com/Projeto_real> .
+<http://example.com/modulo_14> <http://example.com/has_topic> <http://example.com/LangGraph> .
+<http://example.com/modulo_14> <http://example.com/has_topic> <http://example.com/Lei_de_Little> .
+<http://example.com/modulo_14> <http://example.com/requires> <http://example.com/modulo_9> .
+<http://example.com/modulo_14> <http://example.com/requires> <http://example.com/modulo_10> .
+<http://example.com/modulo_14> <http://example.com/requires> <http://example.com/modulo_11> .
+<http://example.com/modulo_14> <http://example.com/requires> <http://example.com/modulo_12> .
+<http://example.com/modulo_14> <http://example.com/requires> <http://example.com/modulo_13> .
+<http://example.com/modulo_14> <http://example.com/references> <http://example.com/modulo_15> .
+<http://example.com/modulo_14> <http://example.com/uses> <http://example.com/LangGraph> .
+<http://example.com/modulo_14> <http://example.com/uses> <http://example.com/ASGI> .
+<http://example.com/modulo_14> <http://example.com/is_part_of> <http://example.com/Refinamento> .
+<http://example.com/modulo_15> <http://example.com/teaches> <http://example.com/Deployment> .
+<http://example.com/modulo_15> <http://example.com/teaches> <http://example.com/Scaling> .
+<http://example.com/modulo_15> <http://example.com/teaches> <http://example.com/ROI> .
+<http://example.com/modulo_15> <http://example.com/teaches> <http://example.com/Kubernetes> .
+<http://example.com/modulo_15> <http://example.com/teaches> <http://example.com/Monitoring> .
+<http://example.com/modulo_15> <http://example.com/teaches> <http://example.com/Semantic Caching> .
+<http://example.com/modulo_15> <http://example.com/teaches> <http://example.com/Build vs Buy> .
+<http://example.com/modulo_15> <http://example.com/teaches> <http://example.com/Payback Period> .
+<http://example.com/modulo_15> <http://example.com/has_topic> <http://example.com/Auto-scaling> .
+<http://example.com/modulo_15> <http://example.com/has_topic> <http://example.com/Semantic_Caching> .
+<http://example.com/modulo_15> <http://example.com/has_topic> <http://example.com/Monitoring> .
+<http://example.com/modulo_15> <http://example.com/requires> <http://example.com/modulo_9> .
+<http://example.com/modulo_15> <http://example.com/requires> <http://example.com/modulo_10> .
+<http://example.com/modulo_15> <http://example.com/requires> <http://example.com/modulo_11> .
+<http://example.com/modulo_15> <http://example.com/requires> <http://example.com/modulo_12> .
+<http://example.com/modulo_15> <http://example.com/requires> <http://example.com/modulo_14> .
+<http://example.com/modulo_15> <http://example.com/uses> <http://example.com/Kubernetes> .
+<http://example.com/modulo_15> <http://example.com/uses> <http://example.com/Prometheus> .
+<http://example.com/modulo_15> <http://example.com/is_part_of> <http://example.com/Deployment> .
+<http://example.com/RAG> <http://example.com/defined_in> <http://example.com/modulo_1> .
+<http://example.com/RAG> <http://example.com/defined_in> <http://example.com/modulo_2> .
+<http://example.com/RAG> <http://example.com/defined_in> <http://example.com/modulo_9> .
+<http://example.com/RAG> <http://example.com/defined_in> <http://example.com/modulo_10> .
+<http://example.com/Grafos> <http://example.com/defined_in> <http://example.com/modulo_3> .
+<http://example.com/Grafos> <http://example.com/defined_in> <http://example.com/modulo_4> .
+<http://example.com/Grafos> <http://example.com/defined_in> <http://example.com/modulo_8> .
+<http://example.com/Grafos> <http://example.com/defined_in> <http://example.com/modulo_9> .
+<http://example.com/Extração> <http://example.com/defined_in> <http://example.com/modulo_7> .
+<http://example.com/Extração> <http://example.com/defined_in> <http://example.com/modulo_14> .
+<http://example.com/Avaliação> <http://example.com/defined_in> <http://example.com/modulo_12> .
+<http://example.com/Deployment> <http://example.com/defined_in> <http://example.com/modulo_14> .
+<http://example.com/Deployment> <http://example.com/defined_in> <http://example.com/modulo_15> .
+<http://example.com/Banco_Brasil> <http://example.com/documented_in> <http://example.com/modulo_2> .
+<http://example.com/Banco_Brasil> <http://example.com/documented_in> <http://example.com/modulo_15> .
+<http://example.com/Manufatura_Europa> <http://example.com/documented_in> <http://example.com/modulo_14> .
+<http://example.com/Manufatura_Europa> <http://example.com/documented_in> <http://example.com/modulo_15> .
+<http://example.com/SaaS_EUA> <http://example.com/documented_in> <http://example.com/modulo_9> .
+<http://example.com/SaaS_EUA> <http://example.com/documented_in> <http://example.com/modulo_15> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Definição_técnica> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Conhecimento_estático> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Custos_de_retreinamento> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Falta_de_rastreabilidade> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Exemplo_prático> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Por_que_é_crítico?> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Estratégias_principais_em_2026> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Benchmark_NVIDIA_2026> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/0.648_de_acurácia> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Exemplo_-_Fixed-Size_Chunking_com_Python> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Como_funciona?> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Modelos_de_Embedding_Disponíveis_em_2026> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/OpenAI_text-embedding-3-small> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Voyage_AI_voyage-3> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Nomic_embed-text-v1.5> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Cohere_embed-english-v3.0> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Sentence-Transformers_all-minilm-l6-v2> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Exemplo_-_Gerar_Embeddings_com_Python> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Implicações_práticas> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Por_que_não_usar_banco_relacional?> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Busca_por_ID> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Busca_exata_por_coluna> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Similaridade_semântica> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Escala_(milhões_de_vetores)> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Custo_de_busca_para_1M_vetores> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Vector_Stores_Populares_em_2026> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Exemplo_-_Usando_ChromaDB_Localmente> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Tipos_de_Retrieval_em_2026> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Semantic_Search_(Vetorial)> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Hybrid_Search_(Recomendado_em_Produção)> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Exemplo_-_Hybrid_Search> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Exemplo_de_Prompt_Construído> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Tempo_para_Produção> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Custo_de_Implementação> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Atualização_de_Conhecimento> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Performance_em_Domínio_Específico> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Casos_de_Uso> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Embedding> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Vector_DB> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Código_Simulado> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Por_que_RAG_é_crítico_aqui> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Implementação_específica> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/1._Perda_de_Contexto_Global> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/2._Incapacidade_em_Consultas_Analíticas> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/3._Falta_de_Auditabilidade_Lógica> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/4._Alucinações_ainda_Ocorrem> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/5._Problema_de_"Relevância_Local_vs_Global"> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Análise_cross-document> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Reasoning_multi-hop> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Conteúdo_em_rápida_mudança> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Conhecimento_não-textual> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Informação_altamente_estruturada> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Exercício_1> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Exercício_2> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Exercício_3> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/os_fundamentos_de_RAG_tradicional_(Naive_RAG)> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/5_Componentes> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Casos_reais> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Próxima_etapa> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/limitações_críticas> .
+<http://example.com/modulo_1> <http://example.com/mentions> <http://example.com/Módulo_1_Finalizado> .
+<http://example.com/modulo_1> <http://example.com/imports> <http://example.com/sentence_transformers> .
+<http://example.com/modulo_1> <http://example.com/imports> <http://example.com/numpy> .
+<http://example.com/modulo_1> <http://example.com/imports> <http://example.com/cosine_similarity> .
+<http://example.com/modulo_1> <http://example.com/imports> <http://example.com/chromadb> .
+<http://example.com/modulo_1> <http://example.com/imports> <http://example.com/Settings> .
+<http://example.com/modulo_1> <http://example.com/imports> <http://example.com/rank_bm25> .
+<http://example.com/modulo_1> <http://example.com/imports> <http://example.com/os> .
+<http://example.com/modulo_1> <http://example.com/imports> <http://example.com/anthropic> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/chunks_isolados> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Estudo_de_caso_2026> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Taxa_de_erro_vs_Tamanho_do_Documento> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/35%_de_erro> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/48%_de_erro> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Exemplo_1:_Contrato_com_Cláusula_de_Não-Concorrência> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/O_que_RAG_recupera> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Resposta_gerada> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Probabilidade_de_erro> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Exemplo_2:_Dados_Financeiros_com_Retroativo> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Custo_do_erro> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Chunking_quebra_linhas_narrativas> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Embeddings_não_capturaram_negações> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Falta_de_contexto_de_scope> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/recuperação_de_informação_textual> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/análise_agregada> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Query_Típica> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/O_que_RAG_faz> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Por_quê> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/POR_QUÊ> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/1._Compliance:_Por_que_você_negou_este_empréstimo?> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/2._Legal:_Qual_artigo_da_lei_x_foi_violado?> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Definição_técnica> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/não_presente_nos_documentos_recuperados> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Frequência_em_2026> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Taxa_de_ocorrência> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/O_que_aconteceu> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Por_quê_aconteceu> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Custo_direto> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Custo_indireto> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Solução_parcial> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Solução_completa> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Contexto_Global> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Queries_Analíticas> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Performance_Consultas> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Custo_Storage> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Custo_Implementação> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Tempo_Setup> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/O_que_falhou> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Solução_necessária> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/limitações_críticas_de_Naive_RAG> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/3_Problemas_Estruturais> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Casos_Reais> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Transição_Necessária> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Próxima_Etapa> .
+<http://example.com/modulo_2> <http://example.com/mentions> <http://example.com/Módulo_2_Finalizado> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Grafo_de_Conhecimento_(Knowledge_Graph)> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Diferença_crítica_com_banco_de_dados_tradicional> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Identificador_único> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Exemplo_de_Nó> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Opcional_com_propriedades> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Exemplo_de_Aresta> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/RDF_(Resource_Description_Framework)> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Exemplo_SAP> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Query_Language> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Exemplo_simples> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Código_Python> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Código_Python_para_Multi-Hop> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Estrutura_de_Dados> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Consulta_1-hop> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Consulta_3-hop> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Consulta_5-hop> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Análise_Analítica> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Busca_Semântica> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Complexidade_Query> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Conformidade_Regulatória> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Custo_Operacional> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Curva_de_Aprendizado> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Dados_públicos> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Triplas_RDF> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/20+_exemplos> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Inferência_Multi-Hop> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Casos_reais> .
+<http://example.com/modulo_3> <http://example.com/mentions> <http://example.com/Módulo_3_Finalizado> .
+<http://example.com/modulo_3> <http://example.com/imports> <http://example.com/rdflib> .
+<http://example.com/modulo_3> <http://example.com/imports> <http://example.com/datetime> .
+<http://example.com/modulo_4> <http://example.com/mentions> <http://example.com/SPARQL> .
+<http://example.com/modulo_4> <http://example.com/mentions> <http://example.com/Resultado_esperado> .
+<http://example.com/modulo_4> <http://example.com/mentions> <http://example.com/OWL_(Web_Ontology_Language)> .
+<http://example.com/modulo_4> <http://example.com/mentions> <http://example.com/SHACL_(Shapes_Constraint_Language)> .
+<http://example.com/modulo_4> <http://example.com/mentions> <http://example.com/SPARQL_Domínio> .
+<http://example.com/modulo_4> <http://example.com/mentions> <http://example.com/OWL_Ontologias> .
+<http://example.com/modulo_4> <http://example.com/mentions> <http://example.com/SHACL_Validação> .
+<http://example.com/modulo_4> <http://example.com/mentions> <http://example.com/Casos_Reais> .
+<http://example.com/modulo_4> <http://example.com/mentions> <http://example.com/Módulo_4_Finalizado> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/Analogia_humana> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/LLM_Puro> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/RAG_Tradicional> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/Simbólico_Puro> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/O_que_contém> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/Diferença_do_GPT/Claude> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/Exemplo_de_Prompt_para_SAP-RPT-1.5> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/O_que_é> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/Exemplo_de_Workflow_Multi-Agent> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/SaaS_Era> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/SaaR_Era> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/Clean_Core_Strategy> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/Fluxo_com_S/4HANA_+_AI_Foundation> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/Solução_com_AI_Foundation> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/Solução_com_Neuro-Simbólica> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/"
+________)
+____
+____def_analyze_purchase_request(self,_po_id:_str):
+________"""
+________Analisa_requisição_de_compra_com_Knowledge_Graph_+_Rules.
+________"""
+________#_1._Buscar_dados_em_S/4HANA
+________po_data_=_self.hana.query(f"""
+____________SELECT_po_id,_vendor_id,_material_id,_quantity,_
+___________________unit_price,_requested_date,_requester_id
+____________FROM_purchase_orders
+____________WHERE_po_id_=_'{po_id}'
+________""")
+________
+________#_2._Enriquecer_com_dados_do_Knowledge_Graph
+________vendor_data_=_self.graph.query(f"""
+____________PREFIX_ex:_<http://sap.com/procurement/>
+____________SELECT_?vendor_?reliability_?country_?financialHealth
+____________WHERE_{{
+______________ex:vendor/{po_data['vendor_id']}_
+________________ex:hasReliabilityScore_?reliability_;
+________________ex:locatedIn_?country_;
+________________ex:financialScore_?financialHealth_.
+____________}}
+________""")
+________
+________#_3._Avaliar_risco_usando_Business_Rules
+________risk_assessment_=_self._evaluate_risk(po_data,_vendor_data)
+________
+________#_4._Usar_SAP-RPT-1.5_para_predição
+________prediction_=_self.ai.predict(
+____________input={
+________________"purchase_order":_po_data,
+________________"vendor_metrics":_vendor_data,
+________________"risk_factors":_risk_assessment
+____________},
+____________model="sap-rpt-1.5",
+____________task="procurement_approval"
+________)
+________
+________#_5._Gerar_recomendação
+________recommendation_=_self._generate_recommendation(prediction)
+________
+________return_{
+____________"po_id":_po_id,
+____________"recommendation":_recommendation['action'],
+____________"confidence":_recommendation['confidence'],
+____________"reasoning":_recommendation['audit_trail'],
+____________"timestamp":_str(datetime.now())
+________}
+____
+____def__evaluate_risk(self,_po_data,_vendor_data):
+________"""Aplica_business_rules"""
+________risks_=_[]
+________
+________#_Regra_1:_Novo_fornecedor?
+________if_vendor_data.get('months_as_vendor',_0)_<_6:
+____________risks.append("NEW_VENDOR")
+________
+________#_Regra_2:_Desconto_muito_alto?
+________if_po_data['discount_pct']_>_20:
+____________risks.append("UNUSUAL_DISCOUNT")
+________
+________#_Regra_3:_País_de_risco?
+________geopolitical_risk_countries_=_['KP',_'IR',_'SY']
+________if_vendor_data.get('country')_in_geopolitical_risk_countries:
+____________risks.append("GEOPOLITICAL_RISK")
+________
+________#_Regra_4:_Fornecedor_com_atraso_histórico?
+________if_vendor_data.get('on_time_delivery_rate',_100)_<_80:
+____________risks.append("DELIVERY_RISK")
+________
+________return_{
+____________"risk_flags":_risks,
+____________"risk_score":_len(risks)_/_4.0__#_0-1_scale
+________}
+____
+____def__generate_recommendation(self,_prediction):
+________"""Gera_ação_recomendada"""
+________if_prediction.approval_probability_>_0.9:
+____________action_=_"AUTO_APPROVE"
+____________required_approvers_=_1
+________elif_prediction.approval_probability_>_0.7:
+____________action_=_"APPROVE_WITH_CONDITIONS"
+____________required_approvers_=_2
+________else:
+____________action_=_"ESCALATE_TO_MANAGER"
+____________required_approvers_=_3
+________
+________return_{
+____________"action":_action,
+____________"confidence":_prediction.approval_probability,
+____________"required_approvers":_required_approvers,
+____________"audit_trail":_{
+________________"model_used":_"sap-rpt-1.5",
+________________"graph_queries":_prediction.graph_references,
+________________"rules_applied":_prediction.rules_applied,
+________________"reasoning":_prediction.explanation
+____________}
+________}
+
+
+#_Uso
+agent_=_ProcurementOptimizationAgent()
+result_=_agent.analyze_purchase_request("PO-2026-0001")
+
+print(f"Recomendação:_{result['recommendation']}")
+print(f"Confiança:_{result['confidence']:.1%}")
+print(f"\nRastreamento_de_Auditoria:")
+for_key,_value_in_result['reasoning'].items():
+____print(f"__{key}:_{value}")
+```
+
+---
+
+##_5.7_Comparação:_SAP_AI_Foundation_vs_Alternativas
+
+|_Aspecto_|_SAP_AI_Foundation_|_LangChain_+_GPT_|_RAG_+_Open_Source_|
+|---------|-------------------|-----------------|-------------------|
+|_> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/_|_Nativo_(S/4HANA)_|_Requer_RAG_|_Manual_|
+|_> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/_|_95%+_|_20%_|_30%_|
+|_> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/_|_8-12_semanas_|_4-6_semanas_|_12-16_semanas_|
+|_> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/_|_95%_acurácia_|_78%_acurácia_|_72%_acurácia_|
+|_> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/_|_$500k-1M_|_$200k-400k_|_$300k-600k_|
+|_> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/_|_6-8x_|_3-4x_|_2-3x_|
+|_> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/_|_Excelente_|_Boa_|_Média_|
+|_> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/_|_SAP_suporta_|_Self-service_|_Self-service_|
+
+---
+
+##_5.8_Referências_Científicas
+
+Emergent_Mind._(2026)._Neuro-Symbolic_AI_Architecture._Retrieved_from_https://www.emergentmind.com/topics/neuro-symbolic-ai-architecture
+
+SAVIC_Technologies._(2026)._SAP_AI_Foundation_Architecture_2026:_Knowledge_Graph,_SAP-RPT-1_&_Agent_Hub._Retrieved_from_https://www.savictech.com/insights/sap-ai-foundation-knowledge-graph-architecture-enterprise-2026/
+
+Chen,_Y.,_et_al._(2024)._Neuro-Symbolic_AI:_Explainability,_Challenges,_and_Future_Trends._arXiv._Retrieved_from_https://arxiv.org/pdf/2411.04383
+
+Salah,_A.,_et_al._(2024)._Bridging_the_Gap:_Representation_Spaces_in_Neuro-Symbolic_AI._arXiv._Retrieved_from_https://arxiv.org/pdf/2411.04393
+
+---
+
+##_Resumo_do_Módulo_5
+
+✅_> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/:_Combina_neural_(LLMs)_+_simbólica_(grafos,_regras)
+
+✅_> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/:
+__-_Knowledge_Graph_(452k_tabelas_SAP)
+__-_SAP-RPT-1.5_(modelo_treinado_em_dados_SAP)
+__-_Agent_Hub_(orquestração_multi-agent)
+__-_MCP_(protocolo_de_comunicação)
+
+✅_> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/:_De_software_para_reasoning_automático
+
+✅_> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/:_Simplificação_de_S/4HANA_+_AI_Foundation
+
+✅_> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/:_Churn_prediction,_Fraude_detection,_Supply_Chain
+
+✅_> .
+<http://example.com/modulo_5> <http://example.com/mentions> <http://example.com/:_6-8x_em_Year_1_(vs_3-4x_com_alternativas)
+
+---
+
+> .
+<http://example.com/modulo_5> <http://example.com/imports> <http://example.com/sap_ai_foundation> .
+<http://example.com/modulo_5> <http://example.com/imports> <http://example.com/sap_hana> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/Fixed_256> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/Fixed_512> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/Fixed_1024> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/Semantic_(small)> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/Semantic_(medium)> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/Late_Chunking> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/Como_funciona> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/Melhor_acurácia_(79%)> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/Código_(Simplificado)> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/OpenAI_text-embedding-3-small> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/Voyage_AI_voyage-3-lite> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/Nomic_embed-text-v1.5> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/Cohere_embed-english-v3.0> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/Sentence-Transformers_all-minilm-l6-v2> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/OpenAI_3-small> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/Voyage_3-lite> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/Cohere_v3.0> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/Nomic_v1.5> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/6_Estratégias_de_Chunking> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/Embeddings_2026> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/Hybrid_Search> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/Pipeline_Completo> .
+<http://example.com/modulo_6> <http://example.com/mentions> <http://example.com/Módulo_6_Finalizado> .
+<http://example.com/modulo_6> <http://example.com/imports> <http://example.com/sentence_transformers> .
+<http://example.com/modulo_6> <http://example.com/imports> <http://example.com/numpy> .
+<http://example.com/modulo_6> <http://example.com/imports> <http://example.com/voyageai> .
+<http://example.com/modulo_7> <http://example.com/mentions> <http://example.com/Entidades_Custom> .
+<http://example.com/modulo_7> <http://example.com/mentions> <http://example.com/Uso_Ideal> .
+<http://example.com/modulo_7> <http://example.com/mentions> <http://example.com/Volume_muito_alto_(>1M_docs)> .
+<http://example.com/modulo_7> <http://example.com/mentions> <http://example.com/Qualidade_crítica> .
+<http://example.com/modulo_7> <http://example.com/mentions> <http://example.com/Entidades_custom> .
+<http://example.com/modulo_7> <http://example.com/mentions> <http://example.com/Baixo_orçamento> .
+<http://example.com/modulo_7> <http://example.com/mentions> <http://example.com/Relation_Extraction> .
+<http://example.com/modulo_7> <http://example.com/mentions> <http://example.com/Pipeline_Completo> .
+<http://example.com/modulo_7> <http://example.com/mentions> <http://example.com/Módulo_7_Finalizado> .
+<http://example.com/modulo_7> <http://example.com/imports> <http://example.com/spacy> .
+<http://example.com/modulo_7> <http://example.com/imports> <http://example.com/anthropic> .
+<http://example.com/modulo_7> <http://example.com/imports> <http://example.com/json> .
+<http://example.com/modulo_7> <http://example.com/imports> <http://example.com/re> .
+<http://example.com/modulo_7> <http://example.com/imports> <http://example.com/typing> .
+<http://example.com/modulo_7> <http://example.com/imports> <http://example.com/unicodedata> .
+<http://example.com/modulo_7> <http://example.com/imports> <http://example.com/datetime> .
+<http://example.com/modulo_7> <http://example.com/imports> <http://example.com/SequenceTagger> .
+<http://example.com/modulo_7> <http://example.com/imports> <http://example.com/Sentence> .
+<http://example.com/modulo_7> <http://example.com/imports> <http://example.com/pyshacl> .
+<http://example.com/modulo_7> <http://example.com/imports> <http://example.com/rdflib> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/Diferença_KGE_vs_Property_Graph> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/W3C_Standard> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/Recomendação_2026> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/No_HANA_Cloud,_o_SPARQL_endpoint_é_automático> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/Query_1:_SELECT_simples> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/Query_2:_Com_filtro_e_agregação> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/Query_3:_Inferência_(transitividade)> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/Query_4:_Busca_semântica_(graph_pattern)> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/Problema_tradicional> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/No-ETL_(Projeção_RDF)> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/Tipos_de_índices_disponíveis> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/Performance_Gain> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/Single_triple> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/2-hop_path> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/3-hop_path> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/Full_scan> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/Dados_em_S/4HANA> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/Grafo_RDF_de_Conhecimento> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/Query_completa_(SQL_+_SPARQL)> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/Integração_S/4HANA> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/SAP_HANA_Cloud_KGE> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/SPARQL_Queries> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/No-ETL_Architecture> .
+<http://example.com/modulo_8> <http://example.com/mentions> <http://example.com/Módulo_8_Finalizado> .
+<http://example.com/modulo_8> <http://example.com/imports> <http://example.com/SPARQLWrapper> .
+<http://example.com/modulo_8> <http://example.com/imports> <http://example.com/json> .
+<http://example.com/modulo_8> <http://example.com/imports> <http://example.com/com> .
+<http://example.com/modulo_8> <http://example.com/imports> <http://example.com/org> .
+<http://example.com/modulo_9> <http://example.com/mentions> <http://example.com/Protocolo_de_Troca> .
+<http://example.com/modulo_9> <http://example.com/mentions> <http://example.com/state,
+________________"result":_f"Custo_estimado:_R$_50.000",
+________________"messages":_state['messages']_+_[
+____________________Message(
+________________________sender="finance_agent",
+________________________receiver="router",
+________________________content="Custo_calculado",
+________________________timestamp="2026-09-05T10:30:00Z"
+____________________)
+________________]
+____________}
+________
+________return_state
+
+class_SupplyChainAgent:
+____"""Agente_especialista_em_supply_chain"""
+____
+____def_process(self,_state:_AgentState):
+________"""Process_supply_chain_queries"""
+________
+________if_"supplier"_in_state['query'].lower():
+____________return_{
+________________> .
+<http://example.com/modulo_9> <http://example.com/mentions> <http://example.com/5-Layer_Architecture> .
+<http://example.com/modulo_9> <http://example.com/mentions> <http://example.com/Graph_Traversal> .
+<http://example.com/modulo_9> <http://example.com/mentions> <http://example.com/Semantic_Ranking> .
+<http://example.com/modulo_9> <http://example.com/mentions> <http://example.com/MCP_Protocol> .
+<http://example.com/modulo_9> <http://example.com/mentions> <http://example.com/Agent-to-Agent_(A2A)> .
+<http://example.com/modulo_9> <http://example.com/mentions> <http://example.com/Agent_Hub> .
+<http://example.com/modulo_9> <http://example.com/mentions> <http://example.com/Pipeline_Executável> .
+<http://example.com/modulo_9> <http://example.com/mentions> <http://example.com/Módulo_9_Finalizado> .
+<http://example.com/modulo_9> <http://example.com/imports> <http://example.com/MinMaxScaler> .
+<http://example.com/modulo_9> <http://example.com/imports> <http://example.com/numpy> .
+<http://example.com/modulo_9> <http://example.com/imports> <http://example.com/sentence_transformers> .
+<http://example.com/modulo_9> <http://example.com/imports> <http://example.com/rank_bm25> .
+<http://example.com/modulo_9> <http://example.com/imports> <http://example.com/Server> .
+<http://example.com/modulo_9> <http://example.com/imports> <http://example.com/Tool> .
+<http://example.com/modulo_9> <http://example.com/imports> <http://example.com/json> .
+<http://example.com/modulo_9> <http://example.com/imports> <http://example.com/SPARQLWrapper> .
+<http://example.com/modulo_9> <http://example.com/imports> <http://example.com/StateGraph> .
+<http://example.com/modulo_9> <http://example.com/imports> <http://example.com/typing> .
+<http://example.com/modulo_10> <http://example.com/mentions> <http://example.com/Código_para_RAG_básico> .
+<http://example.com/modulo_10> <http://example.com/mentions> <http://example.com/Retrieval_Quality> .
+<http://example.com/modulo_10> <http://example.com/mentions> <http://example.com/Curva_de_aprendizado> .
+<http://example.com/modulo_10> <http://example.com/mentions> <http://example.com/Production_RAG> .
+<http://example.com/modulo_10> <http://example.com/mentions> <http://example.com/Agentes_complexos> .
+<http://example.com/modulo_10> <http://example.com/mentions> <http://example.com/Chunking_strategies> .
+<http://example.com/modulo_10> <http://example.com/mentions> <http://example.com/LangChain_Implementation> .
+<http://example.com/modulo_10> <http://example.com/mentions> <http://example.com/LlamaIndex_Implementation> .
+<http://example.com/modulo_10> <http://example.com/mentions> <http://example.com/SAP_HANA_Integration> .
+<http://example.com/modulo_10> <http://example.com/mentions> <http://example.com/Performance_Benchmark> .
+<http://example.com/modulo_10> <http://example.com/mentions> <http://example.com/Hybrid_Approach> .
+<http://example.com/modulo_10> <http://example.com/mentions> <http://example.com/Métricas_RAGAS> .
+<http://example.com/modulo_10> <http://example.com/mentions> <http://example.com/Módulo_10_Finalizado> .
+<http://example.com/modulo_10> <http://example.com/imports> <http://example.com/PDFLoader> .
+<http://example.com/modulo_10> <http://example.com/imports> <http://example.com/RecursiveCharacterTextSplitter> .
+<http://example.com/modulo_10> <http://example.com/imports> <http://example.com/OpenAIEmbeddings> .
+<http://example.com/modulo_10> <http://example.com/imports> <http://example.com/Chroma> .
+<http://example.com/modulo_10> <http://example.com/imports> <http://example.com/RetrievalQA> .
+<http://example.com/modulo_10> <http://example.com/imports> <http://example.com/ChatOpenAI> .
+<http://example.com/modulo_10> <http://example.com/imports> <http://example.com/PromptTemplate> .
+<http://example.com/modulo_10> <http://example.com/imports> <http://example.com/SimpleDirectoryReader> .
+<http://example.com/modulo_10> <http://example.com/imports> <http://example.com/SentenceSplitter> .
+<http://example.com/modulo_10> <http://example.com/imports> <http://example.com/OpenAIEmbedding> .
+<http://example.com/modulo_10> <http://example.com/imports> <http://example.com/OpenAI> .
+<http://example.com/modulo_10> <http://example.com/imports> <http://example.com/Document> .
+<http://example.com/modulo_10> <http://example.com/imports> <http://example.com/hdbcli> .
+<http://example.com/modulo_10> <http://example.com/imports> <http://example.com/StateGraph> .
+<http://example.com/modulo_11> <http://example.com/mentions> <http://example.com/Data_Classification> .
+<http://example.com/modulo_11> <http://example.com/mentions> <http://example.com/Access_Control> .
+<http://example.com/modulo_11> <http://example.com/mentions> <http://example.com/Direitos_GDPR/LGPD> .
+<http://example.com/modulo_11> <http://example.com/mentions> <http://example.com/Consent_Management> .
+<http://example.com/modulo_11> <http://example.com/mentions> <http://example.com/Secure_RAG_Pipeline> .
+<http://example.com/modulo_11> <http://example.com/mentions> <http://example.com/Compliance_Metrics> .
+<http://example.com/modulo_11> <http://example.com/mentions> <http://example.com/Módulo_11_Finalizado> .
+<http://example.com/modulo_11> <http://example.com/imports> <http://example.com/enum> .
+<http://example.com/modulo_11> <http://example.com/imports> <http://example.com/dataclasses> .
+<http://example.com/modulo_11> <http://example.com/imports> <http://example.com/typing> .
+<http://example.com/modulo_11> <http://example.com/imports> <http://example.com/hashlib> .
+<http://example.com/modulo_11> <http://example.com/imports> <http://example.com/re> .
+<http://example.com/modulo_11> <http://example.com/imports> <http://example.com/datetime> .
+<http://example.com/modulo_11> <http://example.com/imports> <http://example.com/uuid> .
+<http://example.com/modulo_11> <http://example.com/imports> <http://example.com/Fernet> .
+<http://example.com/modulo_11> <http://example.com/imports> <http://example.com/hashes> .
+<http://example.com/modulo_11> <http://example.com/imports> <http://example.com/PBKDF2> .
+<http://example.com/modulo_11> <http://example.com/imports> <http://example.com/os> .
+<http://example.com/modulo_11> <http://example.com/imports> <http://example.com/base64> .
+<http://example.com/modulo_11> <http://example.com/imports> <http://example.com/json> .
+<http://example.com/modulo_11> <http://example.com/imports> <http://example.com/csv> .
+<http://example.com/modulo_11> <http://example.com/imports> <http://example.com/io> .
+<http://example.com/modulo_11> <http://example.com/imports> <http://example.com/pseudonymization_engine> .
+<http://example.com/modulo_12> <http://example.com/mentions> <http://example.com/Context_Precision> .
+<http://example.com/modulo_12> <http://example.com/mentions> <http://example.com/Context_Recall> .
+<http://example.com/modulo_12> <http://example.com/mentions> <http://example.com/RAGAS_Framework> .
+<http://example.com/modulo_12> <http://example.com/mentions> <http://example.com/Faithfulness_Scorer> .
+<http://example.com/modulo_12> <http://example.com/mentions> <http://example.com/Relevancy_Evaluator> .
+<http://example.com/modulo_12> <http://example.com/mentions> <http://example.com/Benchmarking_Framework> .
+<http://example.com/modulo_12> <http://example.com/mentions> <http://example.com/Continuous_Testing> .
+<http://example.com/modulo_12> <http://example.com/mentions> <http://example.com/Advanced_Metrics> .
+<http://example.com/modulo_12> <http://example.com/mentions> <http://example.com/Módulo_12_Finalizado> .
+<http://example.com/modulo_12> <http://example.com/imports> <http://example.com/typing> .
+<http://example.com/modulo_12> <http://example.com/imports> <http://example.com/re> .
+<http://example.com/modulo_12> <http://example.com/imports> <http://example.com/difflib> .
+<http://example.com/modulo_12> <http://example.com/imports> <http://example.com/rank_bm25> .
+<http://example.com/modulo_12> <http://example.com/imports> <http://example.com/cosine_similarity> .
+<http://example.com/modulo_12> <http://example.com/imports> <http://example.com/numpy> .
+<http://example.com/modulo_12> <http://example.com/imports> <http://example.com/sentence_transformers> .
+<http://example.com/modulo_12> <http://example.com/imports> <http://example.com/dataclasses> .
+<http://example.com/modulo_12> <http://example.com/imports> <http://example.com/json> .
+<http://example.com/modulo_12> <http://example.com/imports> <http://example.com/datetime> .
+<http://example.com/modulo_12> <http://example.com/imports> <http://example.com/time> .
+<http://example.com/modulo_13> <http://example.com/mentions> <http://example.com/kwargs)_->_str:
+________"""Renderizar_template_com_variáveis"""
+________template_=_self.get_template(name)
+________if_not_template:
+____________raise_ValueError(f"Template_'{name}'_não_encontrado")
+________
+________return_template.template.format(> .
+<http://example.com/modulo_13> <http://example.com/mentions> <http://example.com/Few-Shot_Learning> .
+<http://example.com/modulo_13> <http://example.com/mentions> <http://example.com/In-Context_Learning> .
+<http://example.com/modulo_13> <http://example.com/mentions> <http://example.com/Structured_Output> .
+<http://example.com/modulo_13> <http://example.com/mentions> <http://example.com/Prompt_Templates> .
+<http://example.com/modulo_13> <http://example.com/mentions> <http://example.com/A/B_Testing> .
+<http://example.com/modulo_13> <http://example.com/mentions> <http://example.com/Quality_Checker> .
+<http://example.com/modulo_13> <http://example.com/mentions> <http://example.com/Módulo_13_Finalizado> .
+<http://example.com/modulo_13> <http://example.com/imports> <http://example.com/re> .
+<http://example.com/modulo_13> <http://example.com/imports> <http://example.com/typing> .
+<http://example.com/modulo_13> <http://example.com/imports> <http://example.com/json> .
+<http://example.com/modulo_13> <http://example.com/imports> <http://example.com/enum> .
+<http://example.com/modulo_13> <http://example.com/imports> <http://example.com/dataclasses> .
+<http://example.com/modulo_13> <http://example.com/imports> <http://example.com/random> .
+<http://example.com/modulo_14> <http://example.com/mentions> <http://example.com/Fazer_Deploy> .
+<http://example.com/modulo_14> <http://example.com/mentions> <http://example.com/state,
+____________"category":_category
+________}
+
+#_src/agents/supply_chain.py
+class_SupplyChainAgent:
+____"""Especialista_em_supply_chain"""
+____
+____def___init__(self,_llm,_retriever):
+________self.llm_=_llm
+________self.retriever_=_retriever
+________self.logger_=_logging.getLogger(__name__)
+____
+____def_process(self,_state:_QueryState)_->_QueryState:
+________"""Processar_query_de_supply_chain"""
+________
+________#_Recuperar_documentos_relevantes
+________docs_=_self.retriever.query(state["query"],_k=5)
+________context_=_"\n".join([d["text"]_for_d_in_docs])
+________
+________#_Gerar_resposta
+________prompt_=_f"""Você_é_especialista_em_supply_chain.
+
+CONTEXTO:
+{context}
+
+PERGUNTA:
+{state['query']}
+
+RESPONDA:_Baseado_no_contexto,_qual_é_a_resposta?"""
+________
+________response_=_self.llm.complete(prompt)
+________
+________self.logger.info("✅_Supply_Chain_Agent_processou_query")
+________
+________return_{
+____________> .
+<http://example.com/modulo_14> <http://example.com/mentions> <http://example.com/Projeto_End-to-End> .
+<http://example.com/modulo_14> <http://example.com/mentions> <http://example.com/Data_Preparation> .
+<http://example.com/modulo_14> <http://example.com/mentions> <http://example.com/API_REST> .
+<http://example.com/modulo_14> <http://example.com/mentions> <http://example.com/Production_Readiness> .
+<http://example.com/modulo_14> <http://example.com/mentions> <http://example.com/Módulo_14_Finalizado> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/pydantic_settings> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/typing> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/hdbcli> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/logging> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/settings> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/Document> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/OpenAIEmbedding> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/OpenAI> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/StorageContext> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/StateGraph> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/fastapi> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/JSONResponse> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/pydantic> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/time> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/datetime> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/RouterAgent> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/VectorRetriever> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/RAGASEvaluator> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/PerformanceMonitor> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/uvicorn> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/pytest> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/TestClient> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/app> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/requests> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/collections> .
+<http://example.com/modulo_14> <http://example.com/imports> <http://example.com/prometheus_client> .
+<http://example.com/modulo_15> <http://example.com/mentions> <http://example.com/Build_vs_Buy> .
+<http://example.com/modulo_15> <http://example.com/mentions> <http://example.com/Impact_Real> .
+<http://example.com/modulo_15> <http://example.com/mentions> <http://example.com/Módulo_15_Finalizado> .
+<http://example.com/modulo_15> <http://example.com/imports> <http://example.com/dataclasses> .
+<http://example.com/modulo_15> <http://example.com/imports> <http://example.com/typing> .
+<http://example.com/modulo_15> <http://example.com/imports> <http://example.com/functools> .
+<http://example.com/modulo_15> <http://example.com/imports> <http://example.com/redis> .
+<http://example.com/modulo_15> <http://example.com/imports> <http://example.com/asyncio> .
+<http://example.com/modulo_15> <http://example.com/imports> <http://example.com/Alerter> .
+<http://example.com/modulo_15> <http://example.com/imports> <http://example.com/enum> .
+<http://example.com/modulo_15> <http://example.com/imports> <http://example.com/json> .
